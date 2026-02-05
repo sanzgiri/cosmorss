@@ -41,12 +41,17 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
+// Factory function to create fresh rate limiters
+function createLimiters() {
+  return {
+    hn: new RateLimiter(5),        // 5 req/sec for HN Algolia
+    lobsters: new RateLimiter(1),  // 1 req/sec for Lobsters (conservative)
+    reddit: new RateLimiter(1),    // 1 req/sec for Reddit
+    feed: new RateLimiter(10)      // 10 req/sec for feed fetching
+  };
+}
+
 // Pre-configured rate limiters for different APIs
-const limiters = {
-  hn: new RateLimiter(5),        // 5 req/sec for HN Algolia
-  lobsters: new RateLimiter(1),  // 1 req/sec for Lobsters (conservative)
-  reddit: new RateLimiter(1),    // 1 req/sec for Reddit
-  feed: new RateLimiter(10)      // 10 req/sec for feed fetching
-};
+const limiters = createLimiters();
 
 module.exports = { RateLimiter, limiters, sleep };

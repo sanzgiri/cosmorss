@@ -45,7 +45,7 @@ function getDomain(url) {
  * Parse feed and extract structured data
  */
 async function parseFeed(feedUrl) {
-  await limiters.feed.wait();
+  // Skip rate limiter for feed fetching - handles its own concurrency via batches
 
   try {
     const { status, data } = await fetchUrl(feedUrl, { timeout: FEED_TIMEOUT });
