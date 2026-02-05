@@ -15,6 +15,9 @@ const consistencySignal = require('./signals/consistency');
 const contentSignal = require('./signals/content');
 const recencySignal = require('./signals/recency');
 
+// Categorization
+const { categorize } = require('./categorization');
+
 // Configuration
 const INPUT_FILE = process.argv[2] || path.join(__dirname, '../../all_feeds.txt');
 const OUTPUT_FILE = path.join(__dirname, '../../scored_feeds.json');
@@ -175,11 +178,21 @@ async function processFeed(feedUrl) {
   // Apply recency multiplier
   const finalScore = Math.round(weightedScore * recencyData.multiplier);
 
+  // Categorize based on content
+  const categoryInfo = categorize(
+    { posts: feedData.posts || [] },
+    feedUrl,
+    feedData.title
+  );
+
   return {
     url: feedUrl,
     domain,
     title: feedData.title,
     score: finalScore,
+    categories: categoryInfo.categories,
+    primaryCategory: categoryInfo.primaryCategory,
+    categoryConfidence: categoryInfo.categoryConfidence,
     signals: {
       hn: hnScore,
       lobsters: lobstersScore,
@@ -189,7 +202,7 @@ async function processFeed(feedUrl) {
       content: contentScore,
       recency: recencyData
     },
-    // Keep raw data for categorization
+    // Keep raw data for later use
     _posts: feedData.posts
   };
 }
@@ -288,10 +301,24 @@ async function main() {
     console.log(`  Max: ${Math.max(...results.map(f => f.score))}`);
     console.log(`  Avg: ${Math.round(results.reduce((sum, f) => sum + f.score, 0) / results.length)}`);
 
+    // Category distribution
+    const categoryCount = {};
+    for (const feed of results) {
+      const cat = feed.primaryCategory || 'Unknown';
+      categoryCount[cat] = (categoryCount[cat] || 0) + 1;
+    }
+    console.log('\nCategory distribution:');
+    Object.entries(categoryCount)
+      .sort((a, b) => b[1] - a[1])
+      .forEach(([cat, count]) => {
+        const pct = ((count / results.length) * 100).toFixed(1);
+        console.log(`  ${cat}: ${count} (${pct}%)`);
+      });
+
     console.log('\nTop 10 by score:');
     results.slice(0, 10).forEach((f, i) => {
       const name = f.title || f.domain;
-      console.log(`  ${i + 1}. ${name} (score: ${f.score})`);
+      console.log(`  ${i + 1}. ${name} (score: ${f.score}, ${f.primaryCategory})`);
     });
   }
 }
