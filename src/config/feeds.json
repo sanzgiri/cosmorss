@@ -1,10 +1,20 @@
 {
   "settings": {
-    "maxFeeds": 5,
+    "maxFeeds": 25,
     "refreshIntervalMinutes": 60,
     "maxAgeDays": 14
   },
   "feeds": [
+    {
+      "url": "http://bitterteaandmystery.blogspot.com/atom.xml",
+      "category": "Security",
+      "categories": [
+        "Security",
+        "Startups/Business"
+      ],
+      "score": 48,
+      "postsPerFeed": 2
+    },
     {
       "url": "http://allsoftwaresucks.blogspot.com/feeds/posts/default",
       "category": "Security",
@@ -23,6 +33,45 @@
         "Web Development"
       ],
       "score": 37,
+      "postsPerFeed": 1
+    },
+    {
+      "url": "http://archimago.blogspot.com/feeds/posts/default",
+      "category": "AI/ML",
+      "categories": [
+        "AI/ML",
+        "Science"
+      ],
+      "score": 37,
+      "postsPerFeed": 1
+    },
+    {
+      "url": "http://blog.joemoreno.com/atom.xml",
+      "category": "AI/ML",
+      "categories": [
+        "AI/ML",
+        "Web Development"
+      ],
+      "score": 35,
+      "postsPerFeed": 1
+    },
+    {
+      "url": "http://arcturus-labs.com/feed_rss_created.xml",
+      "category": "AI/ML",
+      "categories": [
+        "AI/ML",
+        "Startups/Business"
+      ],
+      "score": 21,
+      "postsPerFeed": 1
+    },
+    {
+      "url": "http://beachburg.blogspot.com/atom.xml",
+      "category": "Web Development",
+      "categories": [
+        "Web Development"
+      ],
+      "score": 36,
       "postsPerFeed": 1
     },
     {
@@ -45,6 +94,36 @@
       "postsPerFeed": 1
     },
     {
+      "url": "http://blog.sigfpe.com/atom.xml",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Startups/Business"
+      ],
+      "score": 30,
+      "postsPerFeed": 1
+    },
+    {
+      "url": "http://amitkapila16.blogspot.com/atom.xml",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Design"
+      ],
+      "score": 23,
+      "postsPerFeed": 1
+    },
+    {
+      "url": "http://blog.rickumali.com/feeds/posts/default",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Science"
+      ],
+      "score": 21,
+      "postsPerFeed": 1
+    },
+    {
       "url": "http://agentyduck.blogspot.com/atom.xml",
       "category": "Web Development",
       "categories": [
@@ -52,6 +131,122 @@
         "Open Source"
       ],
       "score": 20,
+      "postsPerFeed": 1
+    },
+    {
+      "url": "http://albert-david.blogspot.com/atom.xml",
+      "category": "Backend/Infrastructure",
+      "categories": [
+        "Backend/Infrastructure",
+        "Systems/Low-Level"
+      ],
+      "score": 50,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "http://baotiao.github.io/feed.xml",
+      "category": "Backend/Infrastructure",
+      "categories": [
+        "Backend/Infrastructure"
+      ],
+      "score": 18,
+      "postsPerFeed": 1
+    },
+    {
+      "url": "http://almostafternoon.com/blog/atom.xml",
+      "category": "Systems/Low-Level",
+      "categories": [
+        "Systems/Low-Level",
+        "Open Source"
+      ],
+      "score": 42,
+      "postsPerFeed": 1
+    },
+    {
+      "url": "http://bannalia.blogspot.com/atom.xml",
+      "category": "Systems/Low-Level",
+      "categories": [
+        "Systems/Low-Level",
+        "Web Development"
+      ],
+      "score": 42,
+      "postsPerFeed": 1
+    },
+    {
+      "url": "http://anamaria.martinezgomez.name/feed.xml",
+      "category": "Open Source",
+      "categories": [
+        "Open Source"
+      ],
+      "score": 21,
+      "postsPerFeed": 1
+    },
+    {
+      "url": "http://blog.emilianbold.ro/atom.xml",
+      "category": "Open Source",
+      "categories": [
+        "Open Source",
+        "Web Development"
+      ],
+      "score": 21,
+      "postsPerFeed": 1
+    },
+    {
+      "url": "http://alifeinphotography.blogspot.com/atom.xml",
+      "category": "Startups/Business",
+      "categories": [
+        "Startups/Business",
+        "Design"
+      ],
+      "score": 43,
+      "postsPerFeed": 1
+    },
+    {
+      "url": "http://anthonybalducci.blogspot.com/atom.xml",
+      "category": "Startups/Business",
+      "categories": [
+        "Startups/Business",
+        "Design"
+      ],
+      "score": 36,
+      "postsPerFeed": 1
+    },
+    {
+      "url": "http://blog.melchersystem.com/feed/",
+      "category": "Science",
+      "categories": [
+        "Science"
+      ],
+      "score": 19,
+      "postsPerFeed": 1
+    },
+    {
+      "url": "http://blog.colinmarshall.org/?feed=rss2",
+      "category": "Science",
+      "categories": [
+        "Science"
+      ],
+      "score": 18,
+      "postsPerFeed": 1
+    },
+    {
+      "url": "http://astroblogger.blogspot.com/atom.xml",
+      "category": "Design",
+      "categories": [
+        "Design",
+        "AI/ML"
+      ],
+      "score": 52,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "http://blog.jeremyrwelch.com/feed",
+      "category": "Design",
+      "categories": [
+        "Design",
+        "Open Source"
+      ],
+      "score": 37,
       "postsPerFeed": 1
     }
   ]

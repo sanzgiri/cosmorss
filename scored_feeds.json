@@ -1,13 +1,83 @@
 {
-  "generatedAt": "2026-02-05T16:34:24.014Z",
-  "totalFeeds": 8,
+  "generatedAt": "2026-02-05T16:36:27.465Z",
+  "totalFeeds": 28,
   "scoreDistribution": {
-    "min": 20,
-    "max": 50,
-    "avg": 35,
+    "min": 18,
+    "max": 52,
+    "avg": 31,
     "median": 30
   },
   "feeds": [
+    {
+      "url": "http://astroblogger.blogspot.com/atom.xml",
+      "domain": "astroblogger.blogspot.com",
+      "title": null,
+      "score": 52,
+      "categories": [
+        "Design",
+        "AI/ML"
+      ],
+      "primaryCategory": "Design",
+      "categoryConfidence": 0.48,
+      "signals": {
+        "hn": {
+          "raw": {
+            "stories": 3,
+            "totalPoints": 100,
+            "avgPoints": 33
+          },
+          "normalized": 11
+        },
+        "lobsters": {
+          "raw": {
+            "stories": 0,
+            "totalScore": 0,
+            "avgScore": 0
+          },
+          "normalized": 0
+        },
+        "reddit": {
+          "raw": {
+            "posts": 4,
+            "totalScore": 42,
+            "totalComments": 11,
+            "avgScore": 11
+          },
+          "normalized": 12
+        },
+        "activity": {
+          "raw": {
+            "postsLast30Days": 16,
+            "postsLast90Days": 42,
+            "totalPosts": 51
+          },
+          "normalized": 100
+        },
+        "consistency": {
+          "raw": {
+            "avgIntervalDays": 2.2,
+            "coefficientOfVariation": 1.24,
+            "postCount": 51
+          },
+          "normalized": 50
+        },
+        "content": {
+          "raw": {
+            "avgTitleLength": 43,
+            "substantiveRatio": 0.85,
+            "avgWordCount": 837
+          },
+          "normalized": 94
+        },
+        "recency": {
+          "raw": {
+            "latestPost": "2026-02-05T13:06:27.405Z",
+            "daysAgo": 0.1
+          },
+          "multiplier": 1.2
+        }
+      }
+    },
     {
       "url": "http://albert-david.blogspot.com/atom.xml",
       "domain": "albert-david.blogspot.com",
@@ -73,6 +143,76 @@
           "raw": {
             "latestPost": "2026-02-04T19:57:47.488Z",
             "daysAgo": 0.9
+          },
+          "multiplier": 1.2
+        }
+      }
+    },
+    {
+      "url": "http://bitterteaandmystery.blogspot.com/atom.xml",
+      "domain": "bitterteaandmystery.blogspot.com",
+      "title": null,
+      "score": 48,
+      "categories": [
+        "Security",
+        "Startups/Business"
+      ],
+      "primaryCategory": "Security",
+      "categoryConfidence": 0.38,
+      "signals": {
+        "hn": {
+          "raw": {
+            "stories": 1,
+            "totalPoints": 1,
+            "avgPoints": 1
+          },
+          "normalized": 1
+        },
+        "lobsters": {
+          "raw": {
+            "stories": 0,
+            "totalScore": 0,
+            "avgScore": 0
+          },
+          "normalized": 0
+        },
+        "reddit": {
+          "raw": {
+            "posts": 0,
+            "totalScore": 0,
+            "totalComments": 0,
+            "avgScore": 0
+          },
+          "normalized": 0
+        },
+        "activity": {
+          "raw": {
+            "postsLast30Days": 11,
+            "postsLast90Days": 33,
+            "totalPosts": 51
+          },
+          "normalized": 100
+        },
+        "consistency": {
+          "raw": {
+            "avgIntervalDays": 2.4,
+            "coefficientOfVariation": 1.26,
+            "postCount": 51
+          },
+          "normalized": 50
+        },
+        "content": {
+          "raw": {
+            "avgTitleLength": 45,
+            "substantiveRatio": 1,
+            "avgWordCount": 791
+          },
+          "normalized": 100
+        },
+        "recency": {
+          "raw": {
+            "latestPost": "2026-02-05T05:10:32.163Z",
+            "daysAgo": 0.5
           },
           "multiplier": 1.2
         }
@@ -219,6 +359,76 @@
       }
     },
     {
+      "url": "http://bannalia.blogspot.com/atom.xml",
+      "domain": "bannalia.blogspot.com",
+      "title": null,
+      "score": 42,
+      "categories": [
+        "Systems/Low-Level",
+        "Web Development"
+      ],
+      "primaryCategory": "Systems/Low-Level",
+      "categoryConfidence": 0.3,
+      "signals": {
+        "hn": {
+          "raw": {
+            "stories": 52,
+            "totalPoints": 697,
+            "avgPoints": 13
+          },
+          "normalized": 53
+        },
+        "lobsters": {
+          "raw": {
+            "stories": 0,
+            "totalScore": 0,
+            "avgScore": 0
+          },
+          "normalized": 0
+        },
+        "reddit": {
+          "raw": {
+            "posts": 93,
+            "totalScore": 1886,
+            "totalComments": 629,
+            "avgScore": 20
+          },
+          "normalized": 60
+        },
+        "activity": {
+          "raw": {
+            "postsLast30Days": 1,
+            "postsLast90Days": 7,
+            "totalPosts": 51
+          },
+          "normalized": 17
+        },
+        "consistency": {
+          "raw": {
+            "avgIntervalDays": 76.2,
+            "coefficientOfVariation": 2.82,
+            "postCount": 51
+          },
+          "normalized": 5
+        },
+        "content": {
+          "raw": {
+            "avgTitleLength": 40,
+            "substantiveRatio": 0.8,
+            "avgWordCount": 1175
+          },
+          "normalized": 92
+        },
+        "recency": {
+          "raw": {
+            "latestPost": "2026-02-03T17:03:44.467Z",
+            "daysAgo": 2
+          },
+          "multiplier": 1.15
+        }
+      }
+    },
+    {
       "url": "http://addxorrol.blogspot.com/atom.xml",
       "domain": "addxorrol.blogspot.com",
       "title": null,
@@ -285,6 +495,425 @@
             "daysAgo": 2.5
           },
           "multiplier": 1.15
+        }
+      }
+    },
+    {
+      "url": "http://archimago.blogspot.com/feeds/posts/default",
+      "domain": "archimago.blogspot.com",
+      "title": "Archimago&#39;s Musings",
+      "score": 37,
+      "categories": [
+        "AI/ML",
+        "Science"
+      ],
+      "primaryCategory": "AI/ML",
+      "categoryConfidence": 0.71,
+      "signals": {
+        "hn": {
+          "raw": {
+            "stories": 6,
+            "totalPoints": 254,
+            "avgPoints": 42
+          },
+          "normalized": 17
+        },
+        "lobsters": {
+          "raw": {
+            "stories": 0,
+            "totalScore": 0,
+            "avgScore": 0
+          },
+          "normalized": 0
+        },
+        "reddit": {
+          "raw": {
+            "posts": 100,
+            "totalScore": 2239,
+            "totalComments": 1074,
+            "avgScore": 22
+          },
+          "normalized": 61
+        },
+        "activity": {
+          "raw": {
+            "postsLast30Days": 4,
+            "postsLast90Days": 12,
+            "totalPosts": 25
+          },
+          "normalized": 40
+        },
+        "consistency": {
+          "raw": {
+            "avgIntervalDays": 8.2,
+            "coefficientOfVariation": 0.28,
+            "postCount": 25
+          },
+          "normalized": 79
+        },
+        "content": {
+          "raw": {
+            "avgTitleLength": 109,
+            "substantiveRatio": 1,
+            "avgWordCount": 0
+          },
+          "normalized": 51
+        },
+        "recency": {
+          "raw": {
+            "latestPost": "2026-01-31T18:08:00.000Z",
+            "daysAgo": 4.9
+          },
+          "multiplier": 1.1
+        }
+      }
+    },
+    {
+      "url": "http://blog.jeremyrwelch.com/feed",
+      "domain": "blog.jeremyrwelch.com",
+      "title": "Jeremy Welch",
+      "score": 37,
+      "categories": [
+        "Design",
+        "Open Source"
+      ],
+      "primaryCategory": "Design",
+      "categoryConfidence": 0.32,
+      "signals": {
+        "hn": {
+          "raw": {
+            "stories": 6,
+            "totalPoints": 341,
+            "avgPoints": 57
+          },
+          "normalized": 20
+        },
+        "lobsters": {
+          "raw": {
+            "stories": 0,
+            "totalScore": 0,
+            "avgScore": 0
+          },
+          "normalized": 0
+        },
+        "reddit": {
+          "raw": {
+            "posts": 1,
+            "totalScore": 2,
+            "totalComments": 1,
+            "avgScore": 2
+          },
+          "normalized": 3
+        },
+        "activity": {
+          "raw": {
+            "postsLast30Days": 13,
+            "postsLast90Days": 21,
+            "totalPosts": 21
+          },
+          "normalized": 85
+        },
+        "consistency": {
+          "raw": {
+            "avgIntervalDays": 1.3,
+            "coefficientOfVariation": 2.37,
+            "postCount": 21
+          },
+          "normalized": 50
+        },
+        "content": {
+          "raw": {
+            "avgTitleLength": 27,
+            "substantiveRatio": 0.7,
+            "avgWordCount": 230
+          },
+          "normalized": 66
+        },
+        "recency": {
+          "raw": {
+            "latestPost": "2026-01-26T16:16:41.000Z",
+            "daysAgo": 10
+          },
+          "multiplier": 1
+        }
+      }
+    },
+    {
+      "url": "http://anthonybalducci.blogspot.com/atom.xml",
+      "domain": "anthonybalducci.blogspot.com",
+      "title": null,
+      "score": 36,
+      "categories": [
+        "Startups/Business",
+        "Design"
+      ],
+      "primaryCategory": "Startups/Business",
+      "categoryConfidence": 0.3,
+      "signals": {
+        "hn": {
+          "raw": {
+            "stories": 0,
+            "totalPoints": 0,
+            "avgPoints": 0
+          },
+          "normalized": 0
+        },
+        "lobsters": {
+          "raw": {
+            "stories": 0,
+            "totalScore": 0,
+            "avgScore": 0
+          },
+          "normalized": 0
+        },
+        "reddit": {
+          "raw": {
+            "posts": 0,
+            "totalScore": 0,
+            "totalComments": 0,
+            "avgScore": 0
+          },
+          "normalized": 0
+        },
+        "activity": {
+          "raw": {
+            "postsLast30Days": 21,
+            "postsLast90Days": 51,
+            "totalPosts": 51
+          },
+          "normalized": 100
+        },
+        "consistency": {
+          "raw": {
+            "avgIntervalDays": 1.5,
+            "coefficientOfVariation": 3.54,
+            "postCount": 51
+          },
+          "normalized": 50
+        },
+        "content": {
+          "raw": {
+            "avgTitleLength": 30,
+            "substantiveRatio": 0.85,
+            "avgWordCount": 228
+          },
+          "normalized": 74
+        },
+        "recency": {
+          "raw": {
+            "latestPost": "2026-01-27T23:44:30.275Z",
+            "daysAgo": 8.7
+          },
+          "multiplier": 1
+        }
+      }
+    },
+    {
+      "url": "http://beachburg.blogspot.com/atom.xml",
+      "domain": "beachburg.blogspot.com",
+      "title": null,
+      "score": 36,
+      "categories": [
+        "Web Development"
+      ],
+      "primaryCategory": "Web Development",
+      "categoryConfidence": 0.54,
+      "signals": {
+        "hn": {
+          "raw": {
+            "stories": 0,
+            "totalPoints": 0,
+            "avgPoints": 0
+          },
+          "normalized": 0
+        },
+        "lobsters": {
+          "raw": {
+            "stories": 0,
+            "totalScore": 0,
+            "avgScore": 0
+          },
+          "normalized": 0
+        },
+        "reddit": {
+          "raw": {
+            "posts": 0,
+            "totalScore": 0,
+            "totalComments": 0,
+            "avgScore": 0
+          },
+          "normalized": 0
+        },
+        "activity": {
+          "raw": {
+            "postsLast30Days": 7,
+            "postsLast90Days": 21,
+            "totalPosts": 51
+          },
+          "normalized": 70
+        },
+        "consistency": {
+          "raw": {
+            "avgIntervalDays": 4.8,
+            "coefficientOfVariation": 0.95,
+            "postCount": 51
+          },
+          "normalized": 52
+        },
+        "content": {
+          "raw": {
+            "avgTitleLength": 32,
+            "substantiveRatio": 0.75,
+            "avgWordCount": 1058
+          },
+          "normalized": 71
+        },
+        "recency": {
+          "raw": {
+            "latestPost": "2026-02-05T13:09:13.619Z",
+            "daysAgo": 0.1
+          },
+          "multiplier": 1.2
+        }
+      }
+    },
+    {
+      "url": "http://blog.joemoreno.com/atom.xml",
+      "domain": "blog.joemoreno.com",
+      "title": null,
+      "score": 35,
+      "categories": [
+        "AI/ML",
+        "Web Development"
+      ],
+      "primaryCategory": "AI/ML",
+      "categoryConfidence": 0.44,
+      "signals": {
+        "hn": {
+          "raw": {
+            "stories": 14,
+            "totalPoints": 276,
+            "avgPoints": 20
+          },
+          "normalized": 19
+        },
+        "lobsters": {
+          "raw": {
+            "stories": 0,
+            "totalScore": 0,
+            "avgScore": 0
+          },
+          "normalized": 0
+        },
+        "reddit": {
+          "raw": {
+            "posts": 16,
+            "totalScore": 454,
+            "totalComments": 98,
+            "avgScore": 28
+          },
+          "normalized": 41
+        },
+        "activity": {
+          "raw": {
+            "postsLast30Days": 5,
+            "postsLast90Days": 7,
+            "totalPosts": 51
+          },
+          "normalized": 37
+        },
+        "consistency": {
+          "raw": {
+            "avgIntervalDays": 9.8,
+            "coefficientOfVariation": 1.42,
+            "postCount": 51
+          },
+          "normalized": 36
+        },
+        "content": {
+          "raw": {
+            "avgTitleLength": 34,
+            "substantiveRatio": 0.75,
+            "avgWordCount": 344
+          },
+          "normalized": 72
+        },
+        "recency": {
+          "raw": {
+            "latestPost": "2026-02-03T16:15:04.715Z",
+            "daysAgo": 2
+          },
+          "multiplier": 1.15
+        }
+      }
+    },
+    {
+      "url": "http://blog.fivecentsplease.org/feeds/posts/default",
+      "domain": "blog.fivecentsplease.org",
+      "title": null,
+      "score": 33,
+      "categories": [
+        "Design",
+        "Web Development"
+      ],
+      "primaryCategory": "Design",
+      "categoryConfidence": 0.38,
+      "signals": {
+        "hn": {
+          "raw": {
+            "stories": 0,
+            "totalPoints": 0,
+            "avgPoints": 0
+          },
+          "normalized": 0
+        },
+        "lobsters": {
+          "raw": {
+            "stories": 0,
+            "totalScore": 0,
+            "avgScore": 0
+          },
+          "normalized": 0
+        },
+        "reddit": {
+          "raw": {
+            "posts": 1,
+            "totalScore": 11,
+            "totalComments": 0,
+            "avgScore": 11
+          },
+          "normalized": 7
+        },
+        "activity": {
+          "raw": {
+            "postsLast30Days": 4,
+            "postsLast90Days": 12,
+            "totalPosts": 51
+          },
+          "normalized": 40
+        },
+        "consistency": {
+          "raw": {
+            "avgIntervalDays": 9.1,
+            "coefficientOfVariation": 1.54,
+            "postCount": 51
+          },
+          "normalized": 39
+        },
+        "content": {
+          "raw": {
+            "avgTitleLength": 71,
+            "substantiveRatio": 1,
+            "avgWordCount": 925
+          },
+          "normalized": 100
+        },
+        "recency": {
+          "raw": {
+            "latestPost": "2026-02-05T13:38:18.112Z",
+            "daysAgo": 0.1
+          },
+          "multiplier": 1.2
         }
       }
     },
@@ -428,6 +1057,76 @@
       }
     },
     {
+      "url": "http://blog.sigfpe.com/atom.xml",
+      "domain": "blog.sigfpe.com",
+      "title": null,
+      "score": 30,
+      "categories": [
+        "Web Development",
+        "Startups/Business"
+      ],
+      "primaryCategory": "Web Development",
+      "categoryConfidence": 0.39,
+      "signals": {
+        "hn": {
+          "raw": {
+            "stories": 88,
+            "totalPoints": 1032,
+            "avgPoints": 12
+          },
+          "normalized": 53
+        },
+        "lobsters": {
+          "raw": {
+            "stories": 0,
+            "totalScore": 0,
+            "avgScore": 0
+          },
+          "normalized": 0
+        },
+        "reddit": {
+          "raw": {
+            "posts": 100,
+            "totalScore": 3089,
+            "totalComments": 543,
+            "avgScore": 31
+          },
+          "normalized": 65
+        },
+        "activity": {
+          "raw": {
+            "postsLast30Days": 1,
+            "postsLast90Days": 1,
+            "totalPosts": 51
+          },
+          "normalized": 7
+        },
+        "consistency": {
+          "raw": {
+            "avgIntervalDays": 95.3,
+            "coefficientOfVariation": 2.07,
+            "postCount": 51
+          },
+          "normalized": 4
+        },
+        "content": {
+          "raw": {
+            "avgTitleLength": 37,
+            "substantiveRatio": 0.8,
+            "avgWordCount": 1926
+          },
+          "normalized": 75
+        },
+        "recency": {
+          "raw": {
+            "latestPost": "2026-01-17T12:00:13.029Z",
+            "daysAgo": 19.2
+          },
+          "multiplier": 0.9
+        }
+      }
+    },
+    {
       "url": "http://allsoftwaresucks.blogspot.com/feeds/posts/default",
       "domain": "allsoftwaresucks.blogspot.com",
       "title": null,
@@ -498,6 +1197,425 @@
       }
     },
     {
+      "url": "http://amitkapila16.blogspot.com/atom.xml",
+      "domain": "amitkapila16.blogspot.com",
+      "title": null,
+      "score": 23,
+      "categories": [
+        "Web Development",
+        "Design"
+      ],
+      "primaryCategory": "Web Development",
+      "categoryConfidence": 0.45,
+      "signals": {
+        "hn": {
+          "raw": {
+            "stories": 15,
+            "totalPoints": 737,
+            "avgPoints": 49
+          },
+          "normalized": 27
+        },
+        "lobsters": {
+          "raw": {
+            "stories": 0,
+            "totalScore": 0,
+            "avgScore": 0
+          },
+          "normalized": 0
+        },
+        "reddit": {
+          "raw": {
+            "posts": 9,
+            "totalScore": 124,
+            "totalComments": 26,
+            "avgScore": 14
+          },
+          "normalized": 22
+        },
+        "activity": {
+          "raw": {
+            "postsLast30Days": 1,
+            "postsLast90Days": 1,
+            "totalPosts": 39
+          },
+          "normalized": 7
+        },
+        "consistency": {
+          "raw": {
+            "avgIntervalDays": 105.6,
+            "coefficientOfVariation": 1.55,
+            "postCount": 39
+          },
+          "normalized": 3
+        },
+        "content": {
+          "raw": {
+            "avgTitleLength": 43,
+            "substantiveRatio": 1,
+            "avgWordCount": 1492
+          },
+          "normalized": 100
+        },
+        "recency": {
+          "raw": {
+            "latestPost": "2026-01-17T12:41:12.048Z",
+            "daysAgo": 19.2
+          },
+          "multiplier": 0.9
+        }
+      }
+    },
+    {
+      "url": "http://birdmilkcafe.com/feed/",
+      "domain": "birdmilkcafe.com",
+      "title": "Birdmilk&#039;s  RPG Cafe",
+      "score": 23,
+      "categories": [
+        "Design",
+        "Web Development"
+      ],
+      "primaryCategory": "Design",
+      "categoryConfidence": 0.31,
+      "signals": {
+        "hn": {
+          "raw": {
+            "stories": 0,
+            "totalPoints": 0,
+            "avgPoints": 0
+          },
+          "normalized": 0
+        },
+        "lobsters": {
+          "raw": {
+            "stories": 0,
+            "totalScore": 0,
+            "avgScore": 0
+          },
+          "normalized": 0
+        },
+        "reddit": {
+          "raw": {
+            "posts": 0,
+            "totalScore": 0,
+            "totalComments": 0,
+            "avgScore": 0
+          },
+          "normalized": 0
+        },
+        "activity": {
+          "raw": {
+            "postsLast30Days": 5,
+            "postsLast90Days": 10,
+            "totalPosts": 10
+          },
+          "normalized": 42
+        },
+        "consistency": {
+          "raw": {
+            "avgIntervalDays": 4.5,
+            "coefficientOfVariation": 0.6,
+            "postCount": 10
+          },
+          "normalized": 70
+        },
+        "content": {
+          "raw": {
+            "avgTitleLength": 16,
+            "substantiveRatio": 0.3,
+            "avgWordCount": 53
+          },
+          "normalized": 31
+        },
+        "recency": {
+          "raw": {
+            "latestPost": "2026-02-03T05:10:00.000Z",
+            "daysAgo": 2.5
+          },
+          "multiplier": 1.15
+        }
+      }
+    },
+    {
+      "url": "http://anamaria.martinezgomez.name/feed.xml",
+      "domain": "anamaria.martinezgomez.name",
+      "title": null,
+      "score": 21,
+      "categories": [
+        "Open Source"
+      ],
+      "primaryCategory": "Open Source",
+      "categoryConfidence": 0.54,
+      "signals": {
+        "hn": {
+          "raw": {
+            "stories": 1,
+            "totalPoints": 299,
+            "avgPoints": 299
+          },
+          "normalized": 51
+        },
+        "lobsters": {
+          "raw": {
+            "stories": 0,
+            "totalScore": 0,
+            "avgScore": 0
+          },
+          "normalized": 0
+        },
+        "reddit": {
+          "raw": {
+            "posts": 1,
+            "totalScore": 1,
+            "totalComments": 1,
+            "avgScore": 1
+          },
+          "normalized": 2
+        },
+        "activity": {
+          "raw": {
+            "postsLast30Days": 1,
+            "postsLast90Days": 1,
+            "totalPosts": 21
+          },
+          "normalized": 7
+        },
+        "consistency": {
+          "raw": {
+            "avgIntervalDays": 147,
+            "coefficientOfVariation": 3.81,
+            "postCount": 21
+          },
+          "normalized": 2
+        },
+        "content": {
+          "raw": {
+            "avgTitleLength": 27,
+            "substantiveRatio": 0.8,
+            "avgWordCount": 68
+          },
+          "normalized": 61
+        },
+        "recency": {
+          "raw": {
+            "latestPost": "2026-01-19T15:02:04.000Z",
+            "daysAgo": 17.1
+          },
+          "multiplier": 0.9
+        }
+      }
+    },
+    {
+      "url": "http://arcturus-labs.com/feed_rss_created.xml",
+      "domain": "arcturus-labs.com",
+      "title": "Arcturus Labs",
+      "score": 21,
+      "categories": [
+        "AI/ML",
+        "Startups/Business"
+      ],
+      "primaryCategory": "AI/ML",
+      "categoryConfidence": 0.4,
+      "signals": {
+        "hn": {
+          "raw": {
+            "stories": 17,
+            "totalPoints": 189,
+            "avgPoints": 11
+          },
+          "normalized": 20
+        },
+        "lobsters": {
+          "raw": {
+            "stories": 0,
+            "totalScore": 0,
+            "avgScore": 0
+          },
+          "normalized": 0
+        },
+        "reddit": {
+          "raw": {
+            "posts": 4,
+            "totalScore": 34,
+            "totalComments": 6,
+            "avgScore": 9
+          },
+          "normalized": 11
+        },
+        "activity": {
+          "raw": {
+            "postsLast30Days": 2,
+            "postsLast90Days": 3,
+            "totalPosts": 12
+          },
+          "normalized": 15
+        },
+        "consistency": {
+          "raw": {
+            "avgIntervalDays": 42.7,
+            "coefficientOfVariation": 0.85,
+            "postCount": 12
+          },
+          "normalized": 16
+        },
+        "content": {
+          "raw": {
+            "avgTitleLength": 46,
+            "substantiveRatio": 1,
+            "avgWordCount": 53
+          },
+          "normalized": 86
+        },
+        "recency": {
+          "raw": {
+            "latestPost": "2026-01-21T23:34:06.000Z",
+            "daysAgo": 14.7
+          },
+          "multiplier": 0.9
+        }
+      }
+    },
+    {
+      "url": "http://blog.emilianbold.ro/atom.xml",
+      "domain": "blog.emilianbold.ro",
+      "title": null,
+      "score": 21,
+      "categories": [
+        "Open Source",
+        "Web Development"
+      ],
+      "primaryCategory": "Open Source",
+      "categoryConfidence": 0.2,
+      "signals": {
+        "hn": {
+          "raw": {
+            "stories": 2,
+            "totalPoints": 4,
+            "avgPoints": 2
+          },
+          "normalized": 3
+        },
+        "lobsters": {
+          "raw": {
+            "stories": 0,
+            "totalScore": 0,
+            "avgScore": 0
+          },
+          "normalized": 0
+        },
+        "reddit": {
+          "raw": {
+            "posts": 3,
+            "totalScore": 55,
+            "totalComments": 5,
+            "avgScore": 18
+          },
+          "normalized": 14
+        },
+        "activity": {
+          "raw": {
+            "postsLast30Days": 2,
+            "postsLast90Days": 4,
+            "totalPosts": 51
+          },
+          "normalized": 17
+        },
+        "consistency": {
+          "raw": {
+            "avgIntervalDays": 66.4,
+            "coefficientOfVariation": 2.9,
+            "postCount": 51
+          },
+          "normalized": 5
+        },
+        "content": {
+          "raw": {
+            "avgTitleLength": 41,
+            "substantiveRatio": 0.95,
+            "avgWordCount": 443
+          },
+          "normalized": 98
+        },
+        "recency": {
+          "raw": {
+            "latestPost": "2026-01-29T08:06:23.146Z",
+            "daysAgo": 7.4
+          },
+          "multiplier": 1
+        }
+      }
+    },
+    {
+      "url": "http://blog.rickumali.com/feeds/posts/default",
+      "domain": "blog.rickumali.com",
+      "title": null,
+      "score": 21,
+      "categories": [
+        "Web Development",
+        "Science"
+      ],
+      "primaryCategory": "Web Development",
+      "categoryConfidence": 0.52,
+      "signals": {
+        "hn": {
+          "raw": {
+            "stories": 0,
+            "totalPoints": 0,
+            "avgPoints": 0
+          },
+          "normalized": 0
+        },
+        "lobsters": {
+          "raw": {
+            "stories": 0,
+            "totalScore": 0,
+            "avgScore": 0
+          },
+          "normalized": 0
+        },
+        "reddit": {
+          "raw": {
+            "posts": 7,
+            "totalScore": 14,
+            "totalComments": 1,
+            "avgScore": 2
+          },
+          "normalized": 13
+        },
+        "activity": {
+          "raw": {
+            "postsLast30Days": 4,
+            "postsLast90Days": 8,
+            "totalPosts": 51
+          },
+          "normalized": 33
+        },
+        "consistency": {
+          "raw": {
+            "avgIntervalDays": 14.6,
+            "coefficientOfVariation": 1.03,
+            "postCount": 51
+          },
+          "normalized": 24
+        },
+        "content": {
+          "raw": {
+            "avgTitleLength": 19,
+            "substantiveRatio": 0.55,
+            "avgWordCount": 320
+          },
+          "normalized": 57
+        },
+        "recency": {
+          "raw": {
+            "latestPost": "2026-01-31T23:30:00.117Z",
+            "daysAgo": 4.7
+          },
+          "multiplier": 1.1
+        }
+      }
+    },
+    {
       "url": "http://agentyduck.blogspot.com/atom.xml",
       "domain": "agentyduck.blogspot.com",
       "title": null,
@@ -564,6 +1682,283 @@
             "daysAgo": 3.3
           },
           "multiplier": 1.1
+        }
+      }
+    },
+    {
+      "url": "http://blog.martincowen.me.uk/feed.xml",
+      "domain": "blog.martincowen.me.uk",
+      "title": "Commented Out",
+      "score": 19,
+      "categories": [
+        "Design",
+        "Systems/Low-Level"
+      ],
+      "primaryCategory": "Design",
+      "categoryConfidence": 0.49,
+      "signals": {
+        "hn": {
+          "raw": {
+            "stories": 0,
+            "totalPoints": 0,
+            "avgPoints": 0
+          },
+          "normalized": 0
+        },
+        "lobsters": {
+          "raw": {
+            "stories": 0,
+            "totalScore": 0,
+            "avgScore": 0
+          },
+          "normalized": 0
+        },
+        "reddit": {
+          "raw": {
+            "posts": 0,
+            "totalScore": 0,
+            "totalComments": 0,
+            "avgScore": 0
+          },
+          "normalized": 0
+        },
+        "activity": {
+          "raw": {
+            "postsLast30Days": 2,
+            "postsLast90Days": 2,
+            "totalPosts": 11
+          },
+          "normalized": 13
+        },
+        "consistency": {
+          "raw": {
+            "avgIntervalDays": 31.3,
+            "coefficientOfVariation": 1,
+            "postCount": 11
+          },
+          "normalized": 11
+        },
+        "content": {
+          "raw": {
+            "avgTitleLength": 52,
+            "substantiveRatio": 1,
+            "avgWordCount": 140
+          },
+          "normalized": 100
+        },
+        "recency": {
+          "raw": {
+            "latestPost": "2026-01-27T10:50:15.000Z",
+            "daysAgo": 9.2
+          },
+          "multiplier": 1
+        }
+      }
+    },
+    {
+      "url": "http://blog.melchersystem.com/feed/",
+      "domain": "blog.melchersystem.com",
+      "title": "Thoughts of a Bohemian",
+      "score": 19,
+      "categories": [
+        "Science"
+      ],
+      "primaryCategory": "Science",
+      "categoryConfidence": 0.7,
+      "signals": {
+        "hn": {
+          "raw": {
+            "stories": 2,
+            "totalPoints": 3,
+            "avgPoints": 2
+          },
+          "normalized": 2
+        },
+        "lobsters": {
+          "raw": {
+            "stories": 0,
+            "totalScore": 0,
+            "avgScore": 0
+          },
+          "normalized": 0
+        },
+        "reddit": {
+          "raw": {
+            "posts": 2,
+            "totalScore": 13,
+            "totalComments": 4,
+            "avgScore": 7
+          },
+          "normalized": 7
+        },
+        "activity": {
+          "raw": {
+            "postsLast30Days": 1,
+            "postsLast90Days": 2,
+            "totalPosts": 2
+          },
+          "normalized": 8
+        },
+        "consistency": {
+          "raw": {
+            "avgIntervalDays": 28,
+            "coefficientOfVariation": 0,
+            "postCount": 2
+          },
+          "normalized": 63
+        },
+        "content": {
+          "raw": {
+            "avgTitleLength": 27,
+            "substantiveRatio": 1,
+            "avgWordCount": 69
+          },
+          "normalized": 69
+        },
+        "recency": {
+          "raw": {
+            "latestPost": "2026-01-27T14:49:32.000Z",
+            "daysAgo": 9.1
+          },
+          "multiplier": 1
+        }
+      }
+    },
+    {
+      "url": "http://baotiao.github.io/feed.xml",
+      "domain": "baotiao.github.io",
+      "title": null,
+      "score": 18,
+      "categories": [
+        "Backend/Infrastructure"
+      ],
+      "primaryCategory": "Backend/Infrastructure",
+      "categoryConfidence": 0.83,
+      "signals": {
+        "hn": {
+          "raw": {
+            "stories": 0,
+            "totalPoints": 0,
+            "avgPoints": 0
+          },
+          "normalized": 0
+        },
+        "lobsters": {
+          "raw": {
+            "stories": 0,
+            "totalScore": 0,
+            "avgScore": 0
+          },
+          "normalized": 0
+        },
+        "reddit": {
+          "raw": {
+            "posts": 0,
+            "totalScore": 0,
+            "totalComments": 0,
+            "avgScore": 0
+          },
+          "normalized": 0
+        },
+        "activity": {
+          "raw": {
+            "postsLast30Days": 5,
+            "postsLast90Days": 5,
+            "totalPosts": 21
+          },
+          "normalized": 33
+        },
+        "consistency": {
+          "raw": {
+            "avgIntervalDays": 34.3,
+            "coefficientOfVariation": 1.83,
+            "postCount": 21
+          },
+          "normalized": 10
+        },
+        "content": {
+          "raw": {
+            "avgTitleLength": 35,
+            "substantiveRatio": 0.8,
+            "avgWordCount": 12
+          },
+          "normalized": 48
+        },
+        "recency": {
+          "raw": {
+            "latestPost": "2026-02-04T21:27:52.000Z",
+            "daysAgo": 0.8
+          },
+          "multiplier": 1.2
+        }
+      }
+    },
+    {
+      "url": "http://blog.colinmarshall.org/?feed=rss2",
+      "domain": "blog.colinmarshall.org",
+      "title": "Colin Marshall",
+      "score": 18,
+      "categories": [
+        "Science"
+      ],
+      "primaryCategory": "Science",
+      "categoryConfidence": 1,
+      "signals": {
+        "hn": {
+          "raw": {
+            "stories": 0,
+            "totalPoints": 0,
+            "avgPoints": 0
+          },
+          "normalized": 0
+        },
+        "lobsters": {
+          "raw": {
+            "stories": 0,
+            "totalScore": 0,
+            "avgScore": 0
+          },
+          "normalized": 0
+        },
+        "reddit": {
+          "raw": {
+            "posts": 4,
+            "totalScore": 131,
+            "totalComments": 10,
+            "avgScore": 33
+          },
+          "normalized": 23
+        },
+        "activity": {
+          "raw": {
+            "postsLast30Days": 3,
+            "postsLast90Days": 6,
+            "totalPosts": 10
+          },
+          "normalized": 25
+        },
+        "consistency": {
+          "raw": {
+            "avgIntervalDays": 18.2,
+            "coefficientOfVariation": 0.87,
+            "postCount": 10
+          },
+          "normalized": 26
+        },
+        "content": {
+          "raw": {
+            "avgTitleLength": 43,
+            "substantiveRatio": 0.5,
+            "avgWordCount": 57
+          },
+          "normalized": 67
+        },
+        "recency": {
+          "raw": {
+            "latestPost": "2026-01-15T23:51:24.000Z",
+            "daysAgo": 20.7
+          },
+          "multiplier": 0.9
         }
       }
     }
