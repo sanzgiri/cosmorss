@@ -1,3 +1,29 @@
+#!/usr/bin/env node
+
+/**
+ * DEPRECATED: Use scripts/select-feeds.js instead
+ * This script is kept for backward compatibility
+ */
+
+console.log('Note: This script is deprecated. Use scripts/select-feeds.js instead.');
+console.log('Running select-feeds.js...\n');
+
+const { execSync } = require('child_process');
+const path = require('path');
+
+const selectFeedsScript = path.join(__dirname, 'select-feeds.js');
+const args = process.argv.slice(2).join(' ');
+
+try {
+  execSync(`node ${selectFeedsScript} ${args}`, { stdio: 'inherit' });
+} catch (e) {
+  process.exit(1);
+}
+
+process.exit(0);
+
+/* Original implementation (deprecated):
+
 const fs = require('fs');
 
 const scored = JSON.parse(fs.readFileSync('/home/node/cosmorss/scored_feeds.json', 'utf-8'));
@@ -55,3 +81,4 @@ topFeeds.slice(0, 15).forEach((f, i) => {
   const name = f.title || f.domain;
   console.log((i+1) + '. ' + name + ' (score: ' + f.score + ', HN: ' + f.hn.stories + ' stories, ' + f.activity.postsLast30Days + ' posts/mo)');
 });
+*/
