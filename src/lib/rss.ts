@@ -1,5 +1,9 @@
 import Parser from 'rss-parser';
 
+// In-memory cache for feeds (works in dev mode too)
+const CACHE_TTL_MS = 6 * 60 * 60 * 1000; // 6 hours
+let feedCache: { items: FeedItem[]; timestamp: number } | null = null;
+
 export interface FeedItem {
   title: string;
   link: string;
@@ -86,6 +90,13 @@ export async function fetchAllFeeds(
   feeds: FeedConfig[],
   settings: FeedSettings
 ): Promise<FeedItem[]> {
+  // Check cache first
+  if (feedCache && Date.now() - feedCache.timestamp < CACHE_TTL_MS) {
+    console.log('Using cached feeds (age: ' + Math.round((Date.now() - feedCache.timestamp) / 60000) + ' minutes)');
+    return feedCache.items;
+  }
+
+  console.log('Fetching fresh feeds...');
   const feedsToFetch = feeds.slice(0, settings.maxFeeds);
   const maxAgeDays = settings.maxAgeDays || 30;
   const defaultPostsPerFeed = settings.postsPerFeed || 2;
@@ -107,6 +118,10 @@ export async function fetchAllFeeds(
 
   // Sort by date, newest first
   allItems.sort((a, b) => b.timestamp - a.timestamp);
+
+  // Update cache
+  feedCache = { items: allItems, timestamp: Date.now() };
+  console.log(`Cached ${allItems.length} feed items`);
 
   return allItems;
 }
