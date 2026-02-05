@@ -21,12 +21,15 @@ const { categorize } = require('./categorization');
 // Configuration
 const INPUT_FILE = process.argv[2] || path.join(__dirname, '../../all_feeds.txt');
 const OUTPUT_FILE = path.join(__dirname, '../../scored_feeds.json');
+const PROCESSED_FILE = path.join(__dirname, '../../processed_urls.txt');
 const BATCH_SIZE = 50;
 const MAX_FEEDS = parseInt(process.argv[3]) || 5000;
 const FEED_TIMEOUT = 8000;
+const RESUME = process.argv.includes('--resume');
 
 // Results storage
-const results = [];
+let results = [];
+let processedUrls = new Set();
 let processed = 0;
 
 /**
@@ -258,10 +261,38 @@ async function main() {
     process.exit(1);
   }
 
-  const allFeeds = fs.readFileSync(INPUT_FILE, 'utf-8')
+  // Load existing results and processed URLs in resume mode
+  if (RESUME) {
+    console.log('Resume mode: loading existing data...');
+
+    // Load existing scored feeds
+    if (fs.existsSync(OUTPUT_FILE)) {
+      const existing = JSON.parse(fs.readFileSync(OUTPUT_FILE, 'utf-8'));
+      results = existing.feeds || [];
+      results.forEach(f => processedUrls.add(f.url));
+      console.log(`  Loaded ${results.length} existing scored feeds`);
+    }
+
+    // Load processed URLs (includes inactive feeds)
+    if (fs.existsSync(PROCESSED_FILE)) {
+      const urls = fs.readFileSync(PROCESSED_FILE, 'utf-8').split('\n').filter(Boolean);
+      urls.forEach(u => processedUrls.add(u));
+      console.log(`  Loaded ${processedUrls.size} processed URLs`);
+    }
+  }
+
+  let allFeeds = fs.readFileSync(INPUT_FILE, 'utf-8')
     .split('\n')
-    .filter(url => url.trim().startsWith('http'))
-    .slice(0, MAX_FEEDS);
+    .filter(url => url.trim().startsWith('http'));
+
+  // Filter out already processed URLs in resume mode
+  if (RESUME) {
+    const before = allFeeds.length;
+    allFeeds = allFeeds.filter(url => !processedUrls.has(url));
+    console.log(`  Skipping ${before - allFeeds.length} already processed feeds`);
+  }
+
+  allFeeds = allFeeds.slice(0, MAX_FEEDS);
 
   console.log(`Processing ${allFeeds.length} feeds in batches of ${BATCH_SIZE}...`);
   console.log('Signals: HN (25%), Lobsters (15%), Reddit (10%), Activity (20%), Consistency (10%), Content (15%)');
@@ -272,6 +303,11 @@ async function main() {
   for (let i = 0; i < allFeeds.length; i += BATCH_SIZE) {
     const batch = allFeeds.slice(i, i + BATCH_SIZE);
     const batchResults = await processBatch(batch);
+
+    // Track all processed URLs (active or not)
+    for (const url of batch) {
+      processedUrls.add(url);
+    }
 
     for (const result of batchResults) {
       if (result) {
@@ -287,12 +323,16 @@ async function main() {
     // Save intermediate results every 500 feeds
     if (processed % 500 === 0) {
       saveResults();
+      // Also save processed URLs
+      fs.writeFileSync(PROCESSED_FILE, Array.from(processedUrls).join('\n'));
     }
   }
 
   saveResults();
+  fs.writeFileSync(PROCESSED_FILE, Array.from(processedUrls).join('\n'));
   console.log(`\nDone! Found ${results.length} active feeds.`);
   console.log(`Results saved to ${OUTPUT_FILE}`);
+  console.log(`Processed URLs saved to ${PROCESSED_FILE}`);
 
   // Print score distribution
   if (results.length > 0) {
