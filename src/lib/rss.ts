@@ -13,19 +13,22 @@ export interface FeedItem {
 export interface FeedConfig {
   url: string;
   category: string;
+  categories?: string[];
+  score?: number;
+  postsPerFeed?: number;
 }
 
 export interface FeedSettings {
-  postsPerFeed: number;
   maxFeeds: number;
   refreshIntervalMinutes: number;
   maxAgeDays: number;
+  postsPerFeed?: number; // Default/fallback, deprecated in favor of per-feed
 }
 
 const parser = new Parser({
   timeout: 10000,
   headers: {
-    'User-Agent': 'UniverssRSSReader/1.0',
+    'User-Agent': 'CosmoRSS/2.0',
   },
 });
 
@@ -85,9 +88,14 @@ export async function fetchAllFeeds(
 ): Promise<FeedItem[]> {
   const feedsToFetch = feeds.slice(0, settings.maxFeeds);
   const maxAgeDays = settings.maxAgeDays || 30;
+  const defaultPostsPerFeed = settings.postsPerFeed || 2;
 
   const results = await Promise.allSettled(
-    feedsToFetch.map((feed) => fetchFeed(feed, settings.postsPerFeed, maxAgeDays))
+    feedsToFetch.map((feed) => {
+      // Use per-feed postsPerFeed if available, otherwise use default
+      const postsPerFeed = feed.postsPerFeed || defaultPostsPerFeed;
+      return fetchFeed(feed, postsPerFeed, maxAgeDays);
+    })
   );
 
   const allItems: FeedItem[] = [];
