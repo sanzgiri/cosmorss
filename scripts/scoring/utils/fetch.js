@@ -20,6 +20,11 @@ function fetchUrl(url, options = {}) {
         return;
       }
 
+      // Absolute timeout wrapper
+      const absoluteTimer = setTimeout(() => {
+        reject(new Error('Absolute timeout'));
+      }, timeout + 2000);
+
       const protocol = targetUrl.startsWith('https') ? https : http;
       const req = protocol.get(targetUrl, {
         timeout,
@@ -33,17 +38,36 @@ function fetchUrl(url, options = {}) {
             const urlObj = new URL(targetUrl);
             redirectUrl = `${urlObj.protocol}//${urlObj.host}${redirectUrl}`;
           }
+          clearTimeout(absoluteTimer);
           doFetch(redirectUrl).then(resolve).catch(reject);
           return;
         }
 
         let data = '';
-        res.on('data', chunk => data += chunk);
-        res.on('end', () => resolve({ status: res.statusCode, data, url: targetUrl }));
+        const maxSize = 500000; // 500KB max
+        res.on('data', chunk => {
+          data += chunk;
+          if (data.length > maxSize) {
+            req.destroy();
+            clearTimeout(absoluteTimer);
+            resolve({ status: res.statusCode, data: data.slice(0, maxSize), url: targetUrl });
+          }
+        });
+        res.on('end', () => {
+          clearTimeout(absoluteTimer);
+          resolve({ status: res.statusCode, data, url: targetUrl });
+        });
       });
 
-      req.on('error', reject);
-      req.on('timeout', () => { req.destroy(); reject(new Error('Timeout')); });
+      req.on('error', (e) => {
+        clearTimeout(absoluteTimer);
+        reject(e);
+      });
+      req.on('timeout', () => {
+        req.destroy();
+        clearTimeout(absoluteTimer);
+        reject(new Error('Timeout'));
+      });
     });
   };
 
