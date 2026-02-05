@@ -1,137 +1,765 @@
 {
   "settings": {
-    "maxFeeds": 25,
+    "maxFeeds": 300,
     "refreshIntervalMinutes": 60,
     "maxAgeDays": 14
   },
   "feeds": [
     {
-      "url": "http://bitterteaandmystery.blogspot.com/atom.xml",
+      "url": "https://schneier.com/feed/atom/",
       "category": "Security",
       "categories": [
         "Security",
-        "Startups/Business"
+        "AI/ML"
       ],
-      "score": 48,
+      "score": 74,
       "postsPerFeed": 2
     },
     {
-      "url": "http://allsoftwaresucks.blogspot.com/feeds/posts/default",
+      "url": "https://eclecticlight.co/feed/",
+      "category": "Security",
+      "categories": [
+        "Security",
+        "Science"
+      ],
+      "score": 68,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "http://feeds.feedburner.com/AyendeRahien",
+      "category": "Security",
+      "categories": [
+        "Security",
+        "Backend/Infrastructure"
+      ],
+      "score": 63,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://daniel.haxx.se/blog/feed/",
+      "category": "Security",
+      "categories": [
+        "Security",
+        "Open Source"
+      ],
+      "score": 61,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://office365itpros.com/feed/atom/",
+      "category": "Security",
+      "categories": [
+        "Security",
+        "Design"
+      ],
+      "score": 61,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://haveibeenflocked.com/feed.xml",
+      "category": "Security",
+      "categories": [
+        "Security",
+        "Design"
+      ],
+      "score": 60,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://ayende.com:443/blog/rss/",
+      "category": "Security",
+      "categories": [
+        "Security",
+        "Backend/Infrastructure"
+      ],
+      "score": 59,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://alecmuffett.com/feed",
+      "category": "Security",
+      "categories": [
+        "Security",
+        "Open Source"
+      ],
+      "score": 58,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://pxlnv.com/feed/",
+      "category": "Security",
+      "categories": [
+        "Security",
+        "Web Development"
+      ],
+      "score": 58,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://nesbitt.io/feed.xml",
+      "category": "Security",
+      "categories": [
+        "Security",
+        "Open Source"
+      ],
+      "score": 55,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://danielpocock.com/feed.atom",
+      "category": "Security",
+      "categories": [
+        "Security",
+        "Web Development"
+      ],
+      "score": 53,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://follow.agwa.name/users/agwa/feed.atom",
+      "category": "Security",
+      "categories": [
+        "Security",
+        "Web Development"
+      ],
+      "score": 53,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://eyeoftheflyer.com/feed/atom/",
+      "category": "Security",
+      "categories": [
+        "Security",
+        "Design"
+      ],
+      "score": 52,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://pentesterlab.com/blog/feed/",
+      "category": "Security",
+      "categories": [
+        "Security"
+      ],
+      "score": 51,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://blog.erratasec.com/feeds/posts/default",
       "category": "Security",
       "categories": [
         "Security",
         "Systems/Low-Level"
       ],
-      "score": 29,
-      "postsPerFeed": 1
+      "score": 50,
+      "postsPerFeed": 2
     },
     {
-      "url": "http://addxorrol.blogspot.com/atom.xml",
+      "url": "https://simonwillison.net/atom/everything/",
       "category": "AI/ML",
       "categories": [
         "AI/ML",
         "Web Development"
       ],
-      "score": 37,
-      "postsPerFeed": 1
+      "score": 77,
+      "postsPerFeed": 4
     },
     {
-      "url": "http://archimago.blogspot.com/feeds/posts/default",
+      "url": "https://daringfireball.net/feeds/main",
       "category": "AI/ML",
       "categories": [
         "AI/ML",
-        "Science"
-      ],
-      "score": 37,
-      "postsPerFeed": 1
-    },
-    {
-      "url": "http://blog.joemoreno.com/atom.xml",
-      "category": "AI/ML",
-      "categories": [
-        "AI/ML",
-        "Web Development"
-      ],
-      "score": 35,
-      "postsPerFeed": 1
-    },
-    {
-      "url": "http://arcturus-labs.com/feed_rss_created.xml",
-      "category": "AI/ML",
-      "categories": [
-        "AI/ML",
-        "Startups/Business"
-      ],
-      "score": 21,
-      "postsPerFeed": 1
-    },
-    {
-      "url": "http://beachburg.blogspot.com/atom.xml",
-      "category": "Web Development",
-      "categories": [
-        "Web Development"
-      ],
-      "score": 36,
-      "postsPerFeed": 1
-    },
-    {
-      "url": "http://0x80.pl/feed.xml",
-      "category": "Web Development",
-      "categories": [
-        "Web Development",
-        "Systems/Low-Level"
-      ],
-      "score": 30,
-      "postsPerFeed": 1
-    },
-    {
-      "url": "http://allendowney.blogspot.com/feeds/posts/default",
-      "category": "Web Development",
-      "categories": [
-        "Web Development"
-      ],
-      "score": 30,
-      "postsPerFeed": 1
-    },
-    {
-      "url": "http://blog.sigfpe.com/atom.xml",
-      "category": "Web Development",
-      "categories": [
-        "Web Development",
-        "Startups/Business"
-      ],
-      "score": 30,
-      "postsPerFeed": 1
-    },
-    {
-      "url": "http://amitkapila16.blogspot.com/atom.xml",
-      "category": "Web Development",
-      "categories": [
-        "Web Development",
         "Design"
       ],
-      "score": 23,
-      "postsPerFeed": 1
+      "score": 73,
+      "postsPerFeed": 2
     },
     {
-      "url": "http://blog.rickumali.com/feeds/posts/default",
-      "category": "Web Development",
+      "url": "https://statmodeling.stat.columbia.edu/feed/",
+      "category": "AI/ML",
       "categories": [
-        "Web Development",
+        "AI/ML",
+        "Systems/Low-Level"
+      ],
+      "score": 72,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://stratechery.com/feed/atom/",
+      "category": "AI/ML",
+      "categories": [
+        "AI/ML",
+        "Startups/Business"
+      ],
+      "score": 69,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://aphyr.com/posts.atom",
+      "category": "AI/ML",
+      "categories": [
+        "AI/ML",
         "Science"
       ],
-      "score": 21,
-      "postsPerFeed": 1
+      "score": 67,
+      "postsPerFeed": 2
     },
     {
-      "url": "http://agentyduck.blogspot.com/atom.xml",
+      "url": "https://martinfowler.com/feed.atom",
+      "category": "AI/ML",
+      "categories": [
+        "AI/ML",
+        "Web Development"
+      ],
+      "score": 67,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://lucumr.pocoo.org/feed.atom",
+      "category": "AI/ML",
+      "categories": [
+        "AI/ML"
+      ],
+      "score": 66,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://appaddict.app/feed.atom",
+      "category": "AI/ML",
+      "categories": [
+        "AI/ML",
+        "Open Source"
+      ],
+      "score": 65,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://sixcolors.com/feed/atom/",
+      "category": "AI/ML",
+      "categories": [
+        "AI/ML",
+        "Design"
+      ],
+      "score": 65,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://feeds.feedburner.com/ComputerScienceTeacher",
+      "category": "AI/ML",
+      "categories": [
+        "AI/ML",
+        "Open Source"
+      ],
+      "score": 64,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://grahamcluley.com/atom/",
+      "category": "AI/ML",
+      "categories": [
+        "AI/ML",
+        "Security"
+      ],
+      "score": 63,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://lemire.me/blog/feed/",
+      "category": "AI/ML",
+      "categories": [
+        "AI/ML",
+        "Systems/Low-Level"
+      ],
+      "score": 63,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://sherwood.news/rss.xml",
+      "category": "AI/ML",
+      "categories": [
+        "AI/ML"
+      ],
+      "score": 62,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://tildes.net/topics.atom",
+      "category": "AI/ML",
+      "categories": [
+        "AI/ML",
+        "Design"
+      ],
+      "score": 62,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://ramble.pw/featured/new.atom",
+      "category": "AI/ML",
+      "categories": [
+        "AI/ML"
+      ],
+      "score": 61,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://philip.greenspun.com/blog/feed/",
+      "category": "AI/ML",
+      "categories": [
+        "AI/ML",
+        "Web Development"
+      ],
+      "score": 60,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "http://scripting.com/rss.xml",
+      "category": "AI/ML",
+      "categories": [
+        "AI/ML",
+        "Open Source"
+      ],
+      "score": 59,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://justin.searls.co/atom.xml",
+      "category": "AI/ML",
+      "categories": [
+        "AI/ML"
+      ],
+      "score": 59,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://mjtsai.com/blog/feed/",
+      "category": "AI/ML",
+      "categories": [
+        "AI/ML",
+        "Security"
+      ],
+      "score": 59,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://seths.blog/feed/atom/",
+      "category": "AI/ML",
+      "categories": [
+        "AI/ML",
+        "Career/Personal"
+      ],
+      "score": 59,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://shkspr.mobi/blog/feed/atom",
       "category": "Web Development",
       "categories": [
         "Web Development",
         "Open Source"
       ],
-      "score": 20,
-      "postsPerFeed": 1
+      "score": 76,
+      "postsPerFeed": 4
+    },
+    {
+      "url": "https://lapcatsoftware.com/articles/atom.xml",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Systems/Low-Level"
+      ],
+      "score": 72,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://bearblog.dev/discover/feed/",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Design"
+      ],
+      "score": 71,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://feeds.feedburner.com/CalculatedRisk",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Design"
+      ],
+      "score": 70,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://feeds.feedburner.com/TeacherTom",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Backend/Infrastructure"
+      ],
+      "score": 69,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://feeds.feedburner.com/AtlasOfWonders",
+      "category": "Web Development",
+      "categories": [
+        "Web Development"
+      ],
+      "score": 68,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://blog.jim-nielsen.com/feed.xml",
+      "category": "Web Development",
+      "categories": [
+        "Web Development"
+      ],
+      "score": 67,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://feeds.feedburner.com/trailspotting",
+      "category": "Web Development",
+      "categories": [
+        "Web Development"
+      ],
+      "score": 67,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "http://diamondgeezer.blogspot.com/atom.xml",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Startups/Business"
+      ],
+      "score": 66,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "http://oldvcr.blogspot.com/atom.xml",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Design"
+      ],
+      "score": 64,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://feeds.feedburner.com/theendeavour",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Design"
+      ],
+      "score": 64,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://seattletransitblog.com/feed/",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Gaming"
+      ],
+      "score": 64,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://stallman.org/rss/rss.xml",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Open Source"
+      ],
+      "score": 64,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://apievangelist.com/feed.xml",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Backend/Infrastructure"
+      ],
+      "score": 63,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://feeds.feedburner.com/googlemapsmania",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Science"
+      ],
+      "score": 63,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://512pixels.net/feed/",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Open Source"
+      ],
+      "score": 62,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://evilmartians.com/chronicles.atom",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Design"
+      ],
+      "score": 62,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://feeds.feedburner.com/TheDailyWtf",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Systems/Low-Level"
+      ],
+      "score": 62,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://everything2.com/node/ticker/new+writeups+atom+feed",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Systems/Low-Level"
+      ],
+      "score": 61,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://mastodon.social/tags/mjtsaiupdate.rss",
+      "category": "Web Development",
+      "categories": [
+        "Web Development"
+      ],
+      "score": 61,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://feeds.feedburner.com/TheVisualScienceLab",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Design"
+      ],
+      "score": 59,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://lars.ingebrigtsen.no/feed/",
+      "category": "Web Development",
+      "categories": [
+        "Web Development"
+      ],
+      "score": 59,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://rarehistoricalphotos.com/feed/",
+      "category": "Web Development",
+      "categories": [
+        "Web Development"
+      ],
+      "score": 59,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "http://teachertomsblog.blogspot.com/atom.xml",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Backend/Infrastructure"
+      ],
+      "score": 58,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://applevis.com/feed.xml",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Open Source"
+      ],
+      "score": 58,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://brainbaking.com/index.xml",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Systems/Low-Level"
+      ],
+      "score": 58,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://dynomight.net/feed.xml",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Systems/Low-Level"
+      ],
+      "score": 58,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://feeds.feedburner.com/GiantRobotsSmashingIntoOtherGiantRobots",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Backend/Infrastructure"
+      ],
+      "score": 58,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://feeds.feedburner.com/LondonRemembers",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Systems/Low-Level"
+      ],
+      "score": 58,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://feeds.feedburner.com/shorpy?q=rss.xml",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Startups/Business"
+      ],
+      "score": 58,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "http://smalldatum.blogspot.com/atom.xml",
+      "category": "Backend/Infrastructure",
+      "categories": [
+        "Backend/Infrastructure",
+        "Web Development"
+      ],
+      "score": 66,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "http://muratbuffalo.blogspot.com/atom.xml",
+      "category": "Backend/Infrastructure",
+      "categories": [
+        "Backend/Infrastructure",
+        "Systems/Low-Level"
+      ],
+      "score": 64,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://blog.frankel.ch/feed.xml",
+      "category": "Backend/Infrastructure",
+      "categories": [
+        "Backend/Infrastructure",
+        "Systems/Low-Level"
+      ],
+      "score": 57,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://medievalists.net/feed",
+      "category": "Backend/Infrastructure",
+      "categories": [
+        "Backend/Infrastructure"
+      ],
+      "score": 57,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://caddy.community/posts.rss",
+      "category": "Backend/Infrastructure",
+      "categories": [
+        "Backend/Infrastructure",
+        "Security"
+      ],
+      "score": 55,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://ntietz.com/atom.xml",
+      "category": "Backend/Infrastructure",
+      "categories": [
+        "Backend/Infrastructure",
+        "Web Development"
+      ],
+      "score": 55,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "http://strangeco.blogspot.com/feeds/posts/default",
+      "category": "Backend/Infrastructure",
+      "categories": [
+        "Backend/Infrastructure",
+        "Design"
+      ],
+      "score": 54,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://mkdev.me/posts.atom",
+      "category": "Backend/Infrastructure",
+      "categories": [
+        "Backend/Infrastructure"
+      ],
+      "score": 54,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://subseacables.blogspot.com/atom.xml",
+      "category": "Backend/Infrastructure",
+      "categories": [
+        "Backend/Infrastructure",
+        "Web Development"
+      ],
+      "score": 53,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://irreal.org/blog/?feed=rss2",
+      "category": "Backend/Infrastructure",
+      "categories": [
+        "Backend/Infrastructure",
+        "Career/Personal"
+      ],
+      "score": 52,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://singhajit.com/feed",
+      "category": "Backend/Infrastructure",
+      "categories": [
+        "Backend/Infrastructure"
+      ],
+      "score": 52,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://haydenjames.io/atom.xml",
+      "category": "Backend/Infrastructure",
+      "categories": [
+        "Backend/Infrastructure",
+        "Security"
+      ],
+      "score": 51,
+      "postsPerFeed": 2
     },
     {
       "url": "http://albert-david.blogspot.com/atom.xml",
@@ -144,110 +772,2152 @@
       "postsPerFeed": 2
     },
     {
-      "url": "http://baotiao.github.io/feed.xml",
+      "url": "http://pydanny.com/feeds/atom.xml",
+      "category": "Backend/Infrastructure",
+      "categories": [
+        "Backend/Infrastructure",
+        "Design"
+      ],
+      "score": 50,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://berthub.eu/articles/index.xml",
+      "category": "Backend/Infrastructure",
+      "categories": [
+        "Backend/Infrastructure",
+        "Security"
+      ],
+      "score": 50,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://feeds.feedburner.com/NolanDalla",
       "category": "Backend/Infrastructure",
       "categories": [
         "Backend/Infrastructure"
       ],
-      "score": 18,
-      "postsPerFeed": 1
+      "score": 50,
+      "postsPerFeed": 2
     },
     {
-      "url": "http://almostafternoon.com/blog/atom.xml",
+      "url": "https://jeena.net/all.atom",
+      "category": "Backend/Infrastructure",
+      "categories": [
+        "Backend/Infrastructure",
+        "AI/ML"
+      ],
+      "score": 50,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://madebynathan.com/rss/",
+      "category": "Backend/Infrastructure",
+      "categories": [
+        "Backend/Infrastructure"
+      ],
+      "score": 50,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://prestonbyrne.com/feed/",
+      "category": "Backend/Infrastructure",
+      "categories": [
+        "Backend/Infrastructure",
+        "AI/ML"
+      ],
+      "score": 50,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://andreafortuna.org/feed.xml",
+      "category": "Backend/Infrastructure",
+      "categories": [
+        "Backend/Infrastructure",
+        "Career/Personal"
+      ],
+      "score": 49,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://soylentnews.org/index.atom",
+      "category": "Systems/Low-Level",
+      "categories": [
+        "Systems/Low-Level",
+        "Backend/Infrastructure"
+      ],
+      "score": 62,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://buttondown.email/jaffray/rss",
+      "category": "Systems/Low-Level",
+      "categories": [
+        "Systems/Low-Level",
+        "AI/ML"
+      ],
+      "score": 57,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://handmade.network/atom",
       "category": "Systems/Low-Level",
       "categories": [
         "Systems/Low-Level",
         "Open Source"
       ],
-      "score": 42,
-      "postsPerFeed": 1
+      "score": 57,
+      "postsPerFeed": 2
     },
     {
-      "url": "http://bannalia.blogspot.com/atom.xml",
+      "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
+      "category": "Systems/Low-Level",
+      "categories": [
+        "Systems/Low-Level"
+      ],
+      "score": 55,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://nathanbarry.com/feed/",
+      "category": "Systems/Low-Level",
+      "categories": [
+        "Systems/Low-Level",
+        "Security"
+      ],
+      "score": 54,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://ritholtz.com/feed/atom/",
+      "category": "Systems/Low-Level",
+      "categories": [
+        "Systems/Low-Level",
+        "Science"
+      ],
+      "score": 53,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://antonz.org/index.xml",
       "category": "Systems/Low-Level",
       "categories": [
         "Systems/Low-Level",
         "Web Development"
       ],
-      "score": 42,
-      "postsPerFeed": 1
+      "score": 51,
+      "postsPerFeed": 2
     },
     {
-      "url": "http://anamaria.martinezgomez.name/feed.xml",
+      "url": "https://platformonomics.com/atom/",
+      "category": "Systems/Low-Level",
+      "categories": [
+        "Systems/Low-Level"
+      ],
+      "score": 51,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://quuxplusone.github.io/blog/feed.xml",
+      "category": "Systems/Low-Level",
+      "categories": [
+        "Systems/Low-Level",
+        "Backend/Infrastructure"
+      ],
+      "score": 51,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://andiroberts.com/atom/",
+      "category": "Systems/Low-Level",
+      "categories": [
+        "Systems/Low-Level",
+        "Career/Personal"
+      ],
+      "score": 50,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://taoofmac.com/atom.xml",
+      "category": "Systems/Low-Level",
+      "categories": [
+        "Systems/Low-Level",
+        "AI/ML"
+      ],
+      "score": 50,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "http://neosmart.net/blog/rss/",
+      "category": "Systems/Low-Level",
+      "categories": [
+        "Systems/Low-Level",
+        "Open Source"
+      ],
+      "score": 49,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://matklad.github.io/feed.xml",
+      "category": "Systems/Low-Level",
+      "categories": [
+        "Systems/Low-Level",
+        "AI/ML"
+      ],
+      "score": 48,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://runpee.com/feed/atom/",
+      "category": "Systems/Low-Level",
+      "categories": [
+        "Systems/Low-Level",
+        "Web Development"
+      ],
+      "score": 48,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "http://www.kinemalogue.net/atom.xml",
+      "category": "Systems/Low-Level",
+      "categories": [
+        "Systems/Low-Level",
+        "Design"
+      ],
+      "score": 47,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://lwn.net/headlines/newrss",
       "category": "Open Source",
       "categories": [
         "Open Source"
       ],
-      "score": 21,
-      "postsPerFeed": 1
+      "score": 81,
+      "postsPerFeed": 4
     },
     {
-      "url": "http://blog.emilianbold.ro/atom.xml",
+      "url": "https://f-droid.org/feed",
+      "category": "Open Source",
+      "categories": [
+        "Open Source"
+      ],
+      "score": 66,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://onemileatatime.com/feed/atom/",
+      "category": "Open Source",
+      "categories": [
+        "Open Source"
+      ],
+      "score": 65,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://sethmlarson.dev/feed",
+      "category": "Open Source",
+      "categories": [
+        "Open Source",
+        "Gaming"
+      ],
+      "score": 63,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "http://funcall.blogspot.com/atom.xml",
+      "category": "Open Source",
+      "categories": [
+        "Open Source",
+        "AI/ML"
+      ],
+      "score": 61,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://alexwlchan.net/til/atom.xml",
+      "category": "Open Source",
+      "categories": [
+        "Open Source",
+        "Design"
+      ],
+      "score": 61,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://lowendmac.com/feed/",
       "category": "Open Source",
       "categories": [
         "Open Source",
         "Web Development"
       ],
-      "score": 21,
-      "postsPerFeed": 1
+      "score": 61,
+      "postsPerFeed": 2
     },
     {
-      "url": "http://alifeinphotography.blogspot.com/atom.xml",
+      "url": "https://techrights.org/feed.xml",
+      "category": "Open Source",
+      "categories": [
+        "Open Source"
+      ],
+      "score": 60,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://dedoimedo.com/rss_feed.xml",
+      "category": "Open Source",
+      "categories": [
+        "Open Source",
+        "Web Development"
+      ],
+      "score": 59,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://sachachua.com/blog/feed/atom/",
+      "category": "Open Source",
+      "categories": [
+        "Open Source",
+        "Science"
+      ],
+      "score": 58,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "http://edwardfeser.blogspot.com/atom.xml",
       "category": "Startups/Business",
       "categories": [
         "Startups/Business",
         "Design"
       ],
-      "score": 43,
-      "postsPerFeed": 1
+      "score": 66,
+      "postsPerFeed": 2
     },
     {
-      "url": "http://anthonybalducci.blogspot.com/atom.xml",
+      "url": "https://manualdousuario.net/en/feed/",
       "category": "Startups/Business",
       "categories": [
         "Startups/Business",
         "Design"
       ],
-      "score": 36,
-      "postsPerFeed": 1
+      "score": 63,
+      "postsPerFeed": 2
     },
     {
-      "url": "http://blog.melchersystem.com/feed/",
+      "url": "https://politicalcalculations.blogspot.com/feeds/posts/default",
+      "category": "Startups/Business",
+      "categories": [
+        "Startups/Business",
+        "Design"
+      ],
+      "score": 62,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://sramanamitra.com/atom/",
+      "category": "Startups/Business",
+      "categories": [
+        "Startups/Business"
+      ],
+      "score": 58,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://feeds.feedburner.com/DiegoPacheco",
+      "category": "Startups/Business",
+      "categories": [
+        "Startups/Business",
+        "Design"
+      ],
+      "score": 57,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://feeds.feedburner.com/feelinglistless",
+      "category": "Startups/Business",
+      "categories": [
+        "Startups/Business",
+        "Open Source"
+      ],
+      "score": 57,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://feeds.feedburner.com/thisisnthappiness",
+      "category": "Startups/Business",
+      "categories": [
+        "Startups/Business"
+      ],
+      "score": 57,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://lowendtalk.com/discussions/feed.rss",
+      "category": "Startups/Business",
+      "categories": [
+        "Startups/Business",
+        "Design"
+      ],
+      "score": 57,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://michael.team/atom.xml",
+      "category": "Startups/Business",
+      "categories": [
+        "Startups/Business",
+        "Science"
+      ],
+      "score": 57,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://jcs.org/notes/rss",
+      "category": "Startups/Business",
+      "categories": [
+        "Startups/Business",
+        "Design"
+      ],
+      "score": 56,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://kadavy.net/feed/atom/",
+      "category": "Startups/Business",
+      "categories": [
+        "Startups/Business",
+        "Science"
+      ],
+      "score": 56,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://ei7gl.blogspot.com/feeds/posts/default",
+      "category": "Startups/Business",
+      "categories": [
+        "Startups/Business",
+        "Design"
+      ],
+      "score": 55,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://feeds.feedburner.com/sibeliusblog",
+      "category": "Startups/Business",
+      "categories": [
+        "Startups/Business",
+        "Science"
+      ],
+      "score": 55,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://automaticwasher.org/forums/-/index.rss",
+      "category": "Startups/Business",
+      "categories": [
+        "Startups/Business"
+      ],
+      "score": 54,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://awealthofcommonsense.com/feed/atom/",
+      "category": "Startups/Business",
+      "categories": [
+        "Startups/Business",
+        "Security"
+      ],
+      "score": 54,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "http://www.antipope.org/charlie/blog-static/atom.xml",
+      "category": "Career/Personal",
+      "categories": [
+        "Career/Personal",
+        "Startups/Business"
+      ],
+      "score": 61,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://globalvoices.org/feed",
+      "category": "Career/Personal",
+      "categories": [
+        "Career/Personal",
+        "Science"
+      ],
+      "score": 57,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://lethain.com/feeds/",
+      "category": "Career/Personal",
+      "categories": [
+        "Career/Personal"
+      ],
+      "score": 56,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "http://www.garynorth.com/mysite.xml",
+      "category": "Career/Personal",
+      "categories": [
+        "Career/Personal",
+        "Design"
+      ],
+      "score": 55,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://coryd.dev/feeds/links.xml",
+      "category": "Career/Personal",
+      "categories": [
+        "Career/Personal",
+        "Systems/Low-Level"
+      ],
+      "score": 55,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://herbertlui.net/feed/",
+      "category": "Career/Personal",
+      "categories": [
+        "Career/Personal",
+        "Web Development"
+      ],
+      "score": 54,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://justinmath.com/feed.xml",
+      "category": "Career/Personal",
+      "categories": [
+        "Career/Personal",
+        "Startups/Business"
+      ],
+      "score": 53,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://crankyflier.com/feed/",
+      "category": "Career/Personal",
+      "categories": [
+        "Career/Personal",
+        "Science"
+      ],
+      "score": 52,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://feeds.feedburner.com/TheTallyRoom",
+      "category": "Career/Personal",
+      "categories": [
+        "Career/Personal",
+        "Design"
+      ],
+      "score": 52,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://ilikekillnerds.com/posts/index.xml",
+      "category": "Career/Personal",
+      "categories": [
+        "Career/Personal",
+        "Web Development"
+      ],
+      "score": 51,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://feeds.feedburner.com/Backreaction",
       "category": "Science",
       "categories": [
         "Science"
       ],
-      "score": 19,
-      "postsPerFeed": 1
+      "score": 68,
+      "postsPerFeed": 2
     },
     {
-      "url": "http://blog.colinmarshall.org/?feed=rss2",
+      "url": "https://madinamerica.com/feed",
       "category": "Science",
       "categories": [
-        "Science"
+        "Science",
+        "Web Development"
       ],
-      "score": 18,
-      "postsPerFeed": 1
+      "score": 68,
+      "postsPerFeed": 2
     },
     {
-      "url": "http://astroblogger.blogspot.com/atom.xml",
+      "url": "https://feeds.feedburner.com/amusingplanet",
+      "category": "Science",
+      "categories": [
+        "Science",
+        "Design"
+      ],
+      "score": 67,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://feeds.feedburner.com/TheBrothersBrick",
+      "category": "Science",
+      "categories": [
+        "Science",
+        "Gaming"
+      ],
+      "score": 66,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://feeds.feedburner.com/TheArtOfManliness",
+      "category": "Science",
+      "categories": [
+        "Science",
+        "Design"
+      ],
+      "score": 65,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://cliffmass.blogspot.com/feeds/posts/default",
+      "category": "Science",
+      "categories": [
+        "Science",
+        "Design"
+      ],
+      "score": 64,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://backreaction.blogspot.com/rss.xml",
+      "category": "Science",
+      "categories": [
+        "Science",
+        "Web Development"
+      ],
+      "score": 63,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://feeds.feedburner.com/brainpickings/rss",
+      "category": "Science",
+      "categories": [
+        "Science",
+        "Security"
+      ],
+      "score": 63,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://blog.computationalcomplexity.org/feeds/posts/default",
+      "category": "Science",
+      "categories": [
+        "Science",
+        "AI/ML"
+      ],
+      "score": 60,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://feeds.feedburner.com/MyDaysInTheFrills",
+      "category": "Science",
+      "categories": [
+        "Science",
+        "Design"
+      ],
+      "score": 60,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://pluralistic.net/feed/",
       "category": "Design",
       "categories": [
         "Design",
+        "Gaming"
+      ],
+      "score": 71,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "http://feeds.feedburner.com/blogspot/cImJr",
+      "category": "Design",
+      "categories": [
+        "Design",
+        "Startups/Business"
+      ],
+      "score": 70,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "http://feeds.feedburner.com/JohnKennethMuirsReflectionsOnFilm/tv",
+      "category": "Design",
+      "categories": [
+        "Design",
+        "Open Source"
+      ],
+      "score": 70,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://feeds.feedburner.com/vintageeveryday",
+      "category": "Design",
+      "categories": [
+        "Design",
+        "Security"
+      ],
+      "score": 70,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "http://feeds.feedburner.com/armdevices",
+      "category": "Design",
+      "categories": [
+        "Design",
+        "Web Development"
+      ],
+      "score": 68,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://devblogs.microsoft.com/oldnewthing/feed",
+      "category": "Design",
+      "categories": [
+        "Design",
+        "Gaming"
+      ],
+      "score": 68,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://feeds.feedburner.com/PartiallyObstructedView",
+      "category": "Design",
+      "categories": [
+        "Design",
+        "Web Development"
+      ],
+      "score": 67,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://feeds.feedburner.com/LegoEverlasting-LegoReviewsNews",
+      "category": "Design",
+      "categories": [
+        "Design",
+        "Web Development"
+      ],
+      "score": 66,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://feeds.feedburner.com/SleuthSayers",
+      "category": "Design",
+      "categories": [
+        "Design"
+      ],
+      "score": 65,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "http://floggingbabel.blogspot.com/atom.xml",
+      "category": "Design",
+      "categories": [
+        "Design"
+      ],
+      "score": 64,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://delistedgames.com/feed/atom/",
+      "category": "Gaming",
+      "categories": [
+        "Gaming"
+      ],
+      "score": 57,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://aftermath.site/rss",
+      "category": "Gaming",
+      "categories": [
+        "Gaming"
+      ],
+      "score": 56,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://gamedev.city/rss",
+      "category": "Gaming",
+      "categories": [
+        "Gaming",
+        "Design"
+      ],
+      "score": 51,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://gamefromscratch.com/feed/atom/",
+      "category": "Gaming",
+      "categories": [
+        "Gaming"
+      ],
+      "score": 51,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://appalachianmemories.org/feed/atom/",
+      "category": "Gaming",
+      "categories": [
+        "Gaming",
+        "Open Source"
+      ],
+      "score": 50,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://lmnt.me/feed.xml",
+      "category": "Gaming",
+      "categories": [
+        "Gaming"
+      ],
+      "score": 50,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://dsogaming.com/feed",
+      "category": "Gaming",
+      "categories": [
+        "Gaming"
+      ],
+      "score": 47,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://gamehistory.org/feed",
+      "category": "Gaming",
+      "categories": [
+        "Gaming"
+      ],
+      "score": 47,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://setsideb.com/atom/",
+      "category": "Gaming",
+      "categories": [
+        "Gaming"
+      ],
+      "score": 47,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://forums.sonicretro.org/forums/-/index.rss",
+      "category": "Gaming",
+      "categories": [
+        "Gaming"
+      ],
+      "score": 46,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://feeds.feedburner.com/LongStoryShortPier",
+      "category": "General",
+      "categories": [
+        "General"
+      ],
+      "score": 44,
+      "postsPerFeed": 1
+    },
+    {
+      "url": "https://onetypedpage.com/feed/",
+      "category": "General",
+      "categories": [
+        "General"
+      ],
+      "score": 42,
+      "postsPerFeed": 1
+    },
+    {
+      "url": "https://librarianshipwreck.wordpress.com/feed/",
+      "category": "General",
+      "categories": [
+        "General"
+      ],
+      "score": 41,
+      "postsPerFeed": 1
+    },
+    {
+      "url": "https://imo.net/feed",
+      "category": "General",
+      "categories": [
+        "General"
+      ],
+      "score": 39,
+      "postsPerFeed": 1
+    },
+    {
+      "url": "https://pinballnirvana.com/forums/forums/-/index.rss",
+      "category": "General",
+      "categories": [
+        "General"
+      ],
+      "score": 39,
+      "postsPerFeed": 1
+    },
+    {
+      "url": "https://ash.ms/atom.xml",
+      "category": "General",
+      "categories": [
+        "General"
+      ],
+      "score": 37,
+      "postsPerFeed": 1
+    },
+    {
+      "url": "https://nmil.dev/feed/",
+      "category": "General",
+      "categories": [
+        "General"
+      ],
+      "score": 37,
+      "postsPerFeed": 1
+    },
+    {
+      "url": "https://laurenipsum.spiderforest.com/comic/rss?id=1",
+      "category": "General",
+      "categories": [
+        "General"
+      ],
+      "score": 35,
+      "postsPerFeed": 1
+    },
+    {
+      "url": "https://concatenative.org/wiki/changes.atom",
+      "category": "General",
+      "categories": [
+        "General"
+      ],
+      "score": 33,
+      "postsPerFeed": 1
+    },
+    {
+      "url": "https://stegodon.social/feed",
+      "category": "General",
+      "categories": [
+        "General"
+      ],
+      "score": 32,
+      "postsPerFeed": 1
+    },
+    {
+      "url": "https://snarfed.org/feed",
+      "category": "General",
+      "categories": [
+        "General"
+      ],
+      "score": 31,
+      "postsPerFeed": 1
+    },
+    {
+      "url": "https://nicksimson.com/feed/",
+      "category": "General",
+      "categories": [
+        "General"
+      ],
+      "score": 29,
+      "postsPerFeed": 1
+    },
+    {
+      "url": "https://photonstophotos.net/rss.xml",
+      "category": "General",
+      "categories": [
+        "General"
+      ],
+      "score": 29,
+      "postsPerFeed": 1
+    },
+    {
+      "url": "https://orbitalindex.com/feed.xml",
+      "category": "General",
+      "categories": [
+        "General"
+      ],
+      "score": 28,
+      "postsPerFeed": 1
+    },
+    {
+      "url": "https://likepunkneverhappened.blogspot.com/feeds/posts/default",
+      "category": "General",
+      "categories": [
+        "General"
+      ],
+      "score": 27,
+      "postsPerFeed": 1
+    },
+    {
+      "url": "https://sathyabh.at/index.xml",
+      "category": "General",
+      "categories": [
+        "General"
+      ],
+      "score": 27,
+      "postsPerFeed": 1
+    },
+    {
+      "url": "https://tildeweb.nl/~michiel/atom.xml",
+      "category": "General",
+      "categories": [
+        "General"
+      ],
+      "score": 26,
+      "postsPerFeed": 1
+    },
+    {
+      "url": "http://www.bradleysalmanac.com/?feed=rss2",
+      "category": "General",
+      "categories": [
+        "General"
+      ],
+      "score": 25,
+      "postsPerFeed": 1
+    },
+    {
+      "url": "https://atxtech.net/atom/",
+      "category": "General",
+      "categories": [
+        "General"
+      ],
+      "score": 25,
+      "postsPerFeed": 1
+    },
+    {
+      "url": "https://jakewalker.com/atom/",
+      "category": "General",
+      "categories": [
+        "General"
+      ],
+      "score": 25,
+      "postsPerFeed": 1
+    },
+    {
+      "url": "https://feeds.feedburner.com/brad-frosts-blog",
+      "category": "Design",
+      "categories": [
+        "Design"
+      ],
+      "score": 63,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://snowbrains.com/feed/atom/",
+      "category": "Design",
+      "categories": [
+        "Design",
+        "Open Source"
+      ],
+      "score": 63,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://quotulatiousness.ca/blog/feed/",
+      "category": "Design",
+      "categories": [
+        "Design",
+        "Web Development"
+      ],
+      "score": 62,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://aperiodical.com/feed/atom/",
+      "category": "Design",
+      "categories": [
+        "Design"
+      ],
+      "score": 61,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://cdm.link/feed/atom/",
+      "category": "Design",
+      "categories": [
+        "Design",
+        "AI/ML"
+      ],
+      "score": 61,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://discuss.haiku-os.org/posts.rss",
+      "category": "Design",
+      "categories": [
+        "Design",
+        "Open Source"
+      ],
+      "score": 61,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://andrei.xyz/index.xml",
+      "category": "Design",
+      "categories": [
+        "Design",
+        "Open Source"
+      ],
+      "score": 60,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://blog.ericgoldman.org/feed",
+      "category": "Design",
+      "categories": [
+        "Design",
+        "Web Development"
+      ],
+      "score": 60,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://bradfrost.com/atom/",
+      "category": "Design",
+      "categories": [
+        "Design"
+      ],
+      "score": 59,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://feeds.feedburner.com/largeheartedboy",
+      "category": "Design",
+      "categories": [
+        "Design"
+      ],
+      "score": 59,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://journal.james-zhan.com/feed/",
+      "category": "Design",
+      "categories": [
+        "Design",
+        "Gaming"
+      ],
+      "score": 59,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://osxdaily.com/feed/atom/",
+      "category": "Design",
+      "categories": [
+        "Design",
+        "Web Development"
+      ],
+      "score": 59,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://theanarchistlibrary.org/rss.xml",
+      "category": "Design",
+      "categories": [
+        "Design",
+        "Open Source"
+      ],
+      "score": 59,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://timharford.com/feed/",
+      "category": "Open Source",
+      "categories": [
+        "Open Source",
+        "Startups/Business"
+      ],
+      "score": 58,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://bdtechtalks.com/feed/atom/",
+      "category": "AI/ML",
+      "categories": [
+        "AI/ML",
+        "Security"
+      ],
+      "score": 58,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://birchtree.me/rss/",
+      "category": "AI/ML",
+      "categories": [
+        "AI/ML"
+      ],
+      "score": 58,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://blog.acthompson.net/atom.xml",
+      "category": "AI/ML",
+      "categories": [
+        "AI/ML",
+        "Open Source"
+      ],
+      "score": 58,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://igorstechnoclub.com/feed/",
+      "category": "AI/ML",
+      "categories": [
+        "AI/ML",
+        "Web Development"
+      ],
+      "score": 58,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://realpython.com/atom.xml",
+      "category": "AI/ML",
+      "categories": [
+        "AI/ML",
+        "Web Development"
+      ],
+      "score": 58,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://jamesg.blog/feed.xml",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Security"
+      ],
+      "score": 58,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://thecreativeindependent.com/feed.xml",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Science"
+      ],
+      "score": 58,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://the-yorkshireman.com/feed/atom/",
+      "category": "Design",
+      "categories": [
+        "Design",
+        "Gaming"
+      ],
+      "score": 58,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://nesslabs.com/feed/atom",
+      "category": "Science",
+      "categories": [
+        "Science",
+        "Startups/Business"
+      ],
+      "score": 58,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://publicdomainreview.org/rss.xml",
+      "category": "Science",
+      "categories": [
+        "Science"
+      ],
+      "score": 58,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://siliconflorist.com/feed/atom/",
+      "category": "Science",
+      "categories": [
+        "Science",
+        "Design"
+      ],
+      "score": 58,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://standardebooks.org/feeds/atom/new-releases",
+      "category": "Open Source",
+      "categories": [
+        "Open Source",
+        "Design"
+      ],
+      "score": 57,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://feeds.feedburner.com/glaforge",
+      "category": "AI/ML",
+      "categories": [
+        "AI/ML",
+        "Science"
+      ],
+      "score": 57,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://meyerweb.com/feeds/excuse/rss20.xml",
+      "category": "AI/ML",
+      "categories": [
+        "AI/ML"
+      ],
+      "score": 57,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://adactio.com/rss/",
+      "category": "Web Development",
+      "categories": [
+        "Web Development"
+      ],
+      "score": 57,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://arseblog.com/feed/",
+      "category": "Web Development",
+      "categories": [
+        "Web Development"
+      ],
+      "score": 57,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://domainnamewire.com/feed/atom/",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Startups/Business"
+      ],
+      "score": 57,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://idiallo.com/feed.rss",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Career/Personal"
+      ],
+      "score": 57,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://manuelmoreale.com/rss/",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Career/Personal"
+      ],
+      "score": 57,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://tiremeetsroad.com/feed/atom/",
+      "category": "Web Development",
+      "categories": [
+        "Web Development"
+      ],
+      "score": 57,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://acoup.blog/feed/",
+      "category": "Design",
+      "categories": [
+        "Design",
+        "Web Development"
+      ],
+      "score": 57,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://flashbak.com/feed",
+      "category": "Design",
+      "categories": [
+        "Design",
+        "Web Development"
+      ],
+      "score": 57,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://grumpy.website/feed.xml",
+      "category": "Design",
+      "categories": [
+        "Design",
+        "Open Source"
+      ],
+      "score": 57,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://rubenerd.com/feed/",
+      "category": "Design",
+      "categories": [
+        "Design",
+        "Open Source"
+      ],
+      "score": 57,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://brilliantmaps.com/feed/atom/",
+      "category": "Science",
+      "categories": [
+        "Science",
+        "Startups/Business"
+      ],
+      "score": 57,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://schwitzsplinters.blogspot.com/feeds/posts/default",
+      "category": "Science",
+      "categories": [
+        "Science"
+      ],
+      "score": 57,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://scottishgames.net/feed/atom/",
+      "category": "Science",
+      "categories": [
+        "Science",
+        "Open Source"
+      ],
+      "score": 57,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://tim.blog/atom/",
+      "category": "Science",
+      "categories": [
+        "Science",
+        "Career/Personal"
+      ],
+      "score": 57,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "http://feeds.feedburner.com/circuitvalley/bkTd",
+      "category": "Open Source",
+      "categories": [
+        "Open Source",
+        "Design"
+      ],
+      "score": 56,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://nibblestew.blogspot.com/atom.xml",
+      "category": "Open Source",
+      "categories": [
+        "Open Source",
+        "Design"
+      ],
+      "score": 56,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://battellemedia.com/feed",
+      "category": "AI/ML",
+      "categories": [
+        "AI/ML",
+        "Science"
+      ],
+      "score": 56,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://buttondown.com/grugq/rss",
+      "category": "AI/ML",
+      "categories": [
+        "AI/ML"
+      ],
+      "score": 56,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://philippdubach.com/index.xml",
+      "category": "AI/ML",
+      "categories": [
+        "AI/ML",
+        "Startups/Business"
+      ],
+      "score": 56,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://greyenlightenment.com/feed/",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "AI/ML"
+      ],
+      "score": 56,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://languagelog.ldc.upenn.edu/nll/?feed=atom",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Science"
+      ],
+      "score": 56,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://papersplease.org/wp/feed/",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Open Source"
+      ],
+      "score": 56,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://bookofjoe2.blogspot.com/atom.xml",
+      "category": "Design",
+      "categories": [
+        "Design"
+      ],
+      "score": 56,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://pckf.com/feed",
+      "category": "Design",
+      "categories": [
+        "Design",
+        "Open Source"
+      ],
+      "score": 56,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://brooksreview.net/feed/",
+      "category": "Science",
+      "categories": [
+        "Science",
+        "Design"
+      ],
+      "score": 56,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://patentlyo.com/feed/atom",
+      "category": "Science",
+      "categories": [
+        "Science",
+        "Design"
+      ],
+      "score": 56,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://blog.documentfoundation.org/feed/",
+      "category": "Open Source",
+      "categories": [
+        "Open Source"
+      ],
+      "score": 55,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://danq.me/feed/",
+      "category": "Open Source",
+      "categories": [
+        "Open Source"
+      ],
+      "score": 55,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://feeds.feedburner.com/estruyf",
+      "category": "Open Source",
+      "categories": [
+        "Open Source",
+        "Web Development"
+      ],
+      "score": 55,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "http://thefilmexperience.net/blog/atom.xml",
+      "category": "AI/ML",
+      "categories": [
+        "AI/ML",
+        "Career/Personal"
+      ],
+      "score": 55,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://disassociated.com/feed/",
+      "category": "AI/ML",
+      "categories": [
+        "AI/ML",
+        "Web Development"
+      ],
+      "score": 55,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "http://feeds.feedburner.com/Wwwtokyotimesorg",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Science"
+      ],
+      "score": 55,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://blog.lon.tv/feed/atom/",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Open Source"
+      ],
+      "score": 55,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://boston.conman.org/index.atom",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Open Source"
+      ],
+      "score": 55,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://feeds.feedburner.com/CollectspaceTodayInSpaceHistory",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Design"
+      ],
+      "score": 55,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://feeds.feedburner.com/RoundTheMerseyrailWeGo",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Design"
+      ],
+      "score": 55,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://peterattiamd.com/feed/atom/",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Science"
+      ],
+      "score": 55,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://astrobiology.com/feed/atom",
+      "category": "Science",
+      "categories": [
+        "Science"
+      ],
+      "score": 55,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://canro91.github.io/atom.xml",
+      "category": "Science",
+      "categories": [
+        "Science",
+        "Web Development"
+      ],
+      "score": 55,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://fair.org/feed",
+      "category": "Science",
+      "categories": [
+        "Science",
+        "Web Development"
+      ],
+      "score": 55,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://streets.mn/feed/",
+      "category": "Science",
+      "categories": [
+        "Science",
+        "Web Development"
+      ],
+      "score": 55,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://antirez.com/rss",
+      "category": "Open Source",
+      "categories": [
+        "Open Source",
+        "AI/ML"
+      ],
+      "score": 54,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://bloomingtonian.com/feed/atom/",
+      "category": "Open Source",
+      "categories": [
+        "Open Source",
+        "Startups/Business"
+      ],
+      "score": 54,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://ma.tt/feed/",
+      "category": "Open Source",
+      "categories": [
+        "Open Source",
+        "Startups/Business"
+      ],
+      "score": 54,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://mariokartwii.com/syndication.php?type=atom1.0",
+      "category": "Open Source",
+      "categories": [
+        "Open Source"
+      ],
+      "score": 54,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://calnewport.com/feed/atom/",
+      "category": "AI/ML",
+      "categories": [
+        "AI/ML",
+        "Science"
+      ],
+      "score": 54,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://stuker.com/atom/",
+      "category": "AI/ML",
+      "categories": [
+        "AI/ML"
+      ],
+      "score": 54,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "http://theotherside.timsbrannan.com/atom.xml",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Startups/Business"
+      ],
+      "score": 54,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://aswathdamodaran.blogspot.com/atom.xml",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Systems/Low-Level"
+      ],
+      "score": 54,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://feeds.feedburner.com/TheProgrammersParadox",
+      "category": "Web Development",
+      "categories": [
+        "Web Development"
+      ],
+      "score": 54,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://file770.com/feed/",
+      "category": "Science",
+      "categories": [
+        "Science",
+        "Web Development"
+      ],
+      "score": 54,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://feeds.feedburner.com/robweychert",
+      "category": "Startups/Business",
+      "categories": [
+        "Startups/Business",
+        "Open Source"
+      ],
+      "score": 54,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://flowingdata.com/feed/",
+      "category": "Startups/Business",
+      "categories": [
+        "Startups/Business",
+        "Web Development"
+      ],
+      "score": 54,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://joelx.com/feed/",
+      "category": "Startups/Business",
+      "categories": [
+        "Startups/Business",
+        "Science"
+      ],
+      "score": 54,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "http://feeds.feedburner.com/OTB",
+      "category": "Open Source",
+      "categories": [
+        "Open Source"
+      ],
+      "score": 53,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://blog.ezyang.com/feed.xml",
+      "category": "Open Source",
+      "categories": [
+        "Open Source",
+        "AI/ML"
+      ],
+      "score": 53,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://feeds.feedburner.com/artistsnotebook",
+      "category": "Open Source",
+      "categories": [
+        "Open Source"
+      ],
+      "score": 53,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://rknight.me/subscribe/everything/rss.xml",
+      "category": "Open Source",
+      "categories": [
+        "Open Source"
+      ],
+      "score": 53,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://semaphoreci.com/feed",
+      "category": "Open Source",
+      "categories": [
+        "Open Source",
+        "Backend/Infrastructure"
+      ],
+      "score": 53,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://towndock.net/atom/",
+      "category": "Open Source",
+      "categories": [
+        "Open Source",
+        "Design"
+      ],
+      "score": 53,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://bloggeek.me/atom/",
+      "category": "AI/ML",
+      "categories": [
+        "AI/ML",
+        "Backend/Infrastructure"
+      ],
+      "score": 53,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://chasejarvis.com/feed/",
+      "category": "AI/ML",
+      "categories": [
+        "AI/ML",
+        "Design"
+      ],
+      "score": 53,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://bennadel.com/rss",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Open Source"
+      ],
+      "score": 53,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://blog.kagi.com/rss.xml",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "AI/ML"
+      ],
+      "score": 53,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://curtismchale.ca/feed/",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Career/Personal"
+      ],
+      "score": 53,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://dronexl.co/feed/atom/",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Design"
+      ],
+      "score": 53,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://evidenceanecdotal.blogspot.com/atom.xml",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Science"
+      ],
+      "score": 53,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://pivot-to-ai.com/feed/",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Open Source"
+      ],
+      "score": 53,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://railsdesigner.com/feed.xml",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Design"
+      ],
+      "score": 53,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://3quarksdaily.com/feed",
+      "category": "Science",
+      "categories": [
+        "Science",
+        "Design"
+      ],
+      "score": 53,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://antonyloewenstein.com/feed/",
+      "category": "Science",
+      "categories": [
+        "Science",
+        "Open Source"
+      ],
+      "score": 53,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://astrobites.org/feed/",
+      "category": "Science",
+      "categories": [
+        "Science",
+        "Open Source"
+      ],
+      "score": 53,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://blog.jatan.space/feed",
+      "category": "Science",
+      "categories": [
+        "Science",
+        "Web Development"
+      ],
+      "score": 53,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://feeds.feedburner.com/PepysDiary",
+      "category": "Science",
+      "categories": [
+        "Science"
+      ],
+      "score": 53,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://forbetterscience.com/feed/",
+      "category": "Science",
+      "categories": [
+        "Science"
+      ],
+      "score": 53,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://bikepacking.com/feed/atom/",
+      "category": "Startups/Business",
+      "categories": [
+        "Startups/Business",
+        "Open Source"
+      ],
+      "score": 53,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://greenido.wordpress.com/feed/",
+      "category": "Startups/Business",
+      "categories": [
+        "Startups/Business",
+        "Security"
+      ],
+      "score": 53,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "http://wormwoodiana.blogspot.com/atom.xml",
+      "category": "Open Source",
+      "categories": [
+        "Open Source",
+        "Science"
+      ],
+      "score": 52,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://batsov.com/atom.xml",
+      "category": "Open Source",
+      "categories": [
+        "Open Source"
+      ],
+      "score": 52,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://comaps.app/atom.xml",
+      "category": "Open Source",
+      "categories": [
+        "Open Source"
+      ],
+      "score": 52,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://lexfridman.com/atom/",
+      "category": "AI/ML",
+      "categories": [
         "AI/ML"
       ],
       "score": 52,
       "postsPerFeed": 2
     },
     {
-      "url": "http://blog.jeremyrwelch.com/feed",
-      "category": "Design",
+      "url": "https://sebastianraschka.com/rss_feed.xml",
+      "category": "AI/ML",
       "categories": [
-        "Design",
+        "AI/ML"
+      ],
+      "score": 52,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://affordanything.com/feed/atom/",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "AI/ML"
+      ],
+      "score": 52,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://crookedtimber.org/feed/",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Backend/Infrastructure"
+      ],
+      "score": 52,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://esolangs.org/w/index.php?title=special:recentchanges&feed=atom",
+      "category": "Web Development",
+      "categories": [
+        "Web Development"
+      ],
+      "score": 52,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://feeds.feedburner.com/FutilityCloset",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
         "Open Source"
       ],
-      "score": 37,
-      "postsPerFeed": 1
+      "score": 52,
+      "postsPerFeed": 2
+    },
+    {
+      "url": "https://googlemapsmania.blogspot.com/atom.xml",
+      "category": "Web Development",
+      "categories": [
+        "Web Development",
+        "Science"
+      ],
+      "score": 52,
+      "postsPerFeed": 2
     }
   ]
 }
