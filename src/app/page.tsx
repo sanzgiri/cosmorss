@@ -32,18 +32,29 @@ interface FeedResponse {
 type SortOption = 'recent' | 'popular';
 
 const categoryColors: Record<string, string> = {
-  Blog: 'bg-blue-500/20 text-blue-400',
-  Security: 'bg-red-500/20 text-red-400',
-  Photography: 'bg-amber-500/20 text-amber-400',
-  AI: 'bg-purple-500/20 text-purple-400',
-  Science: 'bg-green-500/20 text-green-400',
-  Music: 'bg-pink-500/20 text-pink-400',
-  Writing: 'bg-cyan-500/20 text-cyan-400',
-  Food: 'bg-orange-500/20 text-orange-400',
-  Gaming: 'bg-rose-500/20 text-rose-400',
-  Design: 'bg-indigo-500/20 text-indigo-400',
-  Travel: 'bg-teal-500/20 text-teal-400',
-  Finance: 'bg-emerald-500/20 text-emerald-400',
+  // New content-based categories
+  'Web Development': 'bg-blue-500/20 text-blue-400',
+  'Backend/Infrastructure': 'bg-sky-500/20 text-sky-400',
+  'Security': 'bg-red-500/20 text-red-400',
+  'AI/ML': 'bg-purple-500/20 text-purple-400',
+  'Systems/Low-Level': 'bg-slate-500/20 text-slate-400',
+  'Startups/Business': 'bg-amber-500/20 text-amber-400',
+  'Career/Personal': 'bg-lime-500/20 text-lime-400',
+  'Science': 'bg-green-500/20 text-green-400',
+  'Design': 'bg-indigo-500/20 text-indigo-400',
+  'Gaming': 'bg-rose-500/20 text-rose-400',
+  'Open Source': 'bg-cyan-500/20 text-cyan-400',
+  'General': 'bg-gray-500/20 text-gray-400',
+  // Legacy categories (for backward compatibility)
+  'Blog': 'bg-gray-500/20 text-gray-400',
+  'Tech': 'bg-blue-500/20 text-blue-400',
+  'AI': 'bg-purple-500/20 text-purple-400',
+  'Photography': 'bg-amber-500/20 text-amber-400',
+  'Music': 'bg-pink-500/20 text-pink-400',
+  'Writing': 'bg-cyan-500/20 text-cyan-400',
+  'Food': 'bg-orange-500/20 text-orange-400',
+  'Travel': 'bg-teal-500/20 text-teal-400',
+  'Finance': 'bg-emerald-500/20 text-emerald-400',
 };
 
 function formatTimeAgo(dateString: string): string {
