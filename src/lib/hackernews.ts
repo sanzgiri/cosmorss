@@ -18,46 +18,87 @@ interface HNData {
 // Cache HN lookups to avoid hammering the API
 const hnCache = new Map<string, HNData | null>();
 
+const TRACKING_PARAMS = new Set([
+  'utm_source',
+  'utm_medium',
+  'utm_campaign',
+  'utm_term',
+  'utm_content',
+  'utm_name',
+  'utm_id',
+  'utm',
+  'ref',
+  'source',
+]);
+
+function normalizeUrl(raw: string): string | null {
+  try {
+    const url = new URL(raw);
+    const host = url.hostname.toLowerCase().replace(/^www\./, '');
+    url.hostname = host;
+    url.hash = '';
+
+    const params = url.searchParams;
+    for (const key of Array.from(params.keys())) {
+      if (key.startsWith('utm_') || TRACKING_PARAMS.has(key)) {
+        params.delete(key);
+      }
+    }
+    url.search = params.toString() ? `?${params.toString()}` : '';
+
+    url.pathname = url.pathname.replace(/\/+$/, '') || '/';
+    return url.toString();
+  } catch {
+    return null;
+  }
+}
+
 export async function getHNPopularity(url: string): Promise<HNData | null> {
+  const normalizedUrl = normalizeUrl(url);
+  if (!normalizedUrl) return null;
+
   // Check cache first
-  if (hnCache.has(url)) {
-    return hnCache.get(url) || null;
+  if (hnCache.has(normalizedUrl)) {
+    return hnCache.get(normalizedUrl) || null;
   }
 
   try {
     // Use Algolia HN Search API
-    const searchUrl = `https://hn.algolia.com/api/v1/search?query=${encodeURIComponent(url)}&restrictSearchableAttributes=url&hitsPerPage=1`;
+    const searchUrl = `https://hn.algolia.com/api/v1/search?query=${encodeURIComponent(normalizedUrl)}&restrictSearchableAttributes=url&hitsPerPage=5`;
 
     const response = await fetch(searchUrl, {
       headers: { 'User-Agent': 'UniverssRSSReader/1.0' },
     });
 
     if (!response.ok) {
-      hnCache.set(url, null);
+      hnCache.set(normalizedUrl, null);
       return null;
     }
 
     const data: HNSearchResult = await response.json();
 
     if (data.hits && data.hits.length > 0) {
-      const hit = data.hits[0];
-      // Verify URL matches (Algolia search can be fuzzy)
-      if (hit.url && (hit.url === url || url.includes(hit.url) || hit.url.includes(url))) {
+      for (const hit of data.hits) {
+        if (!hit.url) continue;
+        const normalizedHit = normalizeUrl(hit.url);
+        if (!normalizedHit) continue;
+        if (normalizedHit !== normalizedUrl) continue;
+
         const hnData: HNData = {
           score: hit.points || 0,
           comments: hit.num_comments || 0,
           hnUrl: `https://news.ycombinator.com/item?id=${hit.objectID}`,
         };
-        hnCache.set(url, hnData);
+        hnCache.set(normalizedUrl, hnData);
         return hnData;
       }
     }
 
-    hnCache.set(url, null);
+    hnCache.set(normalizedUrl, null);
     return null;
   } catch (error) {
     console.error(`Failed to fetch HN data for ${url}:`, error);
-    hnCache.set(url, null);
+    hnCache.set(normalizedUrl, null);
     return null;
   }
 }
