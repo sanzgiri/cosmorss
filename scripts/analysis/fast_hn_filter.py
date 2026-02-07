@@ -136,6 +136,12 @@ def main() -> None:
     filtered_with_corporate = []
     excluded = []
 
+    # Gate parameters (tuned to yield ~350 candidates with current data)
+    hn_strict = 57
+    hn_relaxed = 50
+    min_stories = 8
+    min_avg_points = 100
+
     for feed in feeds:
         url = (feed.get('url') or '').lower()
         domain = (feed.get('domain') or '').lower()
@@ -145,7 +151,9 @@ def main() -> None:
         stories = hn_raw.get('stories') or 0
         avg_points = hn_raw.get('avgPoints') or 0
 
-        passes_gate = (hn_norm >= 60) or (hn_norm >= 50 and stories >= 10 and avg_points >= 120)
+        passes_gate = (hn_norm >= hn_strict) or (
+            hn_norm >= hn_relaxed and stories >= min_stories and avg_points >= min_avg_points
+        )
         spike = avg_points >= 250 and stories <= 4
 
         aggregator = is_aggregator(feed)
