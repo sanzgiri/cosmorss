@@ -16,6 +16,7 @@ interface FeedItem {
   source: string;
   sourceUrl: string;
   category: string;
+  feedScore: number;
   hn: HNData | null;
 }
 
@@ -29,33 +30,8 @@ interface FeedResponse {
   };
 }
 
-type SortOption = 'recent' | 'popular';
-
-const categoryColors: Record<string, string> = {
-  // New content-based categories
-  'Web Development': 'bg-blue-500/20 text-blue-400',
-  'Backend/Infrastructure': 'bg-sky-500/20 text-sky-400',
-  'Security': 'bg-red-500/20 text-red-400',
-  'AI/ML': 'bg-purple-500/20 text-purple-400',
-  'Systems/Low-Level': 'bg-slate-500/20 text-slate-400',
-  'Startups/Business': 'bg-amber-500/20 text-amber-400',
-  'Career/Personal': 'bg-lime-500/20 text-lime-400',
-  'Science': 'bg-green-500/20 text-green-400',
-  'Design': 'bg-indigo-500/20 text-indigo-400',
-  'Gaming': 'bg-rose-500/20 text-rose-400',
-  'Open Source': 'bg-cyan-500/20 text-cyan-400',
-  'General': 'bg-gray-500/20 text-gray-400',
-  // Legacy categories (for backward compatibility)
-  'Blog': 'bg-gray-500/20 text-gray-400',
-  'Tech': 'bg-blue-500/20 text-blue-400',
-  'AI': 'bg-purple-500/20 text-purple-400',
-  'Photography': 'bg-amber-500/20 text-amber-400',
-  'Music': 'bg-pink-500/20 text-pink-400',
-  'Writing': 'bg-cyan-500/20 text-cyan-400',
-  'Food': 'bg-orange-500/20 text-orange-400',
-  'Travel': 'bg-teal-500/20 text-teal-400',
-  'Finance': 'bg-emerald-500/20 text-emerald-400',
-};
+type ViewOption = 'all' | 'top' | 'new' | 'hn';
+const NEW_WINDOW_HOURS = 72;
 
 function formatTimeAgo(dateString: string): string {
   const date = new Date(dateString);
@@ -76,8 +52,7 @@ export default function Home() {
   const [data, setData] = useState<FeedResponse | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [filter, setFilter] = useState<string>('all');
-  const [sort, setSort] = useState<SortOption>('recent');
+  const [view, setView] = useState<ViewOption>('all');
 
   const fetchFeeds = useCallback(async () => {
     try {
@@ -101,29 +76,32 @@ export default function Home() {
     return () => clearInterval(interval);
   }, [fetchFeeds]);
 
-  const categories = data
-    ? ['all', ...Array.from(new Set(data.items.map((item) => item.category))).sort()]
-    : ['all'];
-
-  const filteredAndSortedItems = useMemo(() => {
+  const filteredItems = useMemo(() => {
     if (!data?.items) return [];
 
-    let items = data.items.filter(
-      (item) => filter === 'all' || item.category === filter
-    );
+    const now = Date.now();
 
-    if (sort === 'popular') {
-      // Sort by HN score (items with HN data first, then by score)
-      items = [...items].sort((a, b) => {
-        const scoreA = a.hn?.score ?? -1;
-        const scoreB = b.hn?.score ?? -1;
-        return scoreB - scoreA;
-      });
+    switch (view) {
+      case 'hn': {
+        return [...data.items]
+          .filter((item) => item.hn !== null)
+          .sort((a, b) => (b.hn?.score ?? 0) - (a.hn?.score ?? 0));
+      }
+      case 'top': {
+        return [...data.items].sort((a, b) => {
+          const scoreDiff = (b.feedScore ?? 0) - (a.feedScore ?? 0);
+          if (scoreDiff !== 0) return scoreDiff;
+          return b.timestamp - a.timestamp;
+        });
+      }
+      case 'new': {
+        const cutoffMs = NEW_WINDOW_HOURS * 60 * 60 * 1000;
+        return data.items.filter((item) => now - item.timestamp <= cutoffMs);
+      }
+      default:
+        return data.items;
     }
-    // 'recent' is already sorted by API
-
-    return items;
-  }, [data?.items, filter, sort]);
+  }, [data?.items, view]);
 
   const hnCount = data?.items.filter((item) => item.hn !== null).length ?? 0;
 
@@ -140,49 +118,26 @@ export default function Home() {
       </header>
 
       <main className="mx-auto max-w-6xl px-4 py-8">
-        {/* Filters and Sort */}
-        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-8">
-          {/* Category Filter */}
-          <div className="flex flex-wrap gap-2">
-            {categories.map((category) => (
-              <button
-                key={category}
-                onClick={() => setFilter(category)}
-                className={`px-3 py-1.5 text-sm rounded-full transition-colors ${
-                  filter === category
-                    ? 'bg-white text-black'
-                    : 'bg-[var(--card)] text-[var(--muted)] hover:text-white'
-                }`}
-              >
-                {category === 'all' ? 'All' : category}
-              </button>
-            ))}
-          </div>
-
-          {/* Sort Options */}
-          <div className="flex items-center gap-2">
-            <span className="text-[var(--muted)] text-sm">Sort:</span>
+        {/* Views */}
+        <div className="flex flex-wrap gap-2 mb-8">
+          {[
+            { id: 'all', label: 'All' },
+            { id: 'top', label: 'Top' },
+            { id: 'new', label: 'New' },
+            { id: 'hn', label: 'HN' },
+          ].map((option) => (
             <button
-              onClick={() => setSort('recent')}
+              key={option.id}
+              onClick={() => setView(option.id as ViewOption)}
               className={`px-3 py-1.5 text-sm rounded-full transition-colors ${
-                sort === 'recent'
+                view === option.id
                   ? 'bg-white text-black'
                   : 'bg-[var(--card)] text-[var(--muted)] hover:text-white'
               }`}
             >
-              Recent
+              {option.label}
             </button>
-            <button
-              onClick={() => setSort('popular')}
-              className={`px-3 py-1.5 text-sm rounded-full transition-colors ${
-                sort === 'popular'
-                  ? 'bg-orange-500 text-white'
-                  : 'bg-[var(--card)] text-[var(--muted)] hover:text-white'
-              }`}
-            >
-              HN Popular
-            </button>
-          </div>
+          ))}
         </div>
 
         {/* Loading State */}
@@ -202,9 +157,9 @@ export default function Home() {
         )}
 
         {/* Feed Items */}
-        {!loading && !error && filteredAndSortedItems && (
+        {!loading && !error && filteredItems && (
           <div className="space-y-1">
-            {filteredAndSortedItems.map((item, index) => (
+            {filteredItems.map((item, index) => (
               <div
                 key={`${item.link}-${index}`}
                 className="py-3 px-4 -mx-4 rounded-lg hover:bg-[var(--card)] transition-colors group"
@@ -227,13 +182,8 @@ export default function Home() {
                       <span className="text-[var(--muted)]">
                         {formatTimeAgo(item.pubDate)}
                       </span>
-                      <span
-                        className={`px-2 py-0.5 rounded text-xs ${
-                          categoryColors[item.category] ||
-                          'bg-gray-500/20 text-gray-400'
-                        }`}
-                      >
-                        {item.category}
+                      <span className="px-2 py-0.5 rounded text-xs bg-[var(--card)] text-[var(--muted)]">
+                        Score {Math.round(item.feedScore ?? 0)}
                       </span>
                       {item.hn && (
                         <a
@@ -267,9 +217,9 @@ export default function Home() {
         )}
 
         {/* Empty State */}
-        {!loading && !error && filteredAndSortedItems?.length === 0 && (
+        {!loading && !error && filteredItems?.length === 0 && (
           <div className="text-center py-20 text-[var(--muted)]">
-            No posts found for this category.
+            No posts found for this view.
           </div>
         )}
 

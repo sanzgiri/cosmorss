@@ -6,3 +6,4 @@ remaining_feeds.txt
 scored_feeds.json.save
 scored_feeds_checkpoint_*.json
 scored_feeds_part*.json
+tmp/
