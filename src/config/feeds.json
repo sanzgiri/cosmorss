@@ -2,16 +2,23 @@
   "settings": {
     "postsPerFeed": 2,
 <<<<<<< HEAD
+<<<<<<< HEAD
     "maxFeeds": 300,
 =======
     "maxFeeds": 400,
 >>>>>>> 7c2eb554 (Initial CosmoRSS setup)
+=======
+    "maxFeeds": 300,
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
     "refreshIntervalMinutes": 60,
     "maxAgeDays": 14
   },
   "feeds": [
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://diamondgeezer.blogspot.com/atom.xml",
       "category": "Blog"
     },
@@ -1124,12 +1131,16 @@
       "category": "Blog"
     },
     {
+<<<<<<< HEAD
 =======
 >>>>>>> 7c2eb554 (Initial CosmoRSS setup)
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://0x80.pl/feed.xml",
       "category": "Blog"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
       "url": "http://459pm.com/feed",
@@ -1149,10 +1160,13 @@
     },
     {
 >>>>>>> 7c2eb554 (Initial CosmoRSS setup)
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://addxorrol.blogspot.com/atom.xml",
       "category": "Blog"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
       "url": "http://adrianbye.com/feed/",
@@ -1192,10 +1206,13 @@
     },
     {
 >>>>>>> 7c2eb554 (Initial CosmoRSS setup)
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://allendowney.blogspot.com/feeds/posts/default",
       "category": "Blog"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
       "url": "http://allsoftwaresucks.blogspot.com/feeds/posts/default",
@@ -1219,6 +1236,8 @@
     },
     {
 >>>>>>> 7c2eb554 (Initial CosmoRSS setup)
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://amitkapila16.blogspot.com/atom.xml",
       "category": "Blog"
     },
@@ -1227,6 +1246,7 @@
       "category": "Design"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
       "url": "http://annievella.com/index.xml",
@@ -1290,10 +1310,13 @@
     },
     {
 >>>>>>> 7c2eb554 (Initial CosmoRSS setup)
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://bannalia.blogspot.com/atom.xml",
       "category": "Blog"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
       "url": "http://baotiao.github.io/feed.xml",
@@ -1521,10 +1544,13 @@
     },
     {
 >>>>>>> 7c2eb554 (Initial CosmoRSS setup)
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://blog.sigfpe.com/atom.xml",
       "category": "Blog"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
       "url": "http://danieldelaney.net/feed.xml",
       "category": "Blog"
@@ -1589,1220 +1615,71 @@
 }
 =======
       "url": "http://blog.sqisland.com/feeds/posts/default",
+=======
+      "url": "http://danieldelaney.net/feed.xml",
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "category": "Blog"
     },
     {
-      "url": "http://blog.svenbrauch.de/feed/",
+      "url": "http://databasearchitects.blogspot.com/atom.xml",
       "category": "Blog"
     },
     {
-      "url": "http://blog.thislongrun.com/feeds/posts/default",
+      "url": "http://feeds.feedburner.com/BathgateSculptureBlog",
       "category": "Blog"
     },
     {
-      "url": "http://blog.thoward37.me/feed.xml",
+      "url": "http://feeds.feedburner.com/dorithegiant",
       "category": "Blog"
     },
     {
-      "url": "https://blogs.ethz.ch/kowalski/feed/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://blogs.gnome.org/alexl/feed/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://blogs.gnome.org/chergert/feed/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://blogs.gnome.org/hughsie/feed/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://blogs.gnome.org/shell-dev/feed/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://blogs.gnome.org/tbernard/feed/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://blogs.gnome.org/wjjt/feed/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://blogs.igalia.com/berto/feed/atom/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://blogs.igalia.com/tursulin/feed/feed.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://blogs.manishrana.in/rss.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://blogs.snehasish-chakraborty.com/feed/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://blogs.swarthmore.edu/burke/feed/",
-      "category": "Design"
-    },
-    {
-      "url": "https://blogs.whitman.edu/countingfromzero/feed/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://blogtitle.github.io/index.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://blomqu.ist/atom.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://blondihacks.com/feed/",
-      "category": "Security"
-    },
-    {
-      "url": "https://blood.church/index.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bloomberry.com/blog/feed/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bloomingtonian.com/feed/atom/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bloomsite.wordpress.com/feed/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bloomsoup.com/feed/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://blorn.com/rss",
-      "category": "Blog"
-    },
-    {
-      "url": "https://blot.blog/index.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://blue-build.org/feed.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://blueberrylemonade.pika.page/posts_feed",
-      "category": "Blog"
-    },
-    {
-      "url": "https://blueberrywren.dev/atom.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bluebones.net/feed/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bluelabyrinths.com/feed/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bluelander.bearblog.dev/feed/?type=rss",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bluelemonbits.com/feed/atom/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bluenotebook.io/index.xml",
+      "url": "http://feeds.feedburner.com/FacebookPurity",
       "category": "Writing"
     },
     {
-      "url": "https://blueprintforge.com/atom.xml",
+      "url": "http://feeds.feedburner.com/TheThrillingWonderStory",
       "category": "Blog"
     },
     {
-      "url": "https://bluerenga.blog/feed/",
+      "url": "http://hyperboleandahalf.blogspot.com/feeds/posts/default",
       "category": "Blog"
     },
     {
-      "url": "https://blues.win/index.xml",
+      "url": "http://khanlou.com/feed",
       "category": "Blog"
     },
     {
-      "url": "https://bluesock.org/~willkg/blog/rss.xml",
+      "url": "http://mikhailian.mova.org/rss.xml",
       "category": "Blog"
     },
     {
-      "url": "https://blurbusters.com/feed/atom/",
+      "url": "http://tenfourfox.blogspot.com/atom.xml",
       "category": "Blog"
     },
     {
-      "url": "https://bluuewhale.github.io/index.xml",
+      "url": "http://theabyssgazes.blogspot.com/feeds/posts/default",
       "category": "Blog"
     },
     {
-      "url": "https://bm.wel.by/feed/",
+      "url": "http://who-t.blogspot.com/atom.xml",
       "category": "Blog"
     },
     {
-      "url": "https://bmannconsulting.com/blog.xml",
+      "url": "http://www.avidandrew.com/feed/index.xml",
       "category": "Blog"
     },
     {
-      "url": "https://bmbumpus.com/feed/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bmcgee.ie/index.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bmin.ai/feed",
-      "category": "AI"
-    },
-    {
-      "url": "https://bmitch.net/index.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bmk.sh/atom.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bnacar.dev/feed",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bneil.me/index.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bnijenhuis.nl/feed.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bnikolic.co.uk/blog/blog.atom",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bnjmn.org/feed/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bnjmnmddn.com/feed.rss",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bnl.cx/rss.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://boajs.dev/blog/atom.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://boakandbailey.com/feed/",
-      "category": "AI"
-    },
-    {
-      "url": "https://board.flashkit.com/board/external.php?type=rss2",
-      "category": "Blog"
-    },
-    {
-      "url": "https://boat.karlnelson.net/index.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://boats16.blogspot.com/atom.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://boazsobrado.com/index.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bob.blog/feed/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bob.ippoli.to/feed.atom",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bobacupcake.com/feed.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bobadams5.com/index.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bobbelderbos.com/atom.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bobbertsch.com/feed/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bobbie.net/feed/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bobbiechen.com/blog?format=rss",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bobbyhiltz.com/atom.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bobbyjack.me/feeds/switch-reviews.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bobbylox.com/blog/feed/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bobdahacker.com/feed.xml",
-      "category": "Security"
-    },
-    {
-      "url": "https://bobdc.com/atom.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bobdc.com/blog/atom.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bobmartens.net/feed/podcast/",
-      "category": "Design"
-    },
-    {
-      "url": "https://bobmatyas.com/atom/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bobmonsour.com/feed.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bobmorris.biz/atom/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bobmschwartz.com/atom/",
-      "category": "Design"
-    },
-    {
-      "url": "https://bobodupla.eu/index.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bobonmedicaldevicesoftware.com/blog/feed/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://boborchard.com/rss.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bobparsons.com/feed/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bobrubbens.nl/page/blog/feed.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bobulate.com/feed/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://boda.sh/rss.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bodaciousbytes.com/atom/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://boddy.im/feeds/all.atom.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bodil.lol/atom.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://boehs.org/in/blog.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://boerman.dev/index.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://boffosocko.com/feed/atom/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://boffosocko.com/kind/article/feed/",
-      "category": "Design"
-    },
-    {
-      "url": "https://bofh.org.uk/atom.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bogdanraczynski.com/rss/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://boginjr.com/feed/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bogost.com/feed/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bogs.io/feed",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bohemianvalley.tech/feed/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bohops.com/feed/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://boinkor.net/index.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://boisdejasmin.com/feed",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bojanvidanovic.com/index.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://bojidar-bg.dev/blog.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://gamesbymason.com/feed.xml",
-      "category": "Gaming"
-    },
-    {
-      "url": "https://gamesfray.com/atom/",
-      "category": "Gaming"
-    },
-    {
-      "url": "https://gamesfromwithin.com/atom/",
-      "category": "Gaming"
-    },
-    {
-      "url": "https://gameslushpile.com/feed/",
-      "category": "Gaming"
-    },
-    {
-      "url": "https://gametheory101.com/feed/",
-      "category": "Gaming"
-    },
-    {
-      "url": "https://gamozolabs.github.io/feed.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://ganji.bearblog.dev/feed/?type=rss",
-      "category": "Blog"
-    },
-    {
-      "url": "https://ganzeer.today/feed/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://gaob.xyz/atom/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://gaodawei.wordpress.com/feed/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://gaohaoyang.github.io/feed.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://gapingvoid.com/atom/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://garagedreams.net/feed",
-      "category": "Blog"
-    },
-    {
-      "url": "https://garagehangover.com/feed/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://garagehq.deuxfleurs.fr/rss.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://garajeando.blogspot.com/feeds/posts/default",
-      "category": "Blog"
-    },
-    {
-      "url": "https://garba.org/index.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://garbagecollected.org/rss",
-      "category": "Blog"
-    },
-    {
-      "url": "https://garciamedia.com/atom/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://garciat.com/posts.rss",
-      "category": "Blog"
-    },
-    {
-      "url": "https://garden.bradwoods.io/rss.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://garden.pacia.tech/rss.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://garden.pionaiki.com/index.xml",
-      "category": "AI"
-    },
-    {
-      "url": "https://garden.pranavmandhare.com/index.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://gardenbite.com/atom/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://gardenofnoise.org/atom/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://gardenprofessors.com/feed/atom/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://gardinerbryant.com/rss/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://garenmcmilliandotcom.wordpress.com/feed/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://garfieldminusgarfield.net/feed",
-      "category": "Blog"
-    },
-    {
-      "url": "https://garnaudov.com/index.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://garnix.dev/rss.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://garrett.damore.org/atom.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://garrettbattaglia.com/index.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://garrettdimon.com/feed",
-      "category": "Blog"
-    },
-    {
-      "url": "https://garrickvanburen.com/feed/atom/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://garrido.io/index.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://garrit.xyz/rss.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://garry.net/posts/rss/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://garthontech.blogspot.ca/atom.xml",
-      "category": "Design"
-    },
-    {
-      "url": "https://garwarner.blogspot.com/atom.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://gary.onl/atom",
-      "category": "Blog"
-    },
-    {
-      "url": "https://garybadger.com/feed/atom/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://garybasin.com/feed/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://garychou.com/rss/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://garymcgath.com/feed/atom/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://garyodernichts.blogspot.com/feeds/posts/default",
-      "category": "Blog"
-    },
-    {
-      "url": "https://garyrobinson.net/atom.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://garysentus.blogspot.com/feeds/posts/default",
-      "category": "Blog"
-    },
-    {
-      "url": "https://garysferrao.github.io/feed.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://garytaubes.com/feed/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://garyvoth.com/atom/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://gashlin.net/blog/pages/rss.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://gaspumps.us/feed",
-      "category": "Blog"
-    },
-    {
-      "url": "https://gastropod.com/feed/atom/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://gau-nernst.github.io/index.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://gaultier.github.io/blog/feed.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://gauravchande.com/feed.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://gautamnarula.com/index.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://gauthierroussilhe.com/feed",
-      "category": "Blog"
-    },
-    {
-      "url": "https://gautier.dev/feed",
-      "category": "Blog"
-    },
-    {
-      "url": "https://gautier.difolco.dev/atom.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://gautiersblog.blogspot.com/atom.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://gavinhoward.com/index.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://gavinhoward.com/posts/index.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://gavinray97.github.io/feed.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://gbayer.com/atom/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://gbenson.net/feed/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://gbl08ma.com/feed/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://gbracha.blogspot.com/feeds/posts/default",
-      "category": "Blog"
-    },
-    {
-      "url": "https://gc-taylor.com/blog?format=rss",
-      "category": "Blog"
-    },
-    {
-      "url": "https://gcher.com/index.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://gcollazo.com/feed.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://gdmka.me/index.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://gdotv.com/feed",
-      "category": "Blog"
-    },
-    {
-      "url": "https://gearsco.de/blog.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://gearsofmedicine.com/atom/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://gearwashere.com/atom/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://gebir.ge/blog/index.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://gebna.gg/rss.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://gedaly.com/feed/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://geder-media.pika.page/posts_feed",
-      "category": "Blog"
-    },
-    {
-      "url": "https://geek.sg/rss",
-      "category": "Blog"
-    },
-    {
-      "url": "https://geekabyte.io/atom.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://geekblog.febo.com/?feed=rss2",
-      "category": "Blog"
-    },
-    {
-      "url": "https://geekdad.com/feed",
-      "category": "Blog"
-    },
-    {
-      "url": "https://geekdoctor.blogspot.com/feeds/posts/default",
-      "category": "Blog"
-    },
-    {
-      "url": "https://geekgonecrazy.com/feed.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://geeking-by.net/feed/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://geekmonkey.org/rss/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://geeknik.net/feed/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://geeksontour.com/feed/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://geeksta.net/rss.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://geekwagon.net/index.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://geekygirlsarah.com/feed.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://geewax.org/rss/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://geextor.com/atom/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://gege.ro/feed/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://gehrcke.de/feed/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://geiser.cloud/rss/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://geishakai.pl/atom/",
-      "category": "AI"
-    },
-    {
-      "url": "https://martijnhols.nl/rss.xml",
-      "category": "Design"
-    },
-    {
-      "url": "https://martijnreintjes.com/feed/",
-      "category": "Design"
-    },
-    {
-      "url": "https://martin-brennan.com/feed.xml",
-      "category": "Design"
-    },
-    {
-      "url": "https://martin.baillie.id/index.xml",
-      "category": "Design"
-    },
-    {
-      "url": "https://martin.janiczek.cz/feed.xml",
-      "category": "Design"
-    },
-    {
-      "url": "https://martin.kleppmann.com/feed.rss",
-      "category": "Design"
-    },
-    {
-      "url": "https://martin.leyrer.priv.at/index.completerss20",
-      "category": "Design"
-    },
-    {
-      "url": "https://martin.varela.fi/index.xml",
-      "category": "Design"
-    },
-    {
-      "url": "https://martin.wojtczyk.de/feed/",
-      "category": "Design"
-    },
-    {
-      "url": "https://martinalderson.com/feed.xml",
-      "category": "Design"
-    },
-    {
-      "url": "https://martinantos.com/feed.xml",
-      "category": "Design"
-    },
-    {
-      "url": "https://martinapugliese.github.io/feed.xml",
-      "category": "Design"
-    },
-    {
-      "url": "https://martinbelam.com/feed/",
-      "category": "Design"
-    },
-    {
-      "url": "https://martinboss.com/rss/",
-      "category": "Design"
-    },
-    {
-      "url": "https://martincapodici.com/feed/",
-      "category": "Design"
-    },
-    {
-      "url": "https://martincmartin.com/feed/",
-      "category": "Design"
-    },
-    {
-      "url": "https://martinemde.com/rss.xml",
-      "category": "Design"
-    },
-    {
-      "url": "https://martinfowler.com/feed.atom",
-      "category": "Design"
-    },
-    {
-      "url": "https://martinfullerblog.wordpress.com/atom/",
-      "category": "Design"
-    },
-    {
-      "url": "https://martinheinz.dev/rss/",
-      "category": "Design"
-    },
-    {
-      "url": "https://martinhering.me/rss",
-      "category": "Design"
-    },
-    {
-      "url": "https://martinisoftware.com/index.xml",
-      "category": "Design"
-    },
-    {
-      "url": "https://martinklepsch.org/atom.xml",
-      "category": "Design"
-    },
-    {
-      "url": "https://martinkysel.com/feed.xml",
-      "category": "Design"
-    },
-    {
-      "url": "https://martinloren.com/feed",
-      "category": "Design"
-    },
-    {
-      "url": "https://martinovic.blog/index.xml",
-      "category": "Design"
-    },
-    {
-      "url": "https://martinpeck.com/feed.xml",
-      "category": "Design"
-    },
-    {
-      "url": "https://martinralbrecht.wordpress.com/feed/",
-      "category": "Design"
-    },
-    {
-      "url": "https://martinrotter.github.io/posts.atom",
-      "category": "Design"
-    },
-    {
-      "url": "https://martinrue.com/rss.xml",
-      "category": "Design"
-    },
-    {
-      "url": "https://martinruenz.de/feed.xml",
-      "category": "Design"
-    },
-    {
-      "url": "https://martinschneider.me/articles/feed.xml",
-      "category": "Design"
-    },
-    {
-      "url": "https://martinsketchley.com/feed/",
-      "category": "Design"
-    },
-    {
-      "url": "https://martinsnyder.net/feed.xml",
-      "category": "Design"
-    },
-    {
-      "url": "https://marty.zalega.me/feed.xml",
-      "category": "Design"
-    },
-    {
-      "url": "https://martypc.blogspot.com/feeds/posts/default",
-      "category": "Design"
-    },
-    {
-      "url": "https://marvinh.dev/feed.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://marx.engineer/index.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://marx.wtf/feed",
-      "category": "Blog"
-    },
-    {
-      "url": "https://mary.codes/rss.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://maryamphilpottblog.wordpress.com/feed/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://maryannmahoney.com/feed/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://maryjob.com/feed/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://maryrosecook.com/feed",
-      "category": "Food"
-    },
-    {
-      "url": "https://mas-bandwidth.com/rss/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://masalmon.eu/post/index.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://masatoshinishimura.com/rss/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://masilotti.com/feed.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://maskray.me/blog/atom.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://masnun.com/rss/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://masqueandspectacle.com/feed",
-      "category": "Blog"
-    },
-    {
-      "url": "https://masqueandspectaclejournal.wordpress.com/feed/atom/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://mass.handmade.network/feed",
-      "category": "Blog"
-    },
-    {
-      "url": "https://mass.streetsblog.org/feed",
-      "category": "Blog"
-    },
-    {
-      "url": "https://massgrave.dev/blog/rss.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://massicotte.org/feed.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://massimilianomirra.com/feed/feed.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://massimo-nazaria.github.io/feed.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://massprivatei.blogspot.com/feeds/posts/default",
-      "category": "Blog"
-    },
-    {
-      "url": "https://masterhowtolearn.com/index.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://mastersplinter.work/index.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://masto.hackers.town/@lmorchard.rss",
-      "category": "Security"
-    },
-    {
-      "url": "https://masto.host/feed.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://mastodon.sdf.org/@beejjorgensen.rss",
-      "category": "Blog"
-    },
-    {
-      "url": "https://mastodon.social/tags/mjtsaiupdate.rss",
-      "category": "AI"
-    },
-    {
-      "url": "https://mastransky.wordpress.com/feed/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://mastrojs.github.io/feed.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://mat383.com/index.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://matan-h.com/feed.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://matanabudy.com/feed/?type=rss",
-      "category": "Blog"
-    },
-    {
-      "url": "https://matbesancon.xyz/index.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://matcohle.me/atom.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://matdoes.dev/blog.atom",
-      "category": "Blog"
-    },
-    {
-      "url": "https://matduggan.com/rss/",
-      "category": "Blog"
-    },
-    {
-      "url": "https://mate-desktop.org/feed",
-      "category": "Blog"
-    },
-    {
-      "url": "https://matecha.net/index.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://mateenbagheri.github.io/index.xml",
-      "category": "Blog"
-    },
-    {
-      "url": "https://matej.laitl.cz/feed.xml",
-      "category": "AI"
-    },
-    {
-      "url": "https://math.andrej.com/feed.xml",
+      "url": "http://www.chriskrycho.com/essays/feed.xml",
       "category": "Science"
     },
     {
-      "url": "https://mathbabe.org/feed/",
-      "category": "Science"
-    },
-    {
-      "url": "https://mathblogging.org/index.xml",
-      "category": "Science"
-    },
-    {
-      "url": "https://mathbook.cafe/atom/",
-      "category": "Science"
-    },
-    {
-      "url": "https://mathematicaloddsandends.wordpress.com/feed/",
-      "category": "Science"
-    },
-    {
-      "url": "https://mathematicswithoutapologies.wordpress.com/feed/",
-      "category": "Science"
-    },
-    {
-      "url": "https://mathenchant.wordpress.com/feed/",
-      "category": "Science"
-    },
-    {
-      "url": "https://mathesonmarcault.com/index.php/feed/",
-      "category": "Science"
-    },
-    {
-      "url": "https://matheuscmss.wordpress.com/feed/",
-      "category": "Science"
-    },
-    {
-      "url": "https://mathewingram.com/work/feed/",
-      "category": "Science"
-    },
-    {
-      "url": "https://mathforlove.com/feed/atom/",
-      "category": "Science"
-    },
-    {
-      "url": "https://mathias-brandewinder.github.io//atom.xml",
-      "category": "Science"
-    },
-    {
-      "url": "https://mathiasbynens.be/notes.atom",
-      "category": "Science"
-    },
-    {
-      "url": "https://mathiasbynens.be/notes/touch-icons.atom",
-      "category": "Science"
-    },
-    {
-      "url": "https://mathiashueber.com/feed/",
-      "category": "Science"
-    },
-    {
-      "url": "https://mathieu.fenniak.net/feed.xml",
-      "category": "Science"
-    },
-    {
-      "url": "https://mathieuderuiter.nl/atom.xml",
-      "category": "Science"
-    },
-    {
-      "url": "https://mathieularose.com/atom.xml",
-      "category": "Science"
-    },
-    {
-      "url": "https://mathinvestor.org/feed/",
-      "category": "Science"
-    },
-    {
-      "url": "https://mathix.dev/feed.atom",
-      "category": "Science"
+      "url": "http://www.modelshipsinthecinema.com/feeds/posts/default",
+      "category": "Blog"
     }
   ]
+<<<<<<< HEAD
 }
 >>>>>>> 7c2eb554 (Initial CosmoRSS setup)
+=======
+}
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)

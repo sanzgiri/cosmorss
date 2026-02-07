@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
   "generatedAt": "2026-02-04T15:53:29.330Z",
   "totalFeeds": 1593,
+=======
+  "generatedAt": "2026-02-04T15:51:51.568Z",
+  "totalFeeds": 1467,
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
   "feeds": [
     {
       "url": "http://diamondgeezer.blogspot.com/atom.xml",
@@ -1040,6 +1045,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "url": "https://blog.quintarelli.it/feed/atom/",
       "domain": "blog.quintarelli.it",
       "title": null,
@@ -1142,6 +1148,8 @@
       }
     },
     {
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://teachertomsblog.blogspot.com/atom.xml",
       "domain": "teachertomsblog.blogspot.com",
       "title": null,
@@ -1159,6 +1167,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "url": "https://blog.simplejustice.us/feed/",
       "domain": "blog.simplejustice.us",
       "title": "Simple Justice",
@@ -1176,6 +1185,8 @@
       }
     },
     {
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "https://alexanderpruss.blogspot.com/feeds/posts/default",
       "domain": "alexanderpruss.blogspot.com",
       "title": null,
@@ -2638,6 +2649,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "url": "https://blog.prosody.im/index.xml",
       "domain": "blog.prosody.im",
       "title": "Prosodical Thoughts on Prosodical Thoughts",
@@ -2706,6 +2718,8 @@
       }
     },
     {
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "https://82mhz.net/index.xml",
       "domain": "82mhz.net",
       "title": "82MHz - All blog posts",
@@ -3148,6 +3162,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "url": "https://blog.rtwilson.com/feed/",
       "domain": "blog.rtwilson.com",
       "title": "Robin&#039;s Blog",
@@ -3199,6 +3214,8 @@
       }
     },
     {
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://strangeco.blogspot.com/feeds/posts/default",
       "domain": "strangeco.blogspot.com",
       "title": null,
@@ -4151,6 +4168,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "url": "https://blog.podsnap.com/feed/all.atom.xml",
       "domain": "blog.podsnap.com",
       "title": "podsnap",
@@ -4304,6 +4322,8 @@
       }
     },
     {
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://chrisgammell.com/index.xml",
       "domain": "chrisgammell.com",
       "title": "Chris Gammell's Analog Life",
@@ -5630,6 +5650,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "url": "https://blog.pragmaticengineer.com/rss/",
       "domain": "blog.pragmaticengineer.com",
       "title": "The Pragmatic Engineer",
@@ -5732,6 +5753,8 @@
       }
     },
     {
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://www.jasoncolavito.com/1/feed",
       "domain": "jasoncolavito.com",
       "title": null,
@@ -5817,6 +5840,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "url": "https://blog.senko.net/feed/",
       "domain": "blog.senko.net",
       "title": "Senko Rašić",
@@ -5851,6 +5875,8 @@
       }
     },
     {
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://arcturus-labs.com/feed_rss_created.xml",
       "domain": "arcturus-labs.com",
       "title": "Arcturus Labs",
@@ -8452,6 +8478,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "url": "https://blog.polybdenum.com/feed.xml",
       "domain": "blog.polybdenum.com",
       "title": null,
@@ -8588,6 +8615,8 @@
       }
     },
     {
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://www.secretsofstory.com/feeds/posts/default",
       "domain": "secretsofstory.com",
       "title": null,
@@ -8775,6 +8804,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "url": "https://blog.questionable.services/atom.xml",
       "domain": "blog.questionable.services",
       "title": null,
@@ -8809,6 +8839,8 @@
       }
     },
     {
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "https://16x.engineer/feed.xml",
       "domain": "16x.engineer",
       "title": null,
@@ -8911,6 +8943,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "url": "https://blog.zachwf.com/index.xml",
       "domain": "blog.zachwf.com",
       "title": "To Substack",
@@ -8928,6 +8961,8 @@
       }
     },
     {
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "https://1000wordphilosophy.com/feed/atom/",
       "domain": "1000wordphilosophy.com",
       "title": null,
@@ -9030,6 +9065,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "url": "https://blog.robbowley.net/feed/",
       "domain": "blog.robbowley.net",
       "title": "Rob Bowley",
@@ -9064,6 +9100,8 @@
       }
     },
     {
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://www.dra27.uk/feed.xml",
       "domain": "dra27.uk",
       "title": null,
@@ -9438,6 +9476,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "url": "https://blog.preahs.com/atom/",
       "domain": "blog.preahs.com",
       "title": "Preah's Blog",
@@ -9455,6 +9494,8 @@
       }
     },
     {
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://retro.hansotten.nl/feed/",
       "domain": "retro.hansotten.nl",
       "title": "Retro Computing",
@@ -9676,6 +9717,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "url": "https://blog.urara.pl/feed",
       "domain": "blog.urara.pl",
       "title": "Urara's Blog",
@@ -9693,6 +9735,8 @@
       }
     },
     {
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://dresdencodak.com/feed/",
       "domain": "dresdencodak.com",
       "title": "Dresden Codak",
@@ -10084,6 +10128,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "url": "https://blog.vanillajava.blog/feeds/posts/default",
       "domain": "blog.vanillajava.blog",
       "title": null,
@@ -10101,6 +10146,8 @@
       }
     },
     {
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://codrutapoenaru.blogspot.com/atom.xml",
       "domain": "codrutapoenaru.blogspot.com",
       "title": null,
@@ -10339,6 +10386,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "url": "https://blog.sherwoodcallaway.com/atom/",
       "domain": "blog.sherwoodcallaway.com",
       "title": "Sherwood's Blog",
@@ -10373,6 +10421,8 @@
       }
     },
     {
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "https://alexsaveau.dev/feed.xml",
       "domain": "alexsaveau.dev",
       "title": null,
@@ -10713,6 +10763,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "url": "https://blog.thepete.net/index.xml",
       "domain": "blog.thepete.net",
       "title": "Pete Hodgson",
@@ -10747,6 +10798,8 @@
       }
     },
     {
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "https://abacusnoir.com/rss/",
       "domain": "abacusnoir.com",
       "title": "Abacus Noir",
@@ -10968,6 +11021,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "url": "https://blog.technitium.com/feeds/posts/default",
       "domain": "blog.technitium.com",
       "title": null,
@@ -10985,6 +11039,8 @@
       }
     },
     {
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://www.kinemalogue.net/atom.xml",
       "domain": "kinemalogue.net",
       "title": null,
@@ -11189,6 +11245,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "url": "https://blog.tombert.com/index.xml",
       "domain": "blog.tombert.com",
       "title": "Tombert&#039;s Blog",
@@ -11223,6 +11280,8 @@
       }
     },
     {
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "https://actually.fyi/feed.xml",
       "domain": "actually.fyi",
       "title": "actually.fyi",
@@ -11393,6 +11452,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "url": "https://blog.radioactiveyak.com/atom.xml",
       "domain": "blog.radioactiveyak.com",
       "title": null,
@@ -11410,6 +11470,8 @@
       }
     },
     {
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://nigeness.blogspot.com/atom.xml",
       "domain": "nigeness.blogspot.com",
       "title": null,
@@ -12124,6 +12186,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "url": "https://blog.ptidej.net/rss/",
       "domain": "blog.ptidej.net",
       "title": "Ptidej Team Blog",
@@ -12141,6 +12204,8 @@
       }
     },
     {
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "https://adam.younglogic.com/feed/",
       "domain": "adam.younglogic.com",
       "title": "Adam Young&#039;s Web Log",
@@ -14606,6 +14671,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "url": "https://blog.rmendes.net/feed.xml",
       "domain": "blog.rmendes.net",
       "title": "Ricardo Mendes",
@@ -14657,6 +14723,8 @@
       }
     },
     {
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "https://aigarius.com/feeds/rss/rss.xml",
       "domain": "aigarius.com",
       "title": "Aigarius Blog",
@@ -14742,6 +14810,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "url": "https://blog.tansu.io/feed.xml",
       "domain": "blog.tansu.io",
       "title": "blog.tansu.io - Engineering",
@@ -14776,6 +14845,8 @@
       }
     },
     {
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://dianapfeil.com/feed.xml",
       "domain": "dianapfeil.com",
       "title": null,
@@ -15014,6 +15085,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "url": "https://blog.rinesi.com/feed/",
       "domain": "blog.rinesi.com",
       "title": "blog.rinesi.com",
@@ -15048,6 +15120,8 @@
       }
     },
     {
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "https://alper.datav.is/feed.xml",
       "domain": "alper.datav.is",
       "title": "Alper Sarikaya",
@@ -15558,6 +15632,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "url": "https://blog.williamhilsum.com/atom.xml",
       "domain": "blog.williamhilsum.com",
       "title": null,
@@ -15575,6 +15650,8 @@
       }
     },
     {
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://graphicrants.blogspot.com/atom.xml",
       "domain": "graphicrants.blogspot.com",
       "title": null,
@@ -15745,6 +15822,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "url": "https://blog.viditb.com/rss/",
       "domain": "blog.viditb.com",
       "title": "Pixel Posts",
@@ -15762,6 +15840,8 @@
       }
     },
     {
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://gurneyjourney.blogspot.com/feeds/posts/default",
       "domain": "gurneyjourney.blogspot.com",
       "title": null,
@@ -15864,6 +15944,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "url": "https://blog.randomstring.org/feeds/atom.xml",
       "domain": "blog.randomstring.org",
       "title": "random strings",
@@ -15898,6 +15979,8 @@
       }
     },
     {
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "https://akos.ma/index.xml",
       "domain": "akos.ma",
       "title": "akos.ma",
@@ -15983,6 +16066,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "url": "https://blog.rchase.com/rss/",
       "domain": "blog.rchase.com",
       "title": "blog.rchase.com",
@@ -16000,6 +16084,8 @@
       }
     },
     {
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://merseypub.blogspot.com/atom.xml",
       "domain": "merseypub.blogspot.com",
       "title": null,
@@ -16425,6 +16511,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "url": "https://blog.tadsummit.com/feed/",
       "domain": "blog.tadsummit.com",
       "title": "Blog @ Telecom Application Developer Summit (TADS)",
@@ -16459,6 +16546,8 @@
       }
     },
     {
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://dyingwords.net/atom/",
       "domain": "dyingwords.net",
       "title": null,
@@ -16663,6 +16752,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "url": "https://blog.sebastianwick.net/posts/index.xml",
       "domain": "blog.sebastianwick.net",
       "title": "Posts on swick&#39;s blog",
@@ -16680,6 +16770,8 @@
       }
     },
     {
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://jetwilliams.com/index.xml",
       "domain": "jetwilliams.com",
       "title": "Jet Williams",
@@ -16833,6 +16925,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "url": "https://blog.sebastiansastre.co/index.xml",
       "domain": "blog.sebastiansastre.co",
       "title": "Selective Creativity",
@@ -16850,6 +16943,8 @@
       }
     },
     {
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://agentyduck.blogspot.com/atom.xml",
       "domain": "agentyduck.blogspot.com",
       "title": null,
@@ -17428,6 +17523,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "url": "https://blog.vbuckenham.com/rss/",
       "domain": "blog.vbuckenham.com",
       "title": "v buckenham",
@@ -17445,6 +17541,8 @@
       }
     },
     {
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://johnemcintyre.blogspot.com/atom.xml",
       "domain": "johnemcintyre.blogspot.com",
       "title": null,
@@ -17751,6 +17849,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "url": "https://blog.quipu-strands.com/feed.xml",
       "domain": "blog.quipu-strands.com",
       "title": "A Not-So Primordial Soup",
@@ -17802,6 +17901,8 @@
       }
     },
     {
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "https://addisoncrump.info/rss.xml",
       "domain": "addisoncrump.info",
       "title": "Addison Crump",
@@ -18295,6 +18396,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "url": "https://blog.pranshu-raj.me/rss.xml",
       "domain": "blog.pranshu-raj.me",
       "title": "Pranshu Raj - blog on backend systems, performance and sidequests",
@@ -18329,6 +18431,8 @@
       }
     },
     {
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://blog.emilianbold.ro/atom.xml",
       "domain": "blog.emilianbold.ro",
       "title": null,
@@ -18533,6 +18637,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "url": "https://blog.terrydjony.com/atom.xml",
       "domain": "blog.terrydjony.com",
       "title": "Terry Djony's Blog",
@@ -18567,6 +18672,8 @@
       }
     },
     {
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "https://andreasfertig.blog/feed.xml",
       "domain": "andreasfertig.blog",
       "title": "AndreasFertig.com",
@@ -18720,6 +18827,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "url": "https://blog.qiqitori.com/feed/",
       "domain": "blog.qiqitori.com",
       "title": "The Qiqitori Blogs",
@@ -18788,6 +18896,8 @@
       }
     },
     {
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://danleo.blogspot.com/atom.xml",
       "domain": "danleo.blogspot.com",
       "title": null,
@@ -19536,6 +19646,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "url": "https://blog.singee.me/atom.xml",
       "domain": "blog.singee.me",
       "title": "Origin",
@@ -19638,6 +19749,8 @@
       }
     },
     {
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://www.nuke24.net/plog/atom.xml",
       "domain": "nuke24.net",
       "title": "TOGoS's Project Log",
@@ -19808,6 +19921,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "url": "https://blog.popovs.lv/atom/",
       "domain": "blog.popovs.lv",
       "title": "a blog by aleksejs",
@@ -19825,6 +19939,8 @@
       }
     },
     {
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://thepassingtramp.blogspot.com/atom.xml",
       "domain": "thepassingtramp.blogspot.com",
       "title": null,
@@ -20012,6 +20128,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "url": "https://blog.robur.coop/feed.xml",
       "domain": "blog.robur.coop",
       "title": "The Robur&apos;s blog",
@@ -20063,6 +20180,8 @@
       }
     },
     {
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "https://406.ch/writing/atom.xml",
       "domain": "406.ch",
       "title": "Matthias Kestenholz",
@@ -20998,6 +21117,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "url": "https://blog.rubenverg.com/feed",
       "domain": "blog.rubenverg.com",
       "title": "Approximate Abstractions",
@@ -21083,6 +21203,8 @@
       }
     },
     {
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://www.keithriegert.com/blog?format=rss",
       "domain": "keithriegert.com",
       "title": "Blog - Keith Riegert",
@@ -21270,6 +21392,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "url": "https://blog.tobiasrevell.com/feed/",
       "domain": "blog.tobiasrevell.com",
       "title": "The Bounding Box",
@@ -21287,6 +21410,8 @@
       }
     },
     {
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://www.unnecessaryquotes.com/feeds/posts/default",
       "domain": "unnecessaryquotes.com",
       "title": null,
@@ -22732,6 +22857,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "url": "https://blog.spacegirl.nl/atom/",
       "domain": "blog.spacegirl.nl",
       "title": "Patrick's Notes",
@@ -22800,6 +22926,8 @@
       }
     },
     {
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://blog.melchersystem.com/feed/",
       "domain": "blog.melchersystem.com",
       "title": "Thoughts of a Bohemian",
@@ -23225,6 +23353,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "url": "https://blog.techdecline.dev/atom/",
       "domain": "blog.techdecline.dev",
       "title": "Techdecline's Blog",
@@ -23259,6 +23388,8 @@
       }
     },
     {
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://blog.fivecentsplease.org/feeds/posts/default",
       "domain": "blog.fivecentsplease.org",
       "title": null,
@@ -24398,6 +24529,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "url": "https://blog.raymond.burkholder.net/index.php?/feeds/index.rss2",
       "domain": "blog.raymond.burkholder.net",
       "title": "Raymond P. Burkholder - Things I Do",
@@ -24585,6 +24717,8 @@
       }
     },
     {
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://breakingmorewaves.blogspot.com/feeds/posts/default",
       "domain": "breakingmorewaves.blogspot.com",
       "title": null,
@@ -26929,6 +27063,7 @@
         "totalPoints": 0,
         "avgPoints": 0
       }
+<<<<<<< HEAD
     },
     {
       "url": "https://blog.radicaldream.land/feed/",
@@ -27082,6 +27217,8 @@
         "totalPoints": 0,
         "avgPoints": 0
       }
+=======
+>>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
     }
   ]
 }
