@@ -1,11 +1,6 @@
 {
-<<<<<<< HEAD
-  "generatedAt": "2026-02-04T15:53:29.330Z",
-  "totalFeeds": 1593,
-=======
   "generatedAt": "2026-02-04T15:51:51.568Z",
   "totalFeeds": 1467,
->>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
   "feeds": [
     {
       "url": "http://diamondgeezer.blogspot.com/atom.xml",
@@ -1045,111 +1040,6 @@
       }
     },
     {
-<<<<<<< HEAD
-      "url": "https://blog.quintarelli.it/feed/atom/",
-      "domain": "blog.quintarelli.it",
-      "title": null,
-      "category": "Design",
-      "score": 100,
-      "activity": {
-        "postsLast30Days": 21,
-        "postsLast90Days": 21,
-        "latestPost": "2026-02-03T21:40:42.000Z"
-      },
-      "hn": {
-        "stories": 5,
-        "totalPoints": 547,
-        "avgPoints": 109
-      }
-    },
-    {
-      "url": "https://blog.samaltman.com/posts.atom",
-      "domain": "blog.samaltman.com",
-      "title": "Sam Altman",
-      "category": "Blog",
-      "score": 100,
-      "activity": {
-        "postsLast30Days": 20,
-        "postsLast90Days": 31,
-        "latestPost": "2026-02-04T10:26:19.000Z"
-      },
-      "hn": {
-        "stories": 83,
-        "totalPoints": 32189,
-        "avgPoints": 388
-      }
-    },
-    {
-      "url": "https://blog.the-ebook-reader.com/feed/",
-      "domain": "blog.the-ebook-reader.com",
-      "title": "The eBook Reader",
-      "category": "Writing",
-      "score": 100,
-      "activity": {
-        "postsLast30Days": 15,
-        "postsLast90Days": 15,
-        "latestPost": "2026-02-03T17:00:48.000Z"
-      },
-      "hn": {
-        "stories": 16,
-        "totalPoints": 1214,
-        "avgPoints": 76
-      }
-    },
-    {
-      "url": "https://blog.usmanity.com/rss/",
-      "domain": "blog.usmanity.com",
-      "title": "Notes from the Burrow",
-      "category": "Blog",
-      "score": 100,
-      "activity": {
-        "postsLast30Days": 15,
-        "postsLast90Days": 29,
-        "latestPost": "2026-02-03T19:41:39.000Z"
-      },
-      "hn": {
-        "stories": 19,
-        "totalPoints": 386,
-        "avgPoints": 20
-      }
-    },
-    {
-      "url": "https://blog.vmsplice.net/feeds/posts/default",
-      "domain": "blog.vmsplice.net",
-      "title": null,
-      "category": "Blog",
-      "score": 100,
-      "activity": {
-        "postsLast30Days": 13,
-        "postsLast90Days": 15,
-        "latestPost": "2026-01-10T15:51:47.870Z"
-      },
-      "hn": {
-        "stories": 27,
-        "totalPoints": 534,
-        "avgPoints": 20
-      }
-    },
-    {
-      "url": "https://blog.zgp.org/feed.xml",
-      "domain": "blog.zgp.org",
-      "title": "blog: Don Marti",
-      "category": "Design",
-      "score": 100,
-      "activity": {
-        "postsLast30Days": 11,
-        "postsLast90Days": 15,
-        "latestPost": "2026-01-29T00:00:00.000Z"
-      },
-      "hn": {
-        "stories": 22,
-        "totalPoints": 46,
-        "avgPoints": 2
-      }
-    },
-    {
-=======
->>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://teachertomsblog.blogspot.com/atom.xml",
       "domain": "teachertomsblog.blogspot.com",
       "title": null,
@@ -1167,26 +1057,6 @@
       }
     },
     {
-<<<<<<< HEAD
-      "url": "https://blog.simplejustice.us/feed/",
-      "domain": "blog.simplejustice.us",
-      "title": "Simple Justice",
-      "category": "Blog",
-      "score": 98,
-      "activity": {
-        "postsLast30Days": 10,
-        "postsLast90Days": 10,
-        "latestPost": "2026-02-04T12:47:05.000Z"
-      },
-      "hn": {
-        "stories": 18,
-        "totalPoints": 127,
-        "avgPoints": 7
-      }
-    },
-    {
-=======
->>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "https://alexanderpruss.blogspot.com/feeds/posts/default",
       "domain": "alexanderpruss.blogspot.com",
       "title": null,
@@ -2649,77 +2519,6 @@
       }
     },
     {
-<<<<<<< HEAD
-      "url": "https://blog.prosody.im/index.xml",
-      "domain": "blog.prosody.im",
-      "title": "Prosodical Thoughts on Prosodical Thoughts",
-      "category": "Blog",
-      "score": 80,
-      "activity": {
-        "postsLast30Days": 5,
-        "postsLast90Days": 7,
-        "latestPost": "2026-01-27T00:00:00.000Z"
-      },
-      "hn": {
-        "stories": 27,
-        "totalPoints": 372,
-        "avgPoints": 14
-      }
-    },
-    {
-      "url": "https://blog.samwhited.com/atom.xml",
-      "domain": "blog.samwhited.com",
-      "title": "SamWhited|blog",
-      "category": "Blog",
-      "score": 80,
-      "activity": {
-        "postsLast30Days": 5,
-        "postsLast90Days": 7,
-        "latestPost": "2026-02-01T14:16:37.000Z"
-      },
-      "hn": {
-        "stories": 24,
-        "totalPoints": 512,
-        "avgPoints": 21
-      }
-    },
-    {
-      "url": "https://blog.simonrumble.com/posts.atom",
-      "domain": "blog.simonrumble.com",
-      "title": "Simon Rumble's blog",
-      "category": "Blog",
-      "score": 80,
-      "activity": {
-        "postsLast30Days": 5,
-        "postsLast90Days": 7,
-        "latestPost": "2026-02-03T09:26:57.000Z"
-      },
-      "hn": {
-        "stories": 1,
-        "totalPoints": 408,
-        "avgPoints": 408
-      }
-    },
-    {
-      "url": "https://blog.viktorpetersson.com/feed.xml",
-      "domain": "blog.viktorpetersson.com",
-      "title": null,
-      "category": "Blog",
-      "score": 80,
-      "activity": {
-        "postsLast30Days": 5,
-        "postsLast90Days": 9,
-        "latestPost": "2026-02-04T06:38:56.000Z"
-      },
-      "hn": {
-        "stories": 15,
-        "totalPoints": 708,
-        "avgPoints": 47
-      }
-    },
-    {
-=======
->>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "https://82mhz.net/index.xml",
       "domain": "82mhz.net",
       "title": "82MHz - All blog posts",
@@ -3162,60 +2961,6 @@
       }
     },
     {
-<<<<<<< HEAD
-      "url": "https://blog.rtwilson.com/feed/",
-      "domain": "blog.rtwilson.com",
-      "title": "Robin&#039;s Blog",
-      "category": "Blog",
-      "score": 76,
-      "activity": {
-        "postsLast30Days": 4,
-        "postsLast90Days": 4,
-        "latestPost": "2026-02-04T14:10:37.000Z"
-      },
-      "hn": {
-        "stories": 22,
-        "totalPoints": 776,
-        "avgPoints": 35
-      }
-    },
-    {
-      "url": "https://blog.thestateofme.com/feed/",
-      "domain": "blog.thestateofme.com",
-      "title": "Chris Swan&#039;s Weblog",
-      "category": "Blog",
-      "score": 76,
-      "activity": {
-        "postsLast30Days": 4,
-        "postsLast90Days": 10,
-        "latestPost": "2026-02-03T14:04:02.000Z"
-      },
-      "hn": {
-        "stories": 54,
-        "totalPoints": 219,
-        "avgPoints": 4
-      }
-    },
-    {
-      "url": "https://blog.zarfhome.com/feeds/posts/default.rss",
-      "domain": "blog.zarfhome.com",
-      "title": "Zarf Updates",
-      "category": "Blog",
-      "score": 76,
-      "activity": {
-        "postsLast30Days": 4,
-        "postsLast90Days": 14,
-        "latestPost": "2026-01-28T01:19:18.000Z"
-      },
-      "hn": {
-        "stories": 33,
-        "totalPoints": 1226,
-        "avgPoints": 37
-      }
-    },
-    {
-=======
->>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://strangeco.blogspot.com/feeds/posts/default",
       "domain": "strangeco.blogspot.com",
       "title": null,
@@ -4168,162 +3913,6 @@
       }
     },
     {
-<<<<<<< HEAD
-      "url": "https://blog.podsnap.com/feed/all.atom.xml",
-      "domain": "blog.podsnap.com",
-      "title": "podsnap",
-      "category": "Blog",
-      "score": 72,
-      "activity": {
-        "postsLast30Days": 3,
-        "postsLast90Days": 3,
-        "latestPost": "2026-01-31T05:00:00.000Z"
-      },
-      "hn": {
-        "stories": 20,
-        "totalPoints": 212,
-        "avgPoints": 11
-      }
-    },
-    {
-      "url": "https://blog.saeloun.com/feed.xml",
-      "domain": "blog.saeloun.com",
-      "title": "Saeloun Blog",
-      "category": "Blog",
-      "score": 72,
-      "activity": {
-        "postsLast30Days": 3,
-        "postsLast90Days": 10,
-        "latestPost": "2026-01-22T00:00:00.000Z"
-      },
-      "hn": {
-        "stories": 71,
-        "totalPoints": 967,
-        "avgPoints": 14
-      }
-    },
-    {
-      "url": "https://blog.sulami.xyz/atom.xml",
-      "domain": "blog.sulami.xyz",
-      "title": "Weak Opinions, Strongly Held",
-      "category": "Blog",
-      "score": 72,
-      "activity": {
-        "postsLast30Days": 3,
-        "postsLast90Days": 3,
-        "latestPost": "2026-01-13T00:00:00.000Z"
-      },
-      "hn": {
-        "stories": 28,
-        "totalPoints": 382,
-        "avgPoints": 14
-      }
-    },
-    {
-      "url": "https://blog.supertuxkart.net/feeds/posts/default",
-      "domain": "blog.supertuxkart.net",
-      "title": null,
-      "category": "Design",
-      "score": 72,
-      "activity": {
-        "postsLast30Days": 3,
-        "postsLast90Days": 7,
-        "latestPost": "2026-02-04T12:14:57.263Z"
-      },
-      "hn": {
-        "stories": 10,
-        "totalPoints": 516,
-        "avgPoints": 52
-      }
-    },
-    {
-      "url": "https://blog.thelifeofkenneth.com/feeds/posts/default",
-      "domain": "blog.thelifeofkenneth.com",
-      "title": null,
-      "category": "Blog",
-      "score": 72,
-      "activity": {
-        "postsLast30Days": 3,
-        "postsLast90Days": 3,
-        "latestPost": "2026-01-18T20:06:00.000Z"
-      },
-      "hn": {
-        "stories": 16,
-        "totalPoints": 370,
-        "avgPoints": 23
-      }
-    },
-    {
-      "url": "https://blog.tjll.net/feed.xml",
-      "domain": "blog.tjll.net",
-      "title": "Tyblog",
-      "category": "Blog",
-      "score": 72,
-      "activity": {
-        "postsLast30Days": 3,
-        "postsLast90Days": 3,
-        "latestPost": "2026-01-08T07:00:00.000Z"
-      },
-      "hn": {
-        "stories": 32,
-        "totalPoints": 1547,
-        "avgPoints": 48
-      }
-    },
-    {
-      "url": "https://blog.trailofbits.com/index.xml",
-      "domain": "blog.trailofbits.com",
-      "title": "The Trail of Bits Blog",
-      "category": "Blog",
-      "score": 72,
-      "activity": {
-        "postsLast30Days": 3,
-        "postsLast90Days": 14,
-        "latestPost": "2026-01-30T12:00:00.000Z"
-      },
-      "hn": {
-        "stories": 100,
-        "totalPoints": 11543,
-        "avgPoints": 115
-      }
-    },
-    {
-      "url": "https://blog.webb.page/feed/atom",
-      "domain": "blog.webb.page",
-      "title": "the webb blog",
-      "category": "Blog",
-      "score": 72,
-      "activity": {
-        "postsLast30Days": 3,
-        "postsLast90Days": 7,
-        "latestPost": "2026-01-22T19:26:02.507Z"
-      },
-      "hn": {
-        "stories": 17,
-        "totalPoints": 414,
-        "avgPoints": 24
-      }
-    },
-    {
-      "url": "https://blog.xot.nl/feed/",
-      "domain": "blog.xot.nl",
-      "title": "XOT: On Privacy, Security, and...",
-      "category": "Security",
-      "score": 72,
-      "activity": {
-        "postsLast30Days": 3,
-        "postsLast90Days": 4,
-        "latestPost": "2026-01-25T00:00:00.000Z"
-      },
-      "hn": {
-        "stories": 35,
-        "totalPoints": 1089,
-        "avgPoints": 31
-      }
-    },
-    {
-=======
->>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://chrisgammell.com/index.xml",
       "domain": "chrisgammell.com",
       "title": "Chris Gammell's Analog Life",
@@ -5650,111 +5239,6 @@
       }
     },
     {
-<<<<<<< HEAD
-      "url": "https://blog.pragmaticengineer.com/rss/",
-      "domain": "blog.pragmaticengineer.com",
-      "title": "The Pragmatic Engineer",
-      "category": "Blog",
-      "score": 68,
-      "activity": {
-        "postsLast30Days": 2,
-        "postsLast90Days": 9,
-        "latestPost": "2026-01-29T18:41:45.000Z"
-      },
-      "hn": {
-        "stories": 94,
-        "totalPoints": 12710,
-        "avgPoints": 135
-      }
-    },
-    {
-      "url": "https://blog.sebin-nyshkim.net/feed.xml",
-      "domain": "blog.sebin-nyshkim.net",
-      "title": "Sebin&#39;s Blog",
-      "category": "Blog",
-      "score": 68,
-      "activity": {
-        "postsLast30Days": 2,
-        "postsLast90Days": 2,
-        "latestPost": "2026-01-23T21:47:49.000Z"
-      },
-      "hn": {
-        "stories": 1,
-        "totalPoints": 995,
-        "avgPoints": 995
-      }
-    },
-    {
-      "url": "https://blog.sesse.net/blog/?flav=rss",
-      "domain": "blog.sesse.net",
-      "title": "Steinar H. Gunderson",
-      "category": "Blog",
-      "score": 68,
-      "activity": {
-        "postsLast30Days": 2,
-        "postsLast90Days": 2,
-        "latestPost": "2026-01-22T07:45:00.000Z"
-      },
-      "hn": {
-        "stories": 40,
-        "totalPoints": 1795,
-        "avgPoints": 45
-      }
-    },
-    {
-      "url": "https://blog.tomayac.com/feed/feed.xml",
-      "domain": "blog.tomayac.com",
-      "title": "Blogccasion",
-      "category": "Blog",
-      "score": 68,
-      "activity": {
-        "postsLast30Days": 2,
-        "postsLast90Days": 3,
-        "latestPost": "2026-01-12T09:21:24.000Z"
-      },
-      "hn": {
-        "stories": 21,
-        "totalPoints": 972,
-        "avgPoints": 46
-      }
-    },
-    {
-      "url": "https://blog.vjeux.com/feed",
-      "domain": "blog.vjeux.com",
-      "title": "Vjeux",
-      "category": "Design",
-      "score": 68,
-      "activity": {
-        "postsLast30Days": 2,
-        "postsLast90Days": 2,
-        "latestPost": "2026-02-02T03:52:33.000Z"
-      },
-      "hn": {
-        "stories": 41,
-        "totalPoints": 717,
-        "avgPoints": 17
-      }
-    },
-    {
-      "url": "https://blog.waleson.com/feeds/posts/default",
-      "domain": "blog.waleson.com",
-      "title": null,
-      "category": "Blog",
-      "score": 68,
-      "activity": {
-        "postsLast30Days": 2,
-        "postsLast90Days": 2,
-        "latestPost": "2026-02-04T08:48:25.449Z"
-      },
-      "hn": {
-        "stories": 22,
-        "totalPoints": 734,
-        "avgPoints": 33
-      }
-    },
-    {
-=======
->>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://www.jasoncolavito.com/1/feed",
       "domain": "jasoncolavito.com",
       "title": null,
@@ -5840,43 +5324,6 @@
       }
     },
     {
-<<<<<<< HEAD
-      "url": "https://blog.senko.net/feed/",
-      "domain": "blog.senko.net",
-      "title": "Senko Rašić",
-      "category": "Blog",
-      "score": 67,
-      "activity": {
-        "postsLast30Days": 2,
-        "postsLast90Days": 5,
-        "latestPost": "2026-02-04T15:15:06.000Z"
-      },
-      "hn": {
-        "stories": 17,
-        "totalPoints": 226,
-        "avgPoints": 13
-      }
-    },
-    {
-      "url": "https://blog.tangled.org/blog/feed.xml",
-      "domain": "blog.tangled.org",
-      "title": "tangled engineering",
-      "category": "Blog",
-      "score": 67,
-      "activity": {
-        "postsLast30Days": 2,
-        "postsLast90Days": 2,
-        "latestPost": "2026-01-13T15:46:06.000Z"
-      },
-      "hn": {
-        "stories": 6,
-        "totalPoints": 409,
-        "avgPoints": 68
-      }
-    },
-    {
-=======
->>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://arcturus-labs.com/feed_rss_created.xml",
       "domain": "arcturus-labs.com",
       "title": "Arcturus Labs",
@@ -8478,145 +7925,6 @@
       }
     },
     {
-<<<<<<< HEAD
-      "url": "https://blog.polybdenum.com/feed.xml",
-      "domain": "blog.polybdenum.com",
-      "title": null,
-      "category": "Blog",
-      "score": 64,
-      "activity": {
-        "postsLast30Days": 1,
-        "postsLast90Days": 3,
-        "latestPost": "2026-01-31T23:54:46.000Z"
-      },
-      "hn": {
-        "stories": 35,
-        "totalPoints": 1263,
-        "avgPoints": 36
-      }
-    },
-    {
-      "url": "https://blog.puzzmo.com/index.xml",
-      "domain": "blog.puzzmo.com",
-      "title": "Puzzmo Blog",
-      "category": "Blog",
-      "score": 64,
-      "activity": {
-        "postsLast30Days": 1,
-        "postsLast90Days": 4,
-        "latestPost": "2026-01-06T00:57:38.000Z"
-      },
-      "hn": {
-        "stories": 6,
-        "totalPoints": 764,
-        "avgPoints": 127
-      }
-    },
-    {
-      "url": "https://blog.robsayers.com/feed/",
-      "domain": "blog.robsayers.com",
-      "title": "Tool-Using Ape",
-      "category": "Blog",
-      "score": 64,
-      "activity": {
-        "postsLast30Days": 1,
-        "postsLast90Days": 1,
-        "latestPost": "2026-02-04T14:39:55.000Z"
-      },
-      "hn": {
-        "stories": 1,
-        "totalPoints": 152,
-        "avgPoints": 152
-      }
-    },
-    {
-      "url": "https://blog.rongarret.info/feeds/posts/default?alt=rss",
-      "domain": "blog.rongarret.info",
-      "title": "Rondam Ramblings",
-      "category": "Blog",
-      "score": 64,
-      "activity": {
-        "postsLast30Days": 1,
-        "postsLast90Days": 2,
-        "latestPost": "2026-01-11T23:46:00.000Z"
-      },
-      "hn": {
-        "stories": 99,
-        "totalPoints": 6740,
-        "avgPoints": 68
-      }
-    },
-    {
-      "url": "https://blog.smartere.dk/feed/",
-      "domain": "blog.smartere.dk",
-      "title": "blog.smartere",
-      "category": "Design",
-      "score": 64,
-      "activity": {
-        "postsLast30Days": 1,
-        "postsLast90Days": 1,
-        "latestPost": "2026-01-12T12:53:57.000Z"
-      },
-      "hn": {
-        "stories": 1,
-        "totalPoints": 752,
-        "avgPoints": 752
-      }
-    },
-    {
-      "url": "https://blog.yakkomajuri.com/rss",
-      "domain": "blog.yakkomajuri.com",
-      "title": "yakko's blog",
-      "category": "Blog",
-      "score": 64,
-      "activity": {
-        "postsLast30Days": 1,
-        "postsLast90Days": 3,
-        "latestPost": "2026-01-15T00:00:00.000Z"
-      },
-      "hn": {
-        "stories": 3,
-        "totalPoints": 1010,
-        "avgPoints": 337
-      }
-    },
-    {
-      "url": "https://blog.yboulkaid.com/feed.xml",
-      "domain": "blog.yboulkaid.com",
-      "title": null,
-      "category": "Blog",
-      "score": 64,
-      "activity": {
-        "postsLast30Days": 1,
-        "postsLast90Days": 1,
-        "latestPost": "2026-01-18T23:30:07.000Z"
-      },
-      "hn": {
-        "stories": 3,
-        "totalPoints": 315,
-        "avgPoints": 105
-      }
-    },
-    {
-      "url": "https://blog.yiningkarlli.com/feeds/posts/default/",
-      "domain": "blog.yiningkarlli.com",
-      "title": "Code &#38; Visuals",
-      "category": "Tech",
-      "score": 64,
-      "activity": {
-        "postsLast30Days": 1,
-        "postsLast90Days": 3,
-        "latestPost": "2026-02-02T10:19:42.000Z"
-      },
-      "hn": {
-        "stories": 11,
-        "totalPoints": 853,
-        "avgPoints": 78
-      }
-    },
-    {
-=======
->>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://www.secretsofstory.com/feeds/posts/default",
       "domain": "secretsofstory.com",
       "title": null,
@@ -8804,43 +8112,6 @@
       }
     },
     {
-<<<<<<< HEAD
-      "url": "https://blog.questionable.services/atom.xml",
-      "domain": "blog.questionable.services",
-      "title": null,
-      "category": "Blog",
-      "score": 63,
-      "activity": {
-        "postsLast30Days": 1,
-        "postsLast90Days": 1,
-        "latestPost": "2026-01-10T09:25:09.000Z"
-      },
-      "hn": {
-        "stories": 2,
-        "totalPoints": 178,
-        "avgPoints": 89
-      }
-    },
-    {
-      "url": "https://blog.strom.com/wp/?feed=rss2",
-      "domain": "blog.strom.com",
-      "title": "Web Informant",
-      "category": "Blog",
-      "score": 63,
-      "activity": {
-        "postsLast30Days": 8,
-        "postsLast90Days": 10,
-        "latestPost": "2026-01-30T16:04:43.000Z"
-      },
-      "hn": {
-        "stories": 5,
-        "totalPoints": 131,
-        "avgPoints": 26
-      }
-    },
-    {
-=======
->>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "https://16x.engineer/feed.xml",
       "domain": "16x.engineer",
       "title": null,
@@ -8943,26 +8214,6 @@
       }
     },
     {
-<<<<<<< HEAD
-      "url": "https://blog.zachwf.com/index.xml",
-      "domain": "blog.zachwf.com",
-      "title": "To Substack",
-      "category": "Blog",
-      "score": 62,
-      "activity": {
-        "postsLast30Days": 4,
-        "postsLast90Days": 13,
-        "latestPost": "2026-01-23T20:00:00.000Z"
-      },
-      "hn": {
-        "stories": 8,
-        "totalPoints": 289,
-        "avgPoints": 36
-      }
-    },
-    {
-=======
->>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "https://1000wordphilosophy.com/feed/atom/",
       "domain": "1000wordphilosophy.com",
       "title": null,
@@ -9065,43 +8316,6 @@
       }
     },
     {
-<<<<<<< HEAD
-      "url": "https://blog.robbowley.net/feed/",
-      "domain": "blog.robbowley.net",
-      "title": "Rob Bowley",
-      "category": "Blog",
-      "score": 61,
-      "activity": {
-        "postsLast30Days": 2,
-        "postsLast90Days": 5,
-        "latestPost": "2026-01-30T11:11:53.000Z"
-      },
-      "hn": {
-        "stories": 15,
-        "totalPoints": 188,
-        "avgPoints": 13
-      }
-    },
-    {
-      "url": "https://blog.samibadawi.com/feeds/posts/default",
-      "domain": "blog.samibadawi.com",
-      "title": null,
-      "category": "Blog",
-      "score": 61,
-      "activity": {
-        "postsLast30Days": 3,
-        "postsLast90Days": 3,
-        "latestPost": "2026-02-04T15:26:05.153Z"
-      },
-      "hn": {
-        "stories": 15,
-        "totalPoints": 112,
-        "avgPoints": 7
-      }
-    },
-    {
-=======
->>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://www.dra27.uk/feed.xml",
       "domain": "dra27.uk",
       "title": null,
@@ -9476,26 +8690,6 @@
       }
     },
     {
-<<<<<<< HEAD
-      "url": "https://blog.preahs.com/atom/",
-      "domain": "blog.preahs.com",
-      "title": "Preah's Blog",
-      "category": "Blog",
-      "score": 59,
-      "activity": {
-        "postsLast30Days": 18,
-        "postsLast90Days": 19,
-        "latestPost": "2026-02-04T05:20:20.450Z"
-      },
-      "hn": {
-        "stories": 1,
-        "totalPoints": 27,
-        "avgPoints": 27
-      }
-    },
-    {
-=======
->>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://retro.hansotten.nl/feed/",
       "domain": "retro.hansotten.nl",
       "title": "Retro Computing",
@@ -9717,26 +8911,6 @@
       }
     },
     {
-<<<<<<< HEAD
-      "url": "https://blog.urara.pl/feed",
-      "domain": "blog.urara.pl",
-      "title": "Urara's Blog",
-      "category": "Blog",
-      "score": 57,
-      "activity": {
-        "postsLast30Days": 1,
-        "postsLast90Days": 1,
-        "latestPost": "2026-01-19T04:21:00.000Z"
-      },
-      "hn": {
-        "stories": 1,
-        "totalPoints": 84,
-        "avgPoints": 84
-      }
-    },
-    {
-=======
->>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://dresdencodak.com/feed/",
       "domain": "dresdencodak.com",
       "title": "Dresden Codak",
@@ -10128,26 +9302,6 @@
       }
     },
     {
-<<<<<<< HEAD
-      "url": "https://blog.vanillajava.blog/feeds/posts/default",
-      "domain": "blog.vanillajava.blog",
-      "title": null,
-      "category": "Blog",
-      "score": 54,
-      "activity": {
-        "postsLast30Days": 1,
-        "postsLast90Days": 1,
-        "latestPost": "2026-01-30T12:22:07.788Z"
-      },
-      "hn": {
-        "stories": 15,
-        "totalPoints": 133,
-        "avgPoints": 9
-      }
-    },
-    {
-=======
->>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://codrutapoenaru.blogspot.com/atom.xml",
       "domain": "codrutapoenaru.blogspot.com",
       "title": null,
@@ -10386,43 +9540,6 @@
       }
     },
     {
-<<<<<<< HEAD
-      "url": "https://blog.sherwoodcallaway.com/atom/",
-      "domain": "blog.sherwoodcallaway.com",
-      "title": "Sherwood's Blog",
-      "category": "Blog",
-      "score": 52,
-      "activity": {
-        "postsLast30Days": 5,
-        "postsLast90Days": 7,
-        "latestPost": "2026-02-04T09:04:06.125Z"
-      },
-      "hn": {
-        "stories": 2,
-        "totalPoints": 85,
-        "avgPoints": 43
-      }
-    },
-    {
-      "url": "https://blog.trekcore.com/feed/",
-      "domain": "blog.trekcore.com",
-      "title": "TrekCore.com",
-      "category": "Blog",
-      "score": 52,
-      "activity": {
-        "postsLast30Days": 10,
-        "postsLast90Days": 10,
-        "latestPost": "2026-02-02T22:59:07.000Z"
-      },
-      "hn": {
-        "stories": 2,
-        "totalPoints": 20,
-        "avgPoints": 10
-      }
-    },
-    {
-=======
->>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "https://alexsaveau.dev/feed.xml",
       "domain": "alexsaveau.dev",
       "title": null,
@@ -10763,43 +9880,6 @@
       }
     },
     {
-<<<<<<< HEAD
-      "url": "https://blog.thepete.net/index.xml",
-      "domain": "blog.thepete.net",
-      "title": "Pete Hodgson",
-      "category": "Blog",
-      "score": 50,
-      "activity": {
-        "postsLast30Days": 1,
-        "postsLast90Days": 4,
-        "latestPost": "2026-01-29T00:00:00.000Z"
-      },
-      "hn": {
-        "stories": 15,
-        "totalPoints": 37,
-        "avgPoints": 2
-      }
-    },
-    {
-      "url": "https://blog.torh.net/feed/",
-      "domain": "blog.torh.net",
-      "title": "From thoughts to text",
-      "category": "Blog",
-      "score": 50,
-      "activity": {
-        "postsLast30Days": 1,
-        "postsLast90Days": 3,
-        "latestPost": "2026-01-10T11:59:47.000Z"
-      },
-      "hn": {
-        "stories": 7,
-        "totalPoints": 286,
-        "avgPoints": 41
-      }
-    },
-    {
-=======
->>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "https://abacusnoir.com/rss/",
       "domain": "abacusnoir.com",
       "title": "Abacus Noir",
@@ -11021,26 +10101,6 @@
       }
     },
     {
-<<<<<<< HEAD
-      "url": "https://blog.technitium.com/feeds/posts/default",
-      "domain": "blog.technitium.com",
-      "title": null,
-      "category": "Tech",
-      "score": 48,
-      "activity": {
-        "postsLast30Days": 1,
-        "postsLast90Days": 6,
-        "latestPost": "2026-02-03T16:15:00.606Z"
-      },
-      "hn": {
-        "stories": 13,
-        "totalPoints": 106,
-        "avgPoints": 8
-      }
-    },
-    {
-=======
->>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://www.kinemalogue.net/atom.xml",
       "domain": "kinemalogue.net",
       "title": null,
@@ -11245,43 +10305,6 @@
       }
     },
     {
-<<<<<<< HEAD
-      "url": "https://blog.tombert.com/index.xml",
-      "domain": "blog.tombert.com",
-      "title": "Tombert&#039;s Blog",
-      "category": "Blog",
-      "score": 47,
-      "activity": {
-        "postsLast30Days": 10,
-        "postsLast90Days": 10,
-        "latestPost": "2026-02-02T16:28:04.000Z"
-      },
-      "hn": {
-        "stories": 2,
-        "totalPoints": 3,
-        "avgPoints": 2
-      }
-    },
-    {
-      "url": "https://blog.x-way.org/rss.xml",
-      "domain": "blog.x-way.org",
-      "title": "x-log",
-      "category": "Blog",
-      "score": 47,
-      "activity": {
-        "postsLast30Days": 4,
-        "postsLast90Days": 17,
-        "latestPost": "2026-01-31T09:08:52.000Z"
-      },
-      "hn": {
-        "stories": 2,
-        "totalPoints": 82,
-        "avgPoints": 41
-      }
-    },
-    {
-=======
->>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "https://actually.fyi/feed.xml",
       "domain": "actually.fyi",
       "title": "actually.fyi",
@@ -11452,26 +10475,6 @@
       }
     },
     {
-<<<<<<< HEAD
-      "url": "https://blog.radioactiveyak.com/atom.xml",
-      "domain": "blog.radioactiveyak.com",
-      "title": null,
-      "category": "Blog",
-      "score": 46,
-      "activity": {
-        "postsLast30Days": 1,
-        "postsLast90Days": 1,
-        "latestPost": "2026-02-03T16:14:53.397Z"
-      },
-      "hn": {
-        "stories": 12,
-        "totalPoints": 116,
-        "avgPoints": 10
-      }
-    },
-    {
-=======
->>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://nigeness.blogspot.com/atom.xml",
       "domain": "nigeness.blogspot.com",
       "title": null,
@@ -12186,26 +11189,6 @@
       }
     },
     {
-<<<<<<< HEAD
-      "url": "https://blog.ptidej.net/rss/",
-      "domain": "blog.ptidej.net",
-      "title": "Ptidej Team Blog",
-      "category": "Blog",
-      "score": 44,
-      "activity": {
-        "postsLast30Days": 3,
-        "postsLast90Days": 9,
-        "latestPost": "2026-02-04T15:09:47.000Z"
-      },
-      "hn": {
-        "stories": 10,
-        "totalPoints": 34,
-        "avgPoints": 3
-      }
-    },
-    {
-=======
->>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "https://adam.younglogic.com/feed/",
       "domain": "adam.younglogic.com",
       "title": "Adam Young&#039;s Web Log",
@@ -14671,60 +13654,6 @@
       }
     },
     {
-<<<<<<< HEAD
-      "url": "https://blog.rmendes.net/feed.xml",
-      "domain": "blog.rmendes.net",
-      "title": "Ricardo Mendes",
-      "category": "Blog",
-      "score": 40,
-      "activity": {
-        "postsLast30Days": 20,
-        "postsLast90Days": 20,
-        "latestPost": "2026-02-04T14:06:16.000Z"
-      },
-      "hn": {
-        "stories": 0,
-        "totalPoints": 0,
-        "avgPoints": 0
-      }
-    },
-    {
-      "url": "https://blog.strangerthanusual.de/feed.atom",
-      "domain": "blog.strangerthanusual.de",
-      "title": "Stranger Than Usual",
-      "category": "Blog",
-      "score": 40,
-      "activity": {
-        "postsLast30Days": 32,
-        "postsLast90Days": 96,
-        "latestPost": "2026-02-01T11:07:00.000Z"
-      },
-      "hn": {
-        "stories": 0,
-        "totalPoints": 0,
-        "avgPoints": 0
-      }
-    },
-    {
-      "url": "https://blog.taadeem.net/rss.xml",
-      "domain": "blog.taadeem.net",
-      "title": "blog",
-      "category": "Blog",
-      "score": 40,
-      "activity": {
-        "postsLast30Days": 2,
-        "postsLast90Days": 2,
-        "latestPost": "2026-01-25T14:29:59.000Z"
-      },
-      "hn": {
-        "stories": 3,
-        "totalPoints": 113,
-        "avgPoints": 38
-      }
-    },
-    {
-=======
->>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "https://aigarius.com/feeds/rss/rss.xml",
       "domain": "aigarius.com",
       "title": "Aigarius Blog",
@@ -14810,43 +13739,6 @@
       }
     },
     {
-<<<<<<< HEAD
-      "url": "https://blog.tansu.io/feed.xml",
-      "domain": "blog.tansu.io",
-      "title": "blog.tansu.io - Engineering",
-      "category": "Blog",
-      "score": 39,
-      "activity": {
-        "postsLast30Days": 2,
-        "postsLast90Days": 3,
-        "latestPost": "2026-01-13T00:00:00.000Z"
-      },
-      "hn": {
-        "stories": 5,
-        "totalPoints": 128,
-        "avgPoints": 26
-      }
-    },
-    {
-      "url": "https://blog.tdhttt.com/index.xml",
-      "domain": "blog.tdhttt.com",
-      "title": "Tony Tong",
-      "category": "Blog",
-      "score": 39,
-      "activity": {
-        "postsLast30Days": 1,
-        "postsLast90Days": 3,
-        "latestPost": "2026-01-14T07:11:24.000Z"
-      },
-      "hn": {
-        "stories": 5,
-        "totalPoints": 168,
-        "avgPoints": 34
-      }
-    },
-    {
-=======
->>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://dianapfeil.com/feed.xml",
       "domain": "dianapfeil.com",
       "title": null,
@@ -15085,43 +13977,6 @@
       }
     },
     {
-<<<<<<< HEAD
-      "url": "https://blog.rinesi.com/feed/",
-      "domain": "blog.rinesi.com",
-      "title": "blog.rinesi.com",
-      "category": "Blog",
-      "score": 38,
-      "activity": {
-        "postsLast30Days": 7,
-        "postsLast90Days": 20,
-        "latestPost": "2026-01-31T03:00:00.000Z"
-      },
-      "hn": {
-        "stories": 3,
-        "totalPoints": 5,
-        "avgPoints": 2
-      }
-    },
-    {
-      "url": "https://blog.runevision.com/feeds/posts/default",
-      "domain": "blog.runevision.com",
-      "title": null,
-      "category": "Blog",
-      "score": 38,
-      "activity": {
-        "postsLast30Days": 4,
-        "postsLast90Days": 4,
-        "latestPost": "2026-01-29T15:28:40.797Z"
-      },
-      "hn": {
-        "stories": 2,
-        "totalPoints": 53,
-        "avgPoints": 27
-      }
-    },
-    {
-=======
->>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "https://alper.datav.is/feed.xml",
       "domain": "alper.datav.is",
       "title": "Alper Sarikaya",
@@ -15632,26 +14487,6 @@
       }
     },
     {
-<<<<<<< HEAD
-      "url": "https://blog.williamhilsum.com/atom.xml",
-      "domain": "blog.williamhilsum.com",
-      "title": null,
-      "category": "Blog",
-      "score": 36,
-      "activity": {
-        "postsLast30Days": 1,
-        "postsLast90Days": 1,
-        "latestPost": "2026-02-03T10:22:57.144Z"
-      },
-      "hn": {
-        "stories": 4,
-        "totalPoints": 136,
-        "avgPoints": 34
-      }
-    },
-    {
-=======
->>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://graphicrants.blogspot.com/atom.xml",
       "domain": "graphicrants.blogspot.com",
       "title": null,
@@ -15822,26 +14657,6 @@
       }
     },
     {
-<<<<<<< HEAD
-      "url": "https://blog.viditb.com/rss/",
-      "domain": "blog.viditb.com",
-      "title": "Pixel Posts",
-      "category": "Blog",
-      "score": 35,
-      "activity": {
-        "postsLast30Days": 4,
-        "postsLast90Days": 6,
-        "latestPost": "2026-01-28T10:42:23.000Z"
-      },
-      "hn": {
-        "stories": 6,
-        "totalPoints": 8,
-        "avgPoints": 1
-      }
-    },
-    {
-=======
->>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://gurneyjourney.blogspot.com/feeds/posts/default",
       "domain": "gurneyjourney.blogspot.com",
       "title": null,
@@ -15944,43 +14759,6 @@
       }
     },
     {
-<<<<<<< HEAD
-      "url": "https://blog.randomstring.org/feeds/atom.xml",
-      "domain": "blog.randomstring.org",
-      "title": "random strings",
-      "category": "Blog",
-      "score": 34,
-      "activity": {
-        "postsLast30Days": 3,
-        "postsLast90Days": 3,
-        "latestPost": "2026-01-17T12:37:09.000Z"
-      },
-      "hn": {
-        "stories": 7,
-        "totalPoints": 15,
-        "avgPoints": 2
-      }
-    },
-    {
-      "url": "https://blog.sakugabooru.com/feed/",
-      "domain": "blog.sakugabooru.com",
-      "title": "Sakuga Blog",
-      "category": "Blog",
-      "score": 34,
-      "activity": {
-        "postsLast30Days": 2,
-        "postsLast90Days": 5,
-        "latestPost": "2026-01-23T19:30:05.000Z"
-      },
-      "hn": {
-        "stories": 6,
-        "totalPoints": 78,
-        "avgPoints": 13
-      }
-    },
-    {
-=======
->>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "https://akos.ma/index.xml",
       "domain": "akos.ma",
       "title": "akos.ma",
@@ -16066,26 +14844,6 @@
       }
     },
     {
-<<<<<<< HEAD
-      "url": "https://blog.rchase.com/rss/",
-      "domain": "blog.rchase.com",
-      "title": "blog.rchase.com",
-      "category": "Blog",
-      "score": 33,
-      "activity": {
-        "postsLast30Days": 1,
-        "postsLast90Days": 1,
-        "latestPost": "2026-01-28T21:32:22.000Z"
-      },
-      "hn": {
-        "stories": 5,
-        "totalPoints": 122,
-        "avgPoints": 24
-      }
-    },
-    {
-=======
->>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://merseypub.blogspot.com/atom.xml",
       "domain": "merseypub.blogspot.com",
       "title": null,
@@ -16511,43 +15269,6 @@
       }
     },
     {
-<<<<<<< HEAD
-      "url": "https://blog.tadsummit.com/feed/",
-      "domain": "blog.tadsummit.com",
-      "title": "Blog @ Telecom Application Developer Summit (TADS)",
-      "category": "Tech",
-      "score": 32,
-      "activity": {
-        "postsLast30Days": 4,
-        "postsLast90Days": 10,
-        "latestPost": "2026-01-29T15:23:28.000Z"
-      },
-      "hn": {
-        "stories": 5,
-        "totalPoints": 9,
-        "avgPoints": 2
-      }
-    },
-    {
-      "url": "https://blog.therealoracleatdelphi.com/atom.xml",
-      "domain": "blog.therealoracleatdelphi.com",
-      "title": null,
-      "category": "Blog",
-      "score": 32,
-      "activity": {
-        "postsLast30Days": 1,
-        "postsLast90Days": 1,
-        "latestPost": "2026-01-30T04:56:01.370Z"
-      },
-      "hn": {
-        "stories": 2,
-        "totalPoints": 71,
-        "avgPoints": 36
-      }
-    },
-    {
-=======
->>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://dyingwords.net/atom/",
       "domain": "dyingwords.net",
       "title": null,
@@ -16752,26 +15473,6 @@
       }
     },
     {
-<<<<<<< HEAD
-      "url": "https://blog.sebastianwick.net/posts/index.xml",
-      "domain": "blog.sebastianwick.net",
-      "title": "Posts on swick&#39;s blog",
-      "category": "Blog",
-      "score": 31,
-      "activity": {
-        "postsLast30Days": 2,
-        "postsLast90Days": 3,
-        "latestPost": "2026-01-21T15:31:23.000Z"
-      },
-      "hn": {
-        "stories": 7,
-        "totalPoints": 24,
-        "avgPoints": 3
-      }
-    },
-    {
-=======
->>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://jetwilliams.com/index.xml",
       "domain": "jetwilliams.com",
       "title": "Jet Williams",
@@ -16925,26 +15626,6 @@
       }
     },
     {
-<<<<<<< HEAD
-      "url": "https://blog.sebastiansastre.co/index.xml",
-      "domain": "blog.sebastiansastre.co",
-      "title": "Selective Creativity",
-      "category": "Blog",
-      "score": 30,
-      "activity": {
-        "postsLast30Days": 2,
-        "postsLast90Days": 2,
-        "latestPost": "2026-01-26T03:00:00.000Z"
-      },
-      "hn": {
-        "stories": 7,
-        "totalPoints": 17,
-        "avgPoints": 2
-      }
-    },
-    {
-=======
->>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://agentyduck.blogspot.com/atom.xml",
       "domain": "agentyduck.blogspot.com",
       "title": null,
@@ -17523,26 +16204,6 @@
       }
     },
     {
-<<<<<<< HEAD
-      "url": "https://blog.vbuckenham.com/rss/",
-      "domain": "blog.vbuckenham.com",
-      "title": "v buckenham",
-      "category": "Blog",
-      "score": 28,
-      "activity": {
-        "postsLast30Days": 5,
-        "postsLast90Days": 12,
-        "latestPost": "2026-02-03T11:03:48.000Z"
-      },
-      "hn": {
-        "stories": 2,
-        "totalPoints": 5,
-        "avgPoints": 3
-      }
-    },
-    {
-=======
->>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://johnemcintyre.blogspot.com/atom.xml",
       "domain": "johnemcintyre.blogspot.com",
       "title": null,
@@ -17849,60 +16510,6 @@
       }
     },
     {
-<<<<<<< HEAD
-      "url": "https://blog.quipu-strands.com/feed.xml",
-      "domain": "blog.quipu-strands.com",
-      "title": "A Not-So Primordial Soup",
-      "category": "Design",
-      "score": 26,
-      "activity": {
-        "postsLast30Days": 1,
-        "postsLast90Days": 1,
-        "latestPost": "2026-02-03T08:38:00.000Z"
-      },
-      "hn": {
-        "stories": 7,
-        "totalPoints": 17,
-        "avgPoints": 2
-      }
-    },
-    {
-      "url": "https://blog.shanemac.com/rss/",
-      "domain": "blog.shanemac.com",
-      "title": "Shane Mac",
-      "category": "Blog",
-      "score": 26,
-      "activity": {
-        "postsLast30Days": 1,
-        "postsLast90Days": 8,
-        "latestPost": "2026-01-12T17:22:27.000Z"
-      },
-      "hn": {
-        "stories": 1,
-        "totalPoints": 31,
-        "avgPoints": 31
-      }
-    },
-    {
-      "url": "https://blog.trueelena.org/atom.xml",
-      "domain": "blog.trueelena.org",
-      "title": "Valhalla's things",
-      "category": "Blog",
-      "score": 26,
-      "activity": {
-        "postsLast30Days": 3,
-        "postsLast90Days": 9,
-        "latestPost": "2026-02-03T00:00:00.000Z"
-      },
-      "hn": {
-        "stories": 4,
-        "totalPoints": 13,
-        "avgPoints": 3
-      }
-    },
-    {
-=======
->>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "https://addisoncrump.info/rss.xml",
       "domain": "addisoncrump.info",
       "title": "Addison Crump",
@@ -18396,43 +17003,6 @@
       }
     },
     {
-<<<<<<< HEAD
-      "url": "https://blog.pranshu-raj.me/rss.xml",
-      "domain": "blog.pranshu-raj.me",
-      "title": "Pranshu Raj - blog on backend systems, performance and sidequests",
-      "category": "Blog",
-      "score": 24,
-      "activity": {
-        "postsLast30Days": 1,
-        "postsLast90Days": 3,
-        "latestPost": "2026-01-27T19:14:20.000Z"
-      },
-      "hn": {
-        "stories": 2,
-        "totalPoints": 45,
-        "avgPoints": 23
-      }
-    },
-    {
-      "url": "https://blog.terrafloww.com/rss/",
-      "domain": "blog.terrafloww.com",
-      "title": "Terrafloww Labs",
-      "category": "Blog",
-      "score": 24,
-      "activity": {
-        "postsLast30Days": 1,
-        "postsLast90Days": 1,
-        "latestPost": "2026-01-21T20:32:52.000Z"
-      },
-      "hn": {
-        "stories": 5,
-        "totalPoints": 40,
-        "avgPoints": 8
-      }
-    },
-    {
-=======
->>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://blog.emilianbold.ro/atom.xml",
       "domain": "blog.emilianbold.ro",
       "title": null,
@@ -18637,43 +17207,6 @@
       }
     },
     {
-<<<<<<< HEAD
-      "url": "https://blog.terrydjony.com/atom.xml",
-      "domain": "blog.terrydjony.com",
-      "title": "Terry Djony's Blog",
-      "category": "Blog",
-      "score": 23,
-      "activity": {
-        "postsLast30Days": 1,
-        "postsLast90Days": 13,
-        "latestPost": "2026-01-16T00:58:42.113Z"
-      },
-      "hn": {
-        "stories": 6,
-        "totalPoints": 11,
-        "avgPoints": 2
-      }
-    },
-    {
-      "url": "https://blog.ulisesgascon.com/rss.xml",
-      "domain": "blog.ulisesgascon.com",
-      "title": null,
-      "category": "Blog",
-      "score": 23,
-      "activity": {
-        "postsLast30Days": 3,
-        "postsLast90Days": 9,
-        "latestPost": "2026-01-22T00:00:00.000Z"
-      },
-      "hn": {
-        "stories": 2,
-        "totalPoints": 18,
-        "avgPoints": 9
-      }
-    },
-    {
-=======
->>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "https://andreasfertig.blog/feed.xml",
       "domain": "andreasfertig.blog",
       "title": "AndreasFertig.com",
@@ -18827,77 +17360,6 @@
       }
     },
     {
-<<<<<<< HEAD
-      "url": "https://blog.qiqitori.com/feed/",
-      "domain": "blog.qiqitori.com",
-      "title": "The Qiqitori Blogs",
-      "category": "Blog",
-      "score": 21,
-      "activity": {
-        "postsLast30Days": 1,
-        "postsLast90Days": 1,
-        "latestPost": "2026-01-14T03:19:43.000Z"
-      },
-      "hn": {
-        "stories": 3,
-        "totalPoints": 40,
-        "avgPoints": 13
-      }
-    },
-    {
-      "url": "https://blog.s-schoener.com/feed.xml",
-      "domain": "blog.s-schoener.com",
-      "title": "Sebastian Schöner",
-      "category": "Blog",
-      "score": 21,
-      "activity": {
-        "postsLast30Days": 2,
-        "postsLast90Days": 5,
-        "latestPost": "2026-01-28T00:00:00.000Z"
-      },
-      "hn": {
-        "stories": 4,
-        "totalPoints": 4,
-        "avgPoints": 1
-      }
-    },
-    {
-      "url": "https://blog.szczepan.org/feed/feed.xml",
-      "domain": "blog.szczepan.org",
-      "title": "Blog Title",
-      "category": "Blog",
-      "score": 21,
-      "activity": {
-        "postsLast30Days": 4,
-        "postsLast90Days": 4,
-        "latestPost": "2026-02-02T00:00:00.000Z"
-      },
-      "hn": {
-        "stories": 1,
-        "totalPoints": 3,
-        "avgPoints": 3
-      }
-    },
-    {
-      "url": "https://blog.xiangpeng.systems/index.xml",
-      "domain": "blog.xiangpeng.systems",
-      "title": "Xiangpeng&#39;s blog",
-      "category": "Blog",
-      "score": 21,
-      "activity": {
-        "postsLast30Days": 1,
-        "postsLast90Days": 2,
-        "latestPost": "2026-02-02T00:00:00.000Z"
-      },
-      "hn": {
-        "stories": 5,
-        "totalPoints": 16,
-        "avgPoints": 3
-      }
-    },
-    {
-=======
->>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://danleo.blogspot.com/atom.xml",
       "domain": "danleo.blogspot.com",
       "title": null,
@@ -19646,111 +18108,6 @@
       }
     },
     {
-<<<<<<< HEAD
-      "url": "https://blog.singee.me/atom.xml",
-      "domain": "blog.singee.me",
-      "title": "Origin",
-      "category": "Blog",
-      "score": 20,
-      "activity": {
-        "postsLast30Days": 5,
-        "postsLast90Days": 5,
-        "latestPost": "2026-01-24T09:21:11.779Z"
-      },
-      "hn": {
-        "stories": 0,
-        "totalPoints": 0,
-        "avgPoints": 0
-      }
-    },
-    {
-      "url": "https://blog.soundcirclet.net/atom/",
-      "domain": "blog.soundcirclet.net",
-      "title": "blogcirclet",
-      "category": "Music",
-      "score": 20,
-      "activity": {
-        "postsLast30Days": 5,
-        "postsLast90Days": 6,
-        "latestPost": "2026-02-04T08:22:40.127Z"
-      },
-      "hn": {
-        "stories": 0,
-        "totalPoints": 0,
-        "avgPoints": 0
-      }
-    },
-    {
-      "url": "https://blog.tasuki.org/feed.xml",
-      "domain": "blog.tasuki.org",
-      "title": null,
-      "category": "Blog",
-      "score": 20,
-      "activity": {
-        "postsLast30Days": 5,
-        "postsLast90Days": 11,
-        "latestPost": "2026-01-16T07:54:37.000Z"
-      },
-      "hn": {
-        "stories": 0,
-        "totalPoints": 0,
-        "avgPoints": 0
-      }
-    },
-    {
-      "url": "https://blog.thecaptain.dev/atom/",
-      "domain": "blog.thecaptain.dev",
-      "title": "Captain’s blog",
-      "category": "Tech",
-      "score": 20,
-      "activity": {
-        "postsLast30Days": 5,
-        "postsLast90Days": 18,
-        "latestPost": "2026-02-04T09:03:04.063Z"
-      },
-      "hn": {
-        "stories": 0,
-        "totalPoints": 0,
-        "avgPoints": 0
-      }
-    },
-    {
-      "url": "https://blog.valour.ink/atom/",
-      "domain": "blog.valour.ink",
-      "title": "valour 🗡️",
-      "category": "Blog",
-      "score": 20,
-      "activity": {
-        "postsLast30Days": 5,
-        "postsLast90Days": 8,
-        "latestPost": "2026-02-04T08:39:27.173Z"
-      },
-      "hn": {
-        "stories": 0,
-        "totalPoints": 0,
-        "avgPoints": 0
-      }
-    },
-    {
-      "url": "https://blog.whizzyideas.ai/atom/",
-      "domain": "blog.whizzyideas.ai",
-      "title": "Whizzy Ideas AI",
-      "category": "AI",
-      "score": 20,
-      "activity": {
-        "postsLast30Days": 5,
-        "postsLast90Days": 21,
-        "latestPost": "2026-02-04T08:45:45.742Z"
-      },
-      "hn": {
-        "stories": 0,
-        "totalPoints": 0,
-        "avgPoints": 0
-      }
-    },
-    {
-=======
->>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://www.nuke24.net/plog/atom.xml",
       "domain": "nuke24.net",
       "title": "TOGoS's Project Log",
@@ -19921,26 +18278,6 @@
       }
     },
     {
-<<<<<<< HEAD
-      "url": "https://blog.popovs.lv/atom/",
-      "domain": "blog.popovs.lv",
-      "title": "a blog by aleksejs",
-      "category": "Blog",
-      "score": 19,
-      "activity": {
-        "postsLast30Days": 3,
-        "postsLast90Days": 7,
-        "latestPost": "2026-02-04T08:25:56.562Z"
-      },
-      "hn": {
-        "stories": 2,
-        "totalPoints": 2,
-        "avgPoints": 1
-      }
-    },
-    {
-=======
->>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://thepassingtramp.blogspot.com/atom.xml",
       "domain": "thepassingtramp.blogspot.com",
       "title": null,
@@ -20128,60 +18465,6 @@
       }
     },
     {
-<<<<<<< HEAD
-      "url": "https://blog.robur.coop/feed.xml",
-      "domain": "blog.robur.coop",
-      "title": "The Robur&apos;s blog",
-      "category": "Blog",
-      "score": 18,
-      "activity": {
-        "postsLast30Days": 2,
-        "postsLast90Days": 4,
-        "latestPost": "2026-01-26T00:00:00.000Z"
-      },
-      "hn": {
-        "stories": 3,
-        "totalPoints": 7,
-        "avgPoints": 2
-      }
-    },
-    {
-      "url": "https://blog.steveasleep.com/feed/",
-      "domain": "blog.steveasleep.com",
-      "title": "Steve&#39;s Real Blog",
-      "category": "Blog",
-      "score": 18,
-      "activity": {
-        "postsLast30Days": 1,
-        "postsLast90Days": 1,
-        "latestPost": "2026-02-04T15:54:07.000Z"
-      },
-      "hn": {
-        "stories": 4,
-        "totalPoints": 11,
-        "avgPoints": 3
-      }
-    },
-    {
-      "url": "https://blog.thms.uk/rss.xml",
-      "domain": "blog.thms.uk",
-      "title": "blog.thms.uk",
-      "category": "Blog",
-      "score": 18,
-      "activity": {
-        "postsLast30Days": 1,
-        "postsLast90Days": 4,
-        "latestPost": "2026-01-08T06:15:00.000Z"
-      },
-      "hn": {
-        "stories": 4,
-        "totalPoints": 10,
-        "avgPoints": 3
-      }
-    },
-    {
-=======
->>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "https://406.ch/writing/atom.xml",
       "domain": "406.ch",
       "title": "Matthias Kestenholz",
@@ -21117,94 +19400,6 @@
       }
     },
     {
-<<<<<<< HEAD
-      "url": "https://blog.rubenverg.com/feed",
-      "domain": "blog.rubenverg.com",
-      "title": "Approximate Abstractions",
-      "category": "Blog",
-      "score": 16,
-      "activity": {
-        "postsLast30Days": 1,
-        "postsLast90Days": 1,
-        "latestPost": "2026-02-04T15:52:08.416Z"
-      },
-      "hn": {
-        "stories": 2,
-        "totalPoints": 20,
-        "avgPoints": 10
-      }
-    },
-    {
-      "url": "https://blog.thnkandgrow.com/feed/",
-      "domain": "blog.thnkandgrow.com",
-      "title": "Th?nk And Grow",
-      "category": "Blog",
-      "score": 16,
-      "activity": {
-        "postsLast30Days": 3,
-        "postsLast90Days": 5,
-        "latestPost": "2026-01-16T03:35:30.000Z"
-      },
-      "hn": {
-        "stories": 1,
-        "totalPoints": 2,
-        "avgPoints": 2
-      }
-    },
-    {
-      "url": "https://blog.thomashampel.com/blog/tomcat2000.nsf/content.rss",
-      "domain": "blog.thomashampel.com",
-      "title": "Thomas Hampel",
-      "category": "Blog",
-      "score": 16,
-      "activity": {
-        "postsLast30Days": 4,
-        "postsLast90Days": 4,
-        "latestPost": "2026-01-28T08:57:02.000Z"
-      },
-      "hn": {
-        "stories": 0,
-        "totalPoints": 0,
-        "avgPoints": 0
-      }
-    },
-    {
-      "url": "https://blog.veeso.dev/rss/en.xml",
-      "domain": "blog.veeso.dev",
-      "title": null,
-      "category": "Tech",
-      "score": 16,
-      "activity": {
-        "postsLast30Days": 2,
-        "postsLast90Days": 8,
-        "latestPost": "2026-02-01T19:10:00.000Z"
-      },
-      "hn": {
-        "stories": 2,
-        "totalPoints": 6,
-        "avgPoints": 3
-      }
-    },
-    {
-      "url": "https://blog.yaymukund.com/atom.xml",
-      "domain": "blog.yaymukund.com",
-      "title": "yaymukund&#x27;s weblog",
-      "category": "Blog",
-      "score": 16,
-      "activity": {
-        "postsLast30Days": 3,
-        "postsLast90Days": 3,
-        "latestPost": "2026-02-03T00:00:00.000Z"
-      },
-      "hn": {
-        "stories": 1,
-        "totalPoints": 1,
-        "avgPoints": 1
-      }
-    },
-    {
-=======
->>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://www.keithriegert.com/blog?format=rss",
       "domain": "keithriegert.com",
       "title": "Blog - Keith Riegert",
@@ -21392,26 +19587,6 @@
       }
     },
     {
-<<<<<<< HEAD
-      "url": "https://blog.tobiasrevell.com/feed/",
-      "domain": "blog.tobiasrevell.com",
-      "title": "The Bounding Box",
-      "category": "Blog",
-      "score": 15,
-      "activity": {
-        "postsLast30Days": 2,
-        "postsLast90Days": 2,
-        "latestPost": "2026-01-21T07:57:27.000Z"
-      },
-      "hn": {
-        "stories": 2,
-        "totalPoints": 2,
-        "avgPoints": 1
-      }
-    },
-    {
-=======
->>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://www.unnecessaryquotes.com/feeds/posts/default",
       "domain": "unnecessaryquotes.com",
       "title": null,
@@ -22857,77 +21032,6 @@
       }
     },
     {
-<<<<<<< HEAD
-      "url": "https://blog.spacegirl.nl/atom/",
-      "domain": "blog.spacegirl.nl",
-      "title": "Patrick's Notes",
-      "category": "Blog",
-      "score": 12,
-      "activity": {
-        "postsLast30Days": 3,
-        "postsLast90Days": 8,
-        "latestPost": "2026-02-04T09:03:13.829Z"
-      },
-      "hn": {
-        "stories": 0,
-        "totalPoints": 0,
-        "avgPoints": 0
-      }
-    },
-    {
-      "url": "https://blog.stillsky.net/atom/",
-      "domain": "blog.stillsky.net",
-      "title": "[ still sky ]",
-      "category": "Blog",
-      "score": 12,
-      "activity": {
-        "postsLast30Days": 3,
-        "postsLast90Days": 3,
-        "latestPost": "2026-02-04T08:50:31.053Z"
-      },
-      "hn": {
-        "stories": 0,
-        "totalPoints": 0,
-        "avgPoints": 0
-      }
-    },
-    {
-      "url": "https://blog.tonytriesstuff.com/atom/",
-      "domain": "blog.tonytriesstuff.com",
-      "title": "Tony Tries Stuff",
-      "category": "Blog",
-      "score": 12,
-      "activity": {
-        "postsLast30Days": 3,
-        "postsLast90Days": 17,
-        "latestPost": "2026-02-04T08:55:58.165Z"
-      },
-      "hn": {
-        "stories": 0,
-        "totalPoints": 0,
-        "avgPoints": 0
-      }
-    },
-    {
-      "url": "https://blog.wearehorizontal.org/rss/",
-      "domain": "blog.wearehorizontal.org",
-      "title": "Horizontal blog",
-      "category": "Blog",
-      "score": 12,
-      "activity": {
-        "postsLast30Days": 2,
-        "postsLast90Days": 4,
-        "latestPost": "2026-02-02T15:16:05.000Z"
-      },
-      "hn": {
-        "stories": 1,
-        "totalPoints": 1,
-        "avgPoints": 1
-      }
-    },
-    {
-=======
->>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://blog.melchersystem.com/feed/",
       "domain": "blog.melchersystem.com",
       "title": "Thoughts of a Bohemian",
@@ -23353,43 +21457,6 @@
       }
     },
     {
-<<<<<<< HEAD
-      "url": "https://blog.techdecline.dev/atom/",
-      "domain": "blog.techdecline.dev",
-      "title": "Techdecline's Blog",
-      "category": "Tech",
-      "score": 9,
-      "activity": {
-        "postsLast30Days": 1,
-        "postsLast90Days": 1,
-        "latestPost": "2026-02-04T08:06:34.445Z"
-      },
-      "hn": {
-        "stories": 1,
-        "totalPoints": 3,
-        "avgPoints": 3
-      }
-    },
-    {
-      "url": "https://blog.yaros.ae/atom/",
-      "domain": "blog.yaros.ae",
-      "title": "Andrew's Web-Log",
-      "category": "Blog",
-      "score": 9,
-      "activity": {
-        "postsLast30Days": 1,
-        "postsLast90Days": 4,
-        "latestPost": "2026-02-04T08:51:41.525Z"
-      },
-      "hn": {
-        "stories": 1,
-        "totalPoints": 3,
-        "avgPoints": 3
-      }
-    },
-    {
-=======
->>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://blog.fivecentsplease.org/feeds/posts/default",
       "domain": "blog.fivecentsplease.org",
       "title": null,
@@ -24529,196 +22596,6 @@
       }
     },
     {
-<<<<<<< HEAD
-      "url": "https://blog.raymond.burkholder.net/index.php?/feeds/index.rss2",
-      "domain": "blog.raymond.burkholder.net",
-      "title": "Raymond P. Burkholder - Things I Do",
-      "category": "Blog",
-      "score": 8,
-      "activity": {
-        "postsLast30Days": 2,
-        "postsLast90Days": 3,
-        "latestPost": "2026-01-17T03:39:34.000Z"
-      },
-      "hn": {
-        "stories": 0,
-        "totalPoints": 0,
-        "avgPoints": 0
-      }
-    },
-    {
-      "url": "https://blog.schallbert.de/en/feed.xml",
-      "domain": "blog.schallbert.de",
-      "title": null,
-      "category": "Blog",
-      "score": 8,
-      "activity": {
-        "postsLast30Days": 1,
-        "postsLast90Days": 5,
-        "latestPost": "2026-01-25T15:27:34.000Z"
-      },
-      "hn": {
-        "stories": 1,
-        "totalPoints": 2,
-        "avgPoints": 2
-      }
-    },
-    {
-      "url": "https://blog.stef.be/rss/",
-      "domain": "blog.stef.be",
-      "title": "Steffest Digitale Pulptuur",
-      "category": "Blog",
-      "score": 8,
-      "activity": {
-        "postsLast30Days": 1,
-        "postsLast90Days": 1,
-        "latestPost": "2026-01-14T04:05:10.000Z"
-      },
-      "hn": {
-        "stories": 1,
-        "totalPoints": 1,
-        "avgPoints": 1
-      }
-    },
-    {
-      "url": "https://blog.stream.place/rss",
-      "domain": "blog.stream.place",
-      "title": "How Streamplace Works",
-      "category": "Blog",
-      "score": 8,
-      "activity": {
-        "postsLast30Days": 1,
-        "postsLast90Days": 1,
-        "latestPost": "2026-01-19T05:39:14.000Z"
-      },
-      "hn": {
-        "stories": 1,
-        "totalPoints": 2,
-        "avgPoints": 2
-      }
-    },
-    {
-      "url": "https://blog.terminal.pink/feed.xml",
-      "domain": "blog.terminal.pink",
-      "title": "all posts",
-      "category": "Blog",
-      "score": 8,
-      "activity": {
-        "postsLast30Days": 2,
-        "postsLast90Days": 3,
-        "latestPost": "2026-02-03T23:00:00.000Z"
-      },
-      "hn": {
-        "stories": 0,
-        "totalPoints": 0,
-        "avgPoints": 0
-      }
-    },
-    {
-      "url": "https://blog.tim-papciak.com/rss/",
-      "domain": "blog.tim-papciak.com",
-      "title": "indoor animal",
-      "category": "Blog",
-      "score": 8,
-      "activity": {
-        "postsLast30Days": 2,
-        "postsLast90Days": 15,
-        "latestPost": "2026-01-08T18:07:34.000Z"
-      },
-      "hn": {
-        "stories": 0,
-        "totalPoints": 0,
-        "avgPoints": 0
-      }
-    },
-    {
-      "url": "https://blog.veronika.skin/atom/",
-      "domain": "blog.veronika.skin",
-      "title": "Thoughts &amp; Ver's",
-      "category": "Blog",
-      "score": 8,
-      "activity": {
-        "postsLast30Days": 2,
-        "postsLast90Days": 3,
-        "latestPost": "2026-02-04T08:57:58.827Z"
-      },
-      "hn": {
-        "stories": 0,
-        "totalPoints": 0,
-        "avgPoints": 0
-      }
-    },
-    {
-      "url": "https://blog.voboda.com/atom/",
-      "domain": "blog.voboda.com",
-      "title": "voboda's blog",
-      "category": "Blog",
-      "score": 8,
-      "activity": {
-        "postsLast30Days": 2,
-        "postsLast90Days": 19,
-        "latestPost": "2026-02-04T08:22:46.451Z"
-      },
-      "hn": {
-        "stories": 0,
-        "totalPoints": 0,
-        "avgPoints": 0
-      }
-    },
-    {
-      "url": "https://blog.will-ellwood.com/feed/",
-      "domain": "blog.will-ellwood.com",
-      "title": "The Shelter Stone",
-      "category": "Blog",
-      "score": 8,
-      "activity": {
-        "postsLast30Days": 2,
-        "postsLast90Days": 6,
-        "latestPost": "2026-01-13T20:49:57.000Z"
-      },
-      "hn": {
-        "stories": 0,
-        "totalPoints": 0,
-        "avgPoints": 0
-      }
-    },
-    {
-      "url": "https://blog.za3k.com/feed/",
-      "domain": "blog.za3k.com",
-      "title": "blog of zachary &quot;za3k&quot; vance",
-      "category": "Blog",
-      "score": 8,
-      "activity": {
-        "postsLast30Days": 1,
-        "postsLast90Days": 10,
-        "latestPost": "2026-01-14T23:00:00.000Z"
-      },
-      "hn": {
-        "stories": 1,
-        "totalPoints": 1,
-        "avgPoints": 1
-      }
-    },
-    {
-      "url": "https://blog.zacbentley.com/index.xml",
-      "domain": "blog.zacbentley.com",
-      "title": "Logic Fault",
-      "category": "Blog",
-      "score": 8,
-      "activity": {
-        "postsLast30Days": 1,
-        "postsLast90Days": 1,
-        "latestPost": "2026-01-14T00:00:00.000Z"
-      },
-      "hn": {
-        "stories": 1,
-        "totalPoints": 1,
-        "avgPoints": 1
-      }
-    },
-    {
-=======
->>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
       "url": "http://breakingmorewaves.blogspot.com/feeds/posts/default",
       "domain": "breakingmorewaves.blogspot.com",
       "title": null,
@@ -27063,162 +24940,6 @@
         "totalPoints": 0,
         "avgPoints": 0
       }
-<<<<<<< HEAD
-    },
-    {
-      "url": "https://blog.radicaldream.land/feed/",
-      "domain": "blog.radicaldream.land",
-      "title": "Dispatch from the Radical Dreamland",
-      "category": "Blog",
-      "score": 4,
-      "activity": {
-        "postsLast30Days": 1,
-        "postsLast90Days": 3,
-        "latestPost": "2026-02-04T13:19:22.814Z"
-      },
-      "hn": {
-        "stories": 0,
-        "totalPoints": 0,
-        "avgPoints": 0
-      }
-    },
-    {
-      "url": "https://blog.remainna.xyz/atom/",
-      "domain": "blog.remainna.xyz",
-      "title": "RemainNA's blog",
-      "category": "Blog",
-      "score": 4,
-      "activity": {
-        "postsLast30Days": 1,
-        "postsLast90Days": 3,
-        "latestPost": "2026-02-04T08:29:40.213Z"
-      },
-      "hn": {
-        "stories": 0,
-        "totalPoints": 0,
-        "avgPoints": 0
-      }
-    },
-    {
-      "url": "https://blog.shane.fail/atom/",
-      "domain": "blog.shane.fail",
-      "title": "Shane Michael Mathews",
-      "category": "Science",
-      "score": 4,
-      "activity": {
-        "postsLast30Days": 1,
-        "postsLast90Days": 6,
-        "latestPost": "2026-02-04T08:22:41.123Z"
-      },
-      "hn": {
-        "stories": 0,
-        "totalPoints": 0,
-        "avgPoints": 0
-      }
-    },
-    {
-      "url": "https://blog.shr4pnel.com/feed.xml",
-      "domain": "blog.shr4pnel.com",
-      "title": null,
-      "category": "Blog",
-      "score": 4,
-      "activity": {
-        "postsLast30Days": 1,
-        "postsLast90Days": 1,
-        "latestPost": "2026-02-03T09:42:03.000Z"
-      },
-      "hn": {
-        "stories": 0,
-        "totalPoints": 0,
-        "avgPoints": 0
-      }
-    },
-    {
-      "url": "https://blog.sketches.foo/atom/",
-      "domain": "blog.sketches.foo",
-      "title": "Phil's Cool Blog Posting Place",
-      "category": "Blog",
-      "score": 4,
-      "activity": {
-        "postsLast30Days": 1,
-        "postsLast90Days": 1,
-        "latestPost": "2026-02-04T09:01:26.233Z"
-      },
-      "hn": {
-        "stories": 0,
-        "totalPoints": 0,
-        "avgPoints": 0
-      }
-    },
-    {
-      "url": "https://blog.theraum.de/atom/",
-      "domain": "blog.theraum.de",
-      "title": "The Raum",
-      "category": "Blog",
-      "score": 4,
-      "activity": {
-        "postsLast30Days": 1,
-        "postsLast90Days": 1,
-        "latestPost": "2026-02-04T08:21:46.587Z"
-      },
-      "hn": {
-        "stories": 0,
-        "totalPoints": 0,
-        "avgPoints": 0
-      }
-    },
-    {
-      "url": "https://blog.unlimitedpastimes.com/atom/",
-      "domain": "blog.unlimitedpastimes.com",
-      "title": "Unlimited Pastimes",
-      "category": "Blog",
-      "score": 4,
-      "activity": {
-        "postsLast30Days": 1,
-        "postsLast90Days": 4,
-        "latestPost": "2026-02-04T08:17:14.368Z"
-      },
-      "hn": {
-        "stories": 0,
-        "totalPoints": 0,
-        "avgPoints": 0
-      }
-    },
-    {
-      "url": "https://blog.writefreely.org/feed/",
-      "domain": "blog.writefreely.org",
-      "title": "WriteFreely",
-      "category": "Blog",
-      "score": 4,
-      "activity": {
-        "postsLast30Days": 1,
-        "postsLast90Days": 1,
-        "latestPost": "2026-02-04T15:38:01.000Z"
-      },
-      "hn": {
-        "stories": 0,
-        "totalPoints": 0,
-        "avgPoints": 0
-      }
-    },
-    {
-      "url": "https://blog.zooey.cc/atom.xml",
-      "domain": "blog.zooey.cc",
-      "title": "breebee",
-      "category": "Blog",
-      "score": 4,
-      "activity": {
-        "postsLast30Days": 1,
-        "postsLast90Days": 1,
-        "latestPost": "2026-02-04T15:53:21.000Z"
-      },
-      "hn": {
-        "stories": 0,
-        "totalPoints": 0,
-        "avgPoints": 0
-      }
-=======
->>>>>>> c9c95bc0 (Add popularity-based feed scoring and selection)
     }
   ]
 }
