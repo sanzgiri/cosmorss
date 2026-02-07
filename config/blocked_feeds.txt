@@ -1,0 +1,8 @@
+https://utcc.utoronto.ca/~cks/space/blog/?atom
+https://rachelbythebay.com/w/atom.xml
+https://hackerfactor.com/blog/index.php?/feeds/index.rss2
+https://www.hackerfactor.com/blog/index.php?/feeds/index.rss2
+http://hackerfactor.com/blog/index.php?/feeds/index.rss2
+http://www.hackerfactor.com/blog/index.php?/feeds/index.rss2
+https://karl-voit.at/feeds/lazyblorg-all.atom_1.0.links-and-content.xml
+https://cheapskatesguide.org/cheapskates-guide-rss-feed.xml
