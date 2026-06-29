@@ -23,12 +23,11 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-// Pre-configured rate limiters for different APIs
+// Pre-configured rate limiters for the upstream APIs we actually call.
 const limiters = {
   hn: new RateLimiter(5),        // 5 req/sec for HN Algolia
   lobsters: new RateLimiter(1),  // 1 req/sec for Lobsters (conservative)
   reddit: new RateLimiter(1),    // 1 req/sec for Reddit
-  feed: new RateLimiter(10)      // 10 req/sec for feed fetching
 };
 
 module.exports = { RateLimiter, limiters, sleep };

@@ -1,9 +1,38 @@
+# Next.js
 .next
+out
+build
+
+# Dependencies
 node_modules
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Scoring pipeline outputs (regenerable from all_feeds.txt)
 scripts/.cache/
 processed_urls.txt
 remaining_feeds.txt
+scored_feeds.json
 scored_feeds.json.save
 scored_feeds_checkpoint_*.json
 scored_feeds_part*.json
+hn_scores_*.csv
+hn_score_distribution.csv
+
+# Working directory
 tmp/
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# TS incremental build cache
+tsconfig.tsbuildinfo
+
+# Sandbox / agent notes (not part of the app)
+CLAUDE.md
