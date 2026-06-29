@@ -14,10 +14,12 @@ import { normalizeUrlSafe } from './url';
 import feedsConfig from '@/config/feeds.json';
 
 export const FEEDS_CACHE_TAG = 'feeds-payload';
-// TTL is intentionally a little shorter than the cron interval so the cron
-// always sees a stale cache and triggers a fresh rebuild. With cron every
-// 2h (see vercel.json) and TTL = 110 min, that holds with a 10-minute margin.
-export const FEEDS_CACHE_TTL_SECONDS = 110 * 60;
+// TTL is intentionally longer than the cron interval (24h on Vercel Hobby)
+// so the cache bridges cron runs even if the scheduler is late (Hobby has
+// ±59min precision per the docs). The cron uses `?force=1` to invalidate
+// the tag and rebuild on every run, so freshness is driven by the cron's
+// invalidation, not by TTL expiry.
+export const FEEDS_CACHE_TTL_SECONDS = 25 * 60 * 60;
 
 export type EnrichedItem = FeedItem & { hn: HNData | null };
 

@@ -5,8 +5,8 @@
   "regions": ["iad1"],
   "crons": [
     {
-      "path": "/api/cron/refresh",
-      "schedule": "0 */2 * * *"
+      "path": "/api/cron/refresh?force=1",
+      "schedule": "0 9 * * *"
     }
   ]
 }
