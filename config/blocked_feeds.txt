@@ -6,3 +6,9 @@ http://hackerfactor.com/blog/index.php?/feeds/index.rss2
 http://www.hackerfactor.com/blog/index.php?/feeds/index.rss2
 https://karl-voit.at/feeds/lazyblorg-all.atom_1.0.links-and-content.xml
 https://cheapskatesguide.org/cheapskates-guide-rss-feed.xml
+# Persistently failing (auto-detected 2026-06-29)
+https://drewdevault.com/index.xml
+https://fair.org/feed
+https://feld.com/atom/
+https://joshworth.com/feed/
+https://mahdiyusuf.com/rss/
